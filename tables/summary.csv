@@ -1,0 +1,1264 @@
+key,value,ci_low,ci_high,p_raw,p_holm,n_sites,n_buildings,n_events,source_file,status,family_id,hypothesis_id,estimand_version,data_year,freeze_hash,support_rule
+sample.n_sites,11,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.sites,"Bear,Bull,Cockatoo,Eagle,Fox,Hog,Lamb,Peacock,Rat,Robin,Wolf",,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.n_buildings,1005,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.n_meters_e1,1208,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.n_excl_flat_meter,181,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.n_dup_dropped,4,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Bear.e1,77,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Bear.e3_flat_meter,2,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Bear.dup_dropped,0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Bear.n_after,75,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Bobcat.e1,9,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Bobcat.e3_flat_meter,0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Bobcat.dup_dropped,0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Bobcat.n_after,9,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Bull.e1,110,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Bull.e3_flat_meter,8,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Bull.dup_dropped,0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Bull.n_after,102,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Cockatoo.e1,90,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Cockatoo.e3_flat_meter,0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Cockatoo.dup_dropped,0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Cockatoo.n_after,90,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Eagle.e1,90,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Eagle.e3_flat_meter,3,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Eagle.dup_dropped,4,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Eagle.n_after,83,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Fox.e1,128,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Fox.e3_flat_meter,1,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Fox.dup_dropped,0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Fox.n_after,127,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Gator.e1,61,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Gator.e3_flat_meter,61,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Gator.dup_dropped,0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Gator.n_after,0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Hog.e1,136,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Hog.e3_flat_meter,1,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Hog.dup_dropped,0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Hog.n_after,135,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Lamb.e1,121,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Lamb.e3_flat_meter,99,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Lamb.dup_dropped,0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Lamb.n_after,22,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Moose.e1,9,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Moose.e3_flat_meter,0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Moose.dup_dropped,0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Moose.n_after,9,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Peacock.e1,36,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Peacock.e3_flat_meter,0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Peacock.dup_dropped,0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Peacock.n_after,36,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Rat.e1,255,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Rat.e3_flat_meter,2,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Rat.dup_dropped,0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Rat.n_after,253,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Robin.e1,51,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Robin.e3_flat_meter,4,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Robin.dup_dropped,0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Robin.n_after,47,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Wolf.e1,35,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Wolf.e3_flat_meter,0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Wolf.dup_dropped,0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.excl.Wolf.n_after,35,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.n_events.R1,9550,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.n_events.R3,48118,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.support_share.prev,1.0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.support_share.pjm0,1.0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.support_share.pjmA,1.0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.support_share.caiso0,1.0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.support_share.caisoA,1.0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.support_share.ny0,0.9934031413612565,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.support_share.nyA,0.9934031413612565,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.support_share.isone0,1.0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.support_share.isoneA,1.0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.support_share.dm0,1.0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.support_share.dmA,1.0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.support_share.wm0,1.0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.support_share.wmA,1.0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.support_share.m3,0.9954973821989529,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.support_share.mid8,0.9954973821989529,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.support_share.cg0,0.9993717277486911,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.support_share.cgA,0.9993717277486911,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.support_share.scmR,0.9982198952879581,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.support_share.scmC,0.9982198952879581,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.dst.Bear,CLOCK,,,,,,,,dst_table,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.dst.Bobcat,AMBIGUOUS,,,,,,,,dst_table,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.dst.Bull,CLOCK,,,,,,,,dst_table,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.dst.Cockatoo,AMBIGUOUS,,,,,,,,dst_table,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.dst.Eagle,STD,,,,,,,,dst_table,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.dst.Fox,CLOCK,,,,,,,,dst_table,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.dst.Gator,AMBIGUOUS,,,,,,,,dst_table,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.dst.Hog,CLOCK,,,,,,,,dst_table,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.dst.Lamb,AMBIGUOUS,,,,,,,,dst_table,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.dst.Moose,STD,,,,,,,,dst_table,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.dst.Peacock,CLOCK,,,,,,,,dst_table,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.dst.Rat,STD,,,,,,,,dst_table,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.dst.Robin,AMBIGUOUS,,,,,,,,dst_table,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+sample.dst.Wolf,STD,,,,,,,,dst_table,confirmatory,C5,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+family.holm_members,"H1,H2,H3,H4,H5",,,,,,,,results\run,confirmatory,C5,family,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H1.delta_bias.pjm0,-0.0484674867620616,-0.09563581083967244,-0.009832146283657979,,,11.0,1005.0,9550.0,events_R1.pkl,confirmatory,C5,H1,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H1.p_signedrank,0.00146484375,,,0.00146484375,,11.0,,,events_R1.pkl,confirmatory,C5,H1,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H1.p_holm,0.00439453125,,,0.00146484375,0.00439453125,11.0,,,events_R1.pkl,confirmatory,C5,H1,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H1.p_wcb,0.0024002400240024004,,,0.0024002400240024004,,,,,events_R1.pkl,secondary,none,H1,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H1.loso_min,-0.05412457586919173,,,,,,,,events_R1.pkl,confirmatory,C5,H1,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H1.loso_max,-0.04208657108338523,,,,,,,,events_R1.pkl,confirmatory,C5,H1,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H1.loso_pmax,0.0029296875,,,,,,,,events_R1.pkl,confirmatory,C5,H1,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H1.site_robust,True,,,,,,,,events_R1.pkl,confirmatory,C5,H1,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H1.site.Bear,-0.009832146283657979,,,,,,,,events_R1.pkl,confirmatory,C5,H1,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H1.site.Bull,-0.003288611543161685,,,,,,,,events_R1.pkl,confirmatory,C5,H1,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H1.site.Cockatoo,-0.06637239702091144,,,,,,,,events_R1.pkl,confirmatory,C5,H1,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H1.site.Eagle,-0.007241678538726204,,,,,,,,events_R1.pkl,confirmatory,C5,H1,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H1.site.Fox,-0.03534807800974373,,,,,,,,events_R1.pkl,confirmatory,C5,H1,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H1.site.Hog,-0.07693146362804426,,,,,,,,events_R1.pkl,confirmatory,C5,H1,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H1.site.Lamb,0.003469402296274869,,,,,,,,events_R1.pkl,confirmatory,C5,H1,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H1.site.Peacock,-0.021197975742922814,,,,,,,,events_R1.pkl,confirmatory,C5,H1,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H1.site.Rat,-0.18402994314061868,,,,,,,,events_R1.pkl,confirmatory,C5,H1,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H1.site.Robin,-0.10496054019522177,,,,,,,,events_R1.pkl,confirmatory,C5,H1,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H1.site.Wolf,-0.08849882913855311,,,,,,,,events_R1.pkl,confirmatory,C5,H1,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H1.ci_boot_conditional,-0.03534807800974373,-0.08849882913855311,-0.007628540364855064,,,,,,events_R1.pkl,secondary,none,H1,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H2.logratio.pjmA_pjm0,-0.3976403320121337,-0.6252832257728154,-0.22324197792963246,,,11.0,1005.0,9550.0,events_R1.pkl,confirmatory,C5,H2,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H2.p_signedrank,0.00048828125,,,0.00048828125,,11.0,,,events_R1.pkl,confirmatory,C5,H2,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H2.p_holm,0.00244140625,,,0.00048828125,0.00244140625,11.0,,,events_R1.pkl,confirmatory,C5,H2,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H2.p_wcb,0.0006000600060006001,,,0.0006000600060006001,,,,,events_R1.pkl,secondary,none,H2,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H2.loso_min,-0.46105632312029127,,,,,,,,events_R1.pkl,confirmatory,C5,H2,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H2.loso_max,-0.3570220769769699,,,,,,,,events_R1.pkl,confirmatory,C5,H2,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H2.loso_pmax,0.0009765625,,,,,,,,events_R1.pkl,confirmatory,C5,H2,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H2.site_robust,True,,,,,,,,events_R1.pkl,confirmatory,C5,H2,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H2.site.Bear,-0.2505883305762812,,,,,,,,events_R1.pkl,confirmatory,C5,H2,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H2.site.Bull,-0.26020852168077735,,,,,,,,events_R1.pkl,confirmatory,C5,H2,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H2.site.Cockatoo,-0.2682476947509721,,,,,,,,events_R1.pkl,confirmatory,C5,H2,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H2.site.Eagle,-0.0007574143640448013,,,,,,,,events_R1.pkl,confirmatory,C5,H2,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H2.site.Fox,-0.32914130196134533,,,,,,,,events_R1.pkl,confirmatory,C5,H2,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H2.site.Hog,-0.49312304453436495,,,,,,,,events_R1.pkl,confirmatory,C5,H2,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H2.site.Lamb,-0.44579645920296773,,,,,,,,events_R1.pkl,confirmatory,C5,H2,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H2.site.Peacock,-0.1173426538979196,,,,,,,,events_R1.pkl,confirmatory,C5,H2,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H2.site.Rat,-0.8975367754518687,,,,,,,,events_R1.pkl,confirmatory,C5,H2,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H2.site.Robin,-0.8047699923426629,,,,,,,,events_R1.pkl,confirmatory,C5,H2,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H2.site.Wolf,-0.7842765069777825,,,,,,,,events_R1.pkl,confirmatory,C5,H2,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H2.ci_boot_conditional,-0.32914130196134533,-0.6991303644851931,-0.22885297480404498,,,,,,events_R1.pkl,secondary,none,H2,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H3.logratio.cgA_pjmA,-0.008857745097465144,-0.08243067062150164,0.05641273886843006,,,11.0,1005.0,9544.0,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H3.p_tost,0.01611328125,,,0.01611328125,,11.0,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H3.p_holm,0.01611328125,,,0.01611328125,0.01611328125,11.0,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H3.p_wcb,,,,,,,,,events_R1.pkl,secondary,none,H3,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H3.loso_min,-0.016277772123925068,,,,,,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H3.loso_max,-0.006229086718347831,,,,,,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H3.loso_pmax,0.0322265625,,,,,,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H3.site_robust,True,,,,,,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H3.site.Bear,-0.009200905601595158,,,,,,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H3.site.Bull,-0.008524508239076498,,,,,,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H3.site.Cockatoo,-0.006229086718347831,,,,,,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H3.site.Eagle,-0.023354638646254974,,,,,,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H3.site.Fox,-0.1556604356414081,,,,,,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H3.site.Hog,0.18930240742367188,,,,,,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H3.site.Lamb,0.12202638333845528,,,,,,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H3.site.Peacock,-0.12502324110870397,,,,,,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H3.site.Rat,0.005649072097066058,,,,,,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H3.site.Robin,-0.1823294597582281,,,,,,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H3.site.Wolf,-0.0027103793038041938,,,,,,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H3.ci_boot_conditional,-0.008524508239076498,-0.10929669746034895,0.014145866424213734,,,,,,events_R1.pkl,secondary,none,H3,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H3.ci90,-0.008857745097465144,-0.08243067062150164,0.05641273886843006,,,,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H3.margin,0.0953101798043249,,,,,,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H3.decision,equivalent,,,,,,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+method.prev.R1.relMAE_median,0.07943196591639148,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.prev.R1.bias_median,-0.037022153545628975,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.prev.R1.rmse_median,0.1005259147724656,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.prev.R1.PER_c10_median,0.7943196591639148,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.prev.R1.share_PER_gt_0_5,0.5384293193717278,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.prev.R1.nmbe_granderson,0.0443402105635827,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.prev.R1.support_share,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjm0.R1.relMAE_median,0.0831529439242471,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjm0.R1.bias_median,-0.023563310336206393,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjm0.R1.rmse_median,0.10262608261088633,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjm0.R1.PER_c10_median,0.831529439242471,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjm0.R1.share_PER_gt_0_5,0.5672251308900523,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjm0.R1.nmbe_granderson,0.028673083161545952,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjm0.R1.support_share,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjmA.R1.relMAE_median,0.04741237323325225,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjmA.R1.bias_median,0.00026714803495727913,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjmA.R1.rmse_median,0.060604153095009224,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjmA.R1.PER_c10_median,0.4741237323325225,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjmA.R1.share_PER_gt_0_5,0.3797905759162304,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjmA.R1.nmbe_granderson,0.0005016860446127353,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjmA.R1.support_share,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caiso0.R1.relMAE_median,0.09350104830831965,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caiso0.R1.bias_median,-0.03915129170744656,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caiso0.R1.rmse_median,0.11369111251745409,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caiso0.R1.PER_c10_median,0.9350104830831965,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caiso0.R1.share_PER_gt_0_5,0.6330890052356021,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caiso0.R1.nmbe_granderson,0.04920916107807157,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caiso0.R1.support_share,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caisoA.R1.relMAE_median,0.05337177195308504,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caisoA.R1.bias_median,-0.009133362855646513,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caisoA.R1.rmse_median,0.06800156474117026,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caisoA.R1.PER_c10_median,0.5337177195308503,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caisoA.R1.share_PER_gt_0_5,0.41769633507853404,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caisoA.R1.nmbe_granderson,0.012022150694881054,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caisoA.R1.support_share,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.ny0.R1.relMAE_median,0.09245733492503158,,,,,,1002.0,9487.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.ny0.R1.bias_median,-0.0027448604661349666,,,,,,1002.0,9487.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.ny0.R1.rmse_median,0.11205013173318219,,,,,,1002.0,9487.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.ny0.R1.PER_c10_median,0.9245733492503158,,,,,,1002.0,9487.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.ny0.R1.share_PER_gt_0_5,0.602508696110467,,,,,,1002.0,9487.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.ny0.R1.nmbe_granderson,0.008617940203355337,,,,,,1002.0,9487.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.ny0.R1.support_share,0.9934031413612565,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.nyA.R1.relMAE_median,0.0604983772086133,,,,,,1002.0,9487.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.nyA.R1.bias_median,0.005810353355932065,,,,,,1002.0,9487.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.nyA.R1.rmse_median,0.07616975164093909,,,,,,1002.0,9487.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.nyA.R1.PER_c10_median,0.604983772086133,,,,,,1002.0,9487.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.nyA.R1.share_PER_gt_0_5,0.44977337409086116,,,,,,1002.0,9487.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.nyA.R1.nmbe_granderson,-0.003064967284708195,,,,,,1002.0,9487.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.nyA.R1.support_share,0.9934031413612565,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isone0.R1.relMAE_median,0.09350104830831965,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isone0.R1.bias_median,-0.03915129170744656,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isone0.R1.rmse_median,0.11369111251745409,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isone0.R1.PER_c10_median,0.9350104830831965,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isone0.R1.share_PER_gt_0_5,0.6330890052356021,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isone0.R1.nmbe_granderson,0.04920916107807157,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isone0.R1.support_share,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isoneA.R1.relMAE_median,0.045242129516179536,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isoneA.R1.bias_median,-0.001518422963486697,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isoneA.R1.rmse_median,0.05864817962699609,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isoneA.R1.PER_c10_median,0.45242129516179536,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isoneA.R1.share_PER_gt_0_5,0.36534031413612567,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isoneA.R1.nmbe_granderson,0.002512278844458731,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isoneA.R1.support_share,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dm0.R1.relMAE_median,0.09358827915244107,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dm0.R1.bias_median,-0.03915129170744656,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dm0.R1.rmse_median,0.1138055820885043,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dm0.R1.PER_c10_median,0.9358827915244107,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dm0.R1.share_PER_gt_0_5,0.6331937172774869,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dm0.R1.nmbe_granderson,0.04920916107807157,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dm0.R1.support_share,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dmA.R1.relMAE_median,0.05826116392040017,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dmA.R1.bias_median,-0.010907410040450458,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dmA.R1.rmse_median,0.07379899069523593,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dmA.R1.PER_c10_median,0.5826116392040017,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dmA.R1.share_PER_gt_0_5,0.446282722513089,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dmA.R1.nmbe_granderson,0.013971607922988552,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dmA.R1.support_share,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wm0.R1.relMAE_median,0.08467006656547715,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wm0.R1.bias_median,-0.02158640997410954,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wm0.R1.rmse_median,0.10149715947149135,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wm0.R1.PER_c10_median,0.8467006656547715,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wm0.R1.share_PER_gt_0_5,0.6099476439790575,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wm0.R1.nmbe_granderson,0.027279939567510493,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wm0.R1.support_share,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wmA.R1.relMAE_median,0.0592877437618867,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wmA.R1.bias_median,0.001709692155457243,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wmA.R1.rmse_median,0.07469511810069684,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wmA.R1.PER_c10_median,0.592877437618867,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wmA.R1.share_PER_gt_0_5,0.45895287958115183,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wmA.R1.nmbe_granderson,0.0010322082111302738,,,,,,1005.0,9550.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wmA.R1.support_share,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.m3.R1.relMAE_median,0.08467560871009995,,,,,,1005.0,9507.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.m3.R1.bias_median,0.0035134241065359045,,,,,,1005.0,9507.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.m3.R1.rmse_median,0.10412223099874587,,,,,,1005.0,9507.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.m3.R1.PER_c10_median,0.8467560871009995,,,,,,1005.0,9507.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.m3.R1.share_PER_gt_0_5,0.5716840222993583,,,,,,1005.0,9507.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.m3.R1.nmbe_granderson,0.00276145690749325,,,,,,1005.0,9507.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.m3.R1.support_share,0.9954973821989529,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.mid8.R1.relMAE_median,0.094217939561238,,,,,,1005.0,9507.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.mid8.R1.bias_median,-0.04078061245668488,,,,,,1005.0,9507.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.mid8.R1.rmse_median,0.11321038287165335,,,,,,1005.0,9507.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.mid8.R1.PER_c10_median,0.94217939561238,,,,,,1005.0,9507.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.mid8.R1.share_PER_gt_0_5,0.6255390764699695,,,,,,1005.0,9507.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.mid8.R1.nmbe_granderson,0.04994633807003649,,,,,,1005.0,9507.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.mid8.R1.support_share,0.9954973821989529,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cg0.R1.relMAE_median,0.07664133983548364,,,,,,1005.0,9544.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cg0.R1.bias_median,0.012967793623644997,,,,,,1005.0,9544.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cg0.R1.rmse_median,0.09518241105271465,,,,,,1005.0,9544.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cg0.R1.PER_c10_median,0.7664133983548364,,,,,,1005.0,9544.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cg0.R1.share_PER_gt_0_5,0.5541701592623638,,,,,,1005.0,9544.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cg0.R1.nmbe_granderson,-0.009029487945012536,,,,,,1005.0,9544.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cg0.R1.support_share,0.9993717277486911,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cgA.R1.relMAE_median,0.04798406856316967,,,,,,1005.0,9544.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cgA.R1.bias_median,0.0008902450759903259,,,,,,1005.0,9544.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cgA.R1.rmse_median,0.06024424973959994,,,,,,1005.0,9544.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cgA.R1.PER_c10_median,0.4798406856316967,,,,,,1005.0,9544.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cgA.R1.share_PER_gt_0_5,0.39197401508801344,,,,,,1005.0,9544.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cgA.R1.nmbe_granderson,8.703682302095198e-05,,,,,,1005.0,9544.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cgA.R1.support_share,0.9993717277486911,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.scmR.R1.relMAE_median,0.06148863104852696,,,,,,1005.0,9533.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.scmR.R1.bias_median,0.010237616707073342,,,,,,1005.0,9533.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.scmR.R1.rmse_median,0.07622375038945825,,,,,,1005.0,9533.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.scmR.R1.PER_c10_median,0.6148863104852695,,,,,,1005.0,9533.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.scmR.R1.share_PER_gt_0_5,0.4944928144340711,,,,,,1005.0,9533.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.scmR.R1.nmbe_granderson,-0.007506895945291651,,,,,,1005.0,9533.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.scmR.R1.support_share,0.9982198952879581,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.scmC.R1.relMAE_median,0.06406628058915419,,,,,,1005.0,9533.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.scmC.R1.bias_median,0.014194519439237354,,,,,,1005.0,9533.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.scmC.R1.rmse_median,0.08123963030037969,,,,,,1005.0,9533.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.scmC.R1.PER_c10_median,0.6406628058915418,,,,,,1005.0,9533.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.scmC.R1.share_PER_gt_0_5,0.4998426518409735,,,,,,1005.0,9533.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.scmC.R1.nmbe_granderson,-0.010575868110533513,,,,,,1005.0,9533.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.scmC.R1.support_share,0.9982198952879581,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.prev.R3.relMAE_median,0.07525096824132248,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.prev.R3.bias_median,0.008803710576316886,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.prev.R3.rmse_median,0.10220560653379543,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.prev.R3.PER_c10_median,0.7525096824132247,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.prev.R3.share_PER_gt_0_5,0.4861174612411156,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.prev.R3.nmbe_granderson,-0.002857645018233482,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.prev.R3.support_share,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjm0.R3.relMAE_median,0.08769650456182619,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjm0.R3.bias_median,0.0369459023112545,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjm0.R3.rmse_median,0.11892690181145454,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjm0.R3.PER_c10_median,0.8769650456182618,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjm0.R3.share_PER_gt_0_5,0.5284716738019036,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjm0.R3.nmbe_granderson,-0.026445830438599292,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjm0.R3.support_share,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjmA.R3.relMAE_median,0.05413251137089722,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjmA.R3.bias_median,0.007394207025417509,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjmA.R3.rmse_median,0.07187734430543603,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjmA.R3.PER_c10_median,0.5413251137089722,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjmA.R3.share_PER_gt_0_5,0.4008686977846128,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjmA.R3.nmbe_granderson,-0.005534434910656184,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjmA.R3.support_share,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caiso0.R3.relMAE_median,0.09414444602154882,,,,,,1005.0,48093.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caiso0.R3.bias_median,0.01655779911582099,,,,,,1005.0,48093.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caiso0.R3.rmse_median,0.12383191018935881,,,,,,1005.0,48093.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caiso0.R3.PER_c10_median,0.9414444602154882,,,,,,1005.0,48093.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caiso0.R3.share_PER_gt_0_5,0.5602062670243071,,,,,,1005.0,48093.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caiso0.R3.nmbe_granderson,-0.0033240760135427954,,,,,,1005.0,48093.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caiso0.R3.support_share,0.9994804439087244,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caisoA.R3.relMAE_median,0.057171090691195095,,,,,,1005.0,48093.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caisoA.R3.bias_median,0.0032750078385326677,,,,,,1005.0,48093.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caisoA.R3.rmse_median,0.07602996119879983,,,,,,1005.0,48093.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caisoA.R3.PER_c10_median,0.5717109069119509,,,,,,1005.0,48093.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caisoA.R3.share_PER_gt_0_5,0.40554758488761355,,,,,,1005.0,48093.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caisoA.R3.nmbe_granderson,0.00044345947114437243,,,,,,1005.0,48093.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caisoA.R3.support_share,0.9994804439087244,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.ny0.R3.relMAE_median,0.12449273342283217,,,,,,1005.0,47814.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.ny0.R3.bias_median,0.08449960648274148,,,,,,1005.0,47814.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.ny0.R3.rmse_median,0.169137995790705,,,,,,1005.0,47814.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.ny0.R3.PER_c10_median,1.2449273342283216,,,,,,1005.0,47814.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.ny0.R3.share_PER_gt_0_5,0.6268456937298699,,,,,,1005.0,47814.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.ny0.R3.nmbe_granderson,-0.07131060683482335,,,,,,1005.0,47814.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.ny0.R3.support_share,0.9936821979300885,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.nyA.R3.relMAE_median,0.07263286626270027,,,,,,1005.0,47814.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.nyA.R3.bias_median,0.03127781333305344,,,,,,1005.0,47814.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.nyA.R3.rmse_median,0.09763277057797548,,,,,,1005.0,47814.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.nyA.R3.PER_c10_median,0.7263286626270027,,,,,,1005.0,47814.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.nyA.R3.share_PER_gt_0_5,0.48130254737106287,,,,,,1005.0,47814.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.nyA.R3.nmbe_granderson,-0.025744607372028064,,,,,,1005.0,47814.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.nyA.R3.support_share,0.9936821979300885,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isone0.R3.relMAE_median,0.09414444602154882,,,,,,1005.0,48093.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isone0.R3.bias_median,0.01655779911582099,,,,,,1005.0,48093.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isone0.R3.rmse_median,0.12383191018935881,,,,,,1005.0,48093.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isone0.R3.PER_c10_median,0.9414444602154882,,,,,,1005.0,48093.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isone0.R3.share_PER_gt_0_5,0.5602062670243071,,,,,,1005.0,48093.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isone0.R3.nmbe_granderson,-0.0033240760135427954,,,,,,1005.0,48093.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isone0.R3.support_share,0.9994804439087244,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isoneA.R3.relMAE_median,0.05214717511000822,,,,,,1005.0,48093.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isoneA.R3.bias_median,0.001199276241486287,,,,,,1005.0,48093.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isoneA.R3.rmse_median,0.06857937098015107,,,,,,1005.0,48093.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isoneA.R3.PER_c10_median,0.5214717511000821,,,,,,1005.0,48093.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isoneA.R3.share_PER_gt_0_5,0.3846921589420498,,,,,,1005.0,48093.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isoneA.R3.nmbe_granderson,0.00032818156896274766,,,,,,1005.0,48093.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isoneA.R3.support_share,0.9994804439087244,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dm0.R3.relMAE_median,0.09414444602154882,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dm0.R3.bias_median,0.016722486347659816,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dm0.R3.rmse_median,0.12383191018935881,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dm0.R3.PER_c10_median,0.9414444602154882,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dm0.R3.share_PER_gt_0_5,0.5602892888316222,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dm0.R3.nmbe_granderson,-0.0033953750801489846,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dm0.R3.support_share,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dmA.R3.relMAE_median,0.06240203981766653,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dmA.R3.bias_median,0.00414771274884193,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dmA.R3.rmse_median,0.08275199591082551,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dmA.R3.PER_c10_median,0.6240203981766653,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dmA.R3.share_PER_gt_0_5,0.438235171869155,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dmA.R3.nmbe_granderson,0.0006609103426894024,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dmA.R3.support_share,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wm0.R3.relMAE_median,0.1058518536515974,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wm0.R3.bias_median,0.00727356707179647,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wm0.R3.rmse_median,0.13654174277218126,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wm0.R3.PER_c10_median,1.058518536515974,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wm0.R3.share_PER_gt_0_5,0.6126397605885532,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wm0.R3.nmbe_granderson,0.0074487160246131485,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wm0.R3.support_share,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wmA.R3.relMAE_median,0.06710505472623829,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wmA.R3.bias_median,0.002723553288174989,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wmA.R3.rmse_median,0.08754980006745541,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wmA.R3.PER_c10_median,0.6710505472623829,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wmA.R3.share_PER_gt_0_5,0.4742092356290785,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wmA.R3.nmbe_granderson,0.0004246317123930212,,,,,,1005.0,48118.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wmA.R3.support_share,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.m3.R3.relMAE_median,0.12791390372921932,,,,,,1005.0,48077.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.m3.R3.bias_median,0.103311349763265,,,,,,1005.0,48077.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.m3.R3.rmse_median,0.1767942508573733,,,,,,1005.0,48077.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.m3.R3.PER_c10_median,1.2791390372921931,,,,,,1005.0,48077.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.m3.R3.share_PER_gt_0_5,0.6280341951452878,,,,,,1005.0,48077.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.m3.R3.nmbe_granderson,-0.08953370307252455,,,,,,1005.0,48077.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.m3.R3.support_share,0.9991479280103079,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.mid8.R3.relMAE_median,0.09385378023551029,,,,,,1005.0,48077.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.mid8.R3.bias_median,0.015169443479910368,,,,,,1005.0,48077.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.mid8.R3.rmse_median,0.12430360762100483,,,,,,1005.0,48077.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.mid8.R3.PER_c10_median,0.9385378023551029,,,,,,1005.0,48077.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.mid8.R3.share_PER_gt_0_5,0.5549431120910207,,,,,,1005.0,48077.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.mid8.R3.nmbe_granderson,-0.0023444853621439462,,,,,,1005.0,48077.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.mid8.R3.support_share,0.9991479280103079,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.prev.R2ISO.relMAE_median,0.06981248012860225,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.prev.R2ISO.bias_median,-0.020560327457725902,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.prev.R2ISO.rmse_median,0.08991597087150638,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.prev.R2ISO.PER_c10_median,0.6981248012860225,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.prev.R2ISO.share_PER_gt_0_5,0.49637173774665816,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.prev.R2ISO.nmbe_granderson,0.02522045408040657,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.prev.R2ISO.support_share,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjm0.R2ISO.relMAE_median,0.0741751517478232,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjm0.R2ISO.bias_median,-0.02149032357751858,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjm0.R2ISO.rmse_median,0.09321150935591313,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjm0.R2ISO.PER_c10_median,0.741751517478232,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjm0.R2ISO.share_PER_gt_0_5,0.509484404837683,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjm0.R2ISO.nmbe_granderson,0.02612310330771879,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjm0.R2ISO.support_share,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjmA.R2ISO.relMAE_median,0.043008057015417975,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjmA.R2ISO.bias_median,0.0032458770926443265,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjmA.R2ISO.rmse_median,0.054675096089517254,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjmA.R2ISO.PER_c10_median,0.4300805701541797,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjmA.R2ISO.share_PER_gt_0_5,0.3576066199872693,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjmA.R2ISO.nmbe_granderson,-0.00265556485293005,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjmA.R2ISO.support_share,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caiso0.R2ISO.relMAE_median,0.09377740041893387,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caiso0.R2ISO.bias_median,-0.050767064042674434,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caiso0.R2ISO.rmse_median,0.11146826215842631,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caiso0.R2ISO.PER_c10_median,0.9377740041893387,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caiso0.R2ISO.share_PER_gt_0_5,0.6099299809038828,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caiso0.R2ISO.nmbe_granderson,0.059259236737837895,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caiso0.R2ISO.support_share,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caisoA.R2ISO.relMAE_median,0.04921469704090574,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caisoA.R2ISO.bias_median,-0.009854641710420938,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caisoA.R2ISO.rmse_median,0.06334591028658927,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caisoA.R2ISO.PER_c10_median,0.49214697040905736,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caisoA.R2ISO.share_PER_gt_0_5,0.3871419478039465,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caisoA.R2ISO.nmbe_granderson,0.01137473511983134,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caisoA.R2ISO.support_share,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.ny0.R2ISO.relMAE_median,0.08049868666048574,,,,,,816.0,7788.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.ny0.R2ISO.bias_median,-0.006624564670153507,,,,,,816.0,7788.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.ny0.R2ISO.rmse_median,0.09789992238989081,,,,,,816.0,7788.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.ny0.R2ISO.PER_c10_median,0.8049868666048573,,,,,,816.0,7788.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.ny0.R2ISO.share_PER_gt_0_5,0.550462249614792,,,,,,816.0,7788.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.ny0.R2ISO.nmbe_granderson,0.011370116121693136,,,,,,816.0,7788.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.ny0.R2ISO.support_share,0.9914704010184596,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.nyA.R2ISO.relMAE_median,0.054027233670288055,,,,,,816.0,7788.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.nyA.R2ISO.bias_median,0.01048674817447131,,,,,,816.0,7788.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.nyA.R2ISO.rmse_median,0.06828965815382182,,,,,,816.0,7788.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.nyA.R2ISO.PER_c10_median,0.5402723367028806,,,,,,816.0,7788.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.nyA.R2ISO.share_PER_gt_0_5,0.42282999486389317,,,,,,816.0,7788.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.nyA.R2ISO.nmbe_granderson,-0.00785109478917958,,,,,,816.0,7788.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.nyA.R2ISO.support_share,0.9914704010184596,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isone0.R2ISO.relMAE_median,0.09377740041893387,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isone0.R2ISO.bias_median,-0.050767064042674434,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isone0.R2ISO.rmse_median,0.11146826215842631,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isone0.R2ISO.PER_c10_median,0.9377740041893387,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isone0.R2ISO.share_PER_gt_0_5,0.6099299809038828,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isone0.R2ISO.nmbe_granderson,0.059259236737837895,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isone0.R2ISO.support_share,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isoneA.R2ISO.relMAE_median,0.040550473043674436,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isoneA.R2ISO.bias_median,0.0020343312047149025,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isoneA.R2ISO.rmse_median,0.05197159439203359,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isoneA.R2ISO.PER_c10_median,0.40550473043674434,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isoneA.R2ISO.share_PER_gt_0_5,0.33074474856779124,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isoneA.R2ISO.nmbe_granderson,-0.0015578280071206973,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isoneA.R2ISO.support_share,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dm0.R2ISO.relMAE_median,0.09377740041893387,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dm0.R2ISO.bias_median,-0.050767064042674434,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dm0.R2ISO.rmse_median,0.11146826215842631,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dm0.R2ISO.PER_c10_median,0.9377740041893387,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dm0.R2ISO.share_PER_gt_0_5,0.6099299809038828,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dm0.R2ISO.nmbe_granderson,0.059259236737837895,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dm0.R2ISO.support_share,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dmA.R2ISO.relMAE_median,0.053376682458855816,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dmA.R2ISO.bias_median,-0.011272672494482352,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dmA.R2ISO.rmse_median,0.06940486256412837,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dmA.R2ISO.PER_c10_median,0.5337668245885582,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dmA.R2ISO.share_PER_gt_0_5,0.4104392106938256,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dmA.R2ISO.nmbe_granderson,0.013465694248122871,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dmA.R2ISO.support_share,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wm0.R2ISO.relMAE_median,0.08916071491780493,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wm0.R2ISO.bias_median,-0.0312515665375369,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wm0.R2ISO.rmse_median,0.10782286134579988,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wm0.R2ISO.PER_c10_median,0.8916071491780493,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wm0.R2ISO.share_PER_gt_0_5,0.5973265436028008,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wm0.R2ISO.nmbe_granderson,0.03774246916302185,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wm0.R2ISO.support_share,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wmA.R2ISO.relMAE_median,0.05346979310979997,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wmA.R2ISO.bias_median,0.005460676608022309,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wmA.R2ISO.rmse_median,0.06781535586761293,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wmA.R2ISO.PER_c10_median,0.5346979310979997,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wmA.R2ISO.share_PER_gt_0_5,0.4311903246339911,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wmA.R2ISO.nmbe_granderson,-0.0046481908119487565,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wmA.R2ISO.support_share,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.m3.R2ISO.relMAE_median,0.07463468736313458,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.m3.R2ISO.bias_median,0.0038150588756210783,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.m3.R2ISO.rmse_median,0.09424178599953302,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.m3.R2ISO.PER_c10_median,0.7463468736313458,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.m3.R2ISO.share_PER_gt_0_5,0.5164863144493953,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.m3.R2ISO.nmbe_granderson,-0.0005740805471994923,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.m3.R2ISO.support_share,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.mid8.R2ISO.relMAE_median,0.0933471327545096,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.mid8.R2ISO.bias_median,-0.04986169145016767,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.mid8.R2ISO.rmse_median,0.11217974740003464,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.mid8.R2ISO.PER_c10_median,0.933471327545096,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.mid8.R2ISO.share_PER_gt_0_5,0.6019096117122852,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.mid8.R2ISO.nmbe_granderson,0.05879387239950545,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.mid8.R2ISO.support_share,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cg0.R2ISO.relMAE_median,0.06844969138190707,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cg0.R2ISO.bias_median,0.007275616618079442,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cg0.R2ISO.rmse_median,0.08627405107500874,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cg0.R2ISO.PER_c10_median,0.6844969138190706,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cg0.R2ISO.share_PER_gt_0_5,0.4996817313812858,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cg0.R2ISO.nmbe_granderson,-0.002804520355082543,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cg0.R2ISO.support_share,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cgA.R2ISO.relMAE_median,0.04463923154537414,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cgA.R2ISO.bias_median,-0.002293074703059393,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cgA.R2ISO.rmse_median,0.0569106655114924,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cgA.R2ISO.PER_c10_median,0.4463923154537414,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cgA.R2ISO.share_PER_gt_0_5,0.3670273711012094,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cgA.R2ISO.nmbe_granderson,0.0026736652538107645,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cgA.R2ISO.support_share,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.scmR.R2ISO.relMAE_median,0.058488202526203154,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.scmR.R2ISO.bias_median,0.007560633428235211,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.scmR.R2ISO.rmse_median,0.07178642920670421,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.scmR.R2ISO.PER_c10_median,0.5848820252620315,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.scmR.R2ISO.share_PER_gt_0_5,0.4627625716104392,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.scmR.R2ISO.nmbe_granderson,-0.003911981977715981,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.scmR.R2ISO.support_share,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.scmC.R2ISO.relMAE_median,0.061645945344798295,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.scmC.R2ISO.bias_median,0.011036034096335055,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.scmC.R2ISO.rmse_median,0.07843939671490696,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.scmC.R2ISO.PER_c10_median,0.6164594534479829,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.scmC.R2ISO.share_PER_gt_0_5,0.47854869509866327,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.scmC.R2ISO.nmbe_granderson,-0.0079103592483938,,,,,,818.0,7855.0,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.scmC.R2ISO.support_share,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.prev.info,I-hist,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjm0.info,I-hist,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjmA.info,I-morn,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caiso0.info,I-hist,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caisoA.info,I-morn,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.ny0.info,I-hist,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.nyA.info,I-morn,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isone0.info,I-hist,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.isoneA.info,I-morn,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.mid8.info,I-hist,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dm0.info,I-hist,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.dmA.info,I-morn,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wm0.info,I-hist,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.wmA.info,I-morn,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.m3.info,I-hist,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.m3A.info,I-morn,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.towt70.info,I-hist,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.towt70A.info,I-morn,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.towt7.info,I-hist,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cgA.info,I-donor+I-morn,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cg0.info,I-donor,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.scmR.info,I-donor,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.scmC.info,I-donor,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.lgbM.info,I-morn,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.lgbD.info,I-donor,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H3.anchor.caisoA_vs_pjmA,-0.031071987853335238,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H3.anchor.nyA_vs_pjmA,0.15349119857942162,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H3.anchor.isoneA_vs_pjmA,-0.040968133216594364,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H3.anchor.dmA_vs_pjmA,0.10301959072339598,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+hpo.scm.grid.scmr_W5_l3,0.062195842469229226,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+hpo.scm.grid.scmc_W5,0.06406628058915419,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+hpo.scm.grid.scmr_W7_l3,0.06148863104852696,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+hpo.scm.grid.scmc_W7,0.06494684173984214,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+hpo.scm.grid.scmR,0.06148863104852696,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+hpo.scm.grid.scmC,0.06406628058915419,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H1s.delta_bias.ny,-0.07847783166726052,-0.4629994408181855,-0.033437089850116126,0.00048828125,,11.0,,,events_R1.pkl,secondary,S-rules,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H1s.delta_bias.caiso,-0.06423583297428298,-0.11364013389644229,-0.019382265542607083,0.00048828125,,11.0,,,events_R1.pkl,secondary,S-rules,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H1s.delta_bias.isone,-0.06423583297428298,-0.11364013389644229,-0.019382265542607083,0.00048828125,,11.0,,,events_R1.pkl,secondary,S-rules,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H2s.logratio.ny,-0.38158086933848023,-0.5696448727398655,-0.19066280205029135,0.0009765625,,11.0,,,events_R1.pkl,secondary,S-rules,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H2s.logratio.caiso,-0.46678117062065994,-0.6277196201098941,-0.3118772820360476,0.00048828125,,11.0,,,events_R1.pkl,secondary,S-rules,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H2s.logratio.isone,-0.560933044185192,-0.8203107256454752,-0.31184854091880343,0.00048828125,,11.0,,,events_R1.pkl,secondary,S-rules,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+hetp.p0.02.pjmA.relMAE_median,0.05151212555948361,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+hetp.p0.02.caisoA.relMAE_median,0.056356474047824304,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+hetp.p0.02.cgA.relMAE_median,0.052433551964451444,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+hetp.p0.02.scmR.relMAE_median,0.06148863104852696,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+hetp.p0.05.pjmA.relMAE_median,0.07040760474983725,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+hetp.p0.05.caisoA.relMAE_median,0.06914122973240604,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+hetp.p0.05.cgA.relMAE_median,0.07087374720626603,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+hetp.p0.05.scmR.relMAE_median,0.06148863104852696,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+hetp.p0.1.pjmA.relMAE_median,0.11276435227859202,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+hetp.p0.1.caisoA.relMAE_median,0.0978610840308284,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+hetp.p0.1.cgA.relMAE_median,0.11364911734680525,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+hetp.p0.1.scmR.relMAE_median,0.06148863104852696,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H4.pcross.pjmA_scmR.4h,0.04240679583536823,0.028761569748833603,0.05191945585170414,,,11.0,1005.0,9533.0,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H4.pcross.pjmA_scmR.4h.label,0.04240679583536823,,,,,,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H4.p_sign,0.00048828125,,,0.00048828125,,11.0,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H4.p_holm,0.00244140625,,,0.00048828125,0.00244140625,11.0,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H4.p_signedrank,0.00048828125,,,0.00048828125,,,,,events_R1.pkl (analytic recompute),secondary,none,H4,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H4.p_wcb,0.00040004000400040005,,,0.00040004000400040005,,,,,events_R1.pkl (analytic recompute),secondary,none,H4,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H4.median_site_pcross,0.04483937432653842,0.0,0.057328702208792166,,,11.0,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H4.loso_min,0.04275736444948905,,,,,,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H4.loso_max,0.045719639850437394,,,,,,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H4.loso_pmax,0.0009765625,,,,,,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H4.site_robust,True,,,,,,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H4.sens_increment_p10,0.0674702339615107,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,H4,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H4.site.Bear,0.039039591787158975,,,,,,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H4.site.Bull,0.02563484601894423,,,,,,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H4.site.Cockatoo,0.050660934088036055,,,,,,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H4.site.Eagle,0.0,,,,,,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H4.site.Fox,0.04483937432653842,,,,,,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H4.site.Hog,0.050289236241227685,,,,,,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H4.site.Lamb,0.0,,,,,,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H4.site.Peacock,0.04067535457243967,,,,,,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H4.site.Rat,0.057328702208792166,,,,,,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H4.site.Robin,0.06650816082651692,,,,,,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H4.site.Wolf,0.046599905374336364,,,,,,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+pstar.pjmA.4h,0.09252026899419273,0.0845970730697096,0.0967446681712605,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pstar.caisoA.4h,0.1026187966920301,0.09620908058392956,0.10863380492530515,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pstar.nyA.4h,0.08827493567837282,0.07558550849831755,0.09570274090425705,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pstar.isoneA.4h,0.09341370341300197,0.08725712705287492,0.0974504802293649,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pstar.dmA.4h,0.10223937479532995,0.09466969147400203,0.1102375747310439,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pstar.wmA.4h,0.08632951046387968,0.07340619841350826,0.0961009470142106,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pstar.cgA.4h,0.09104136576012066,0.08458528078942995,0.09608973531886042,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pstar.cg0.4h,>0.30,,,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pstar.scmR.4h,>0.30,,,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pstar.scmC.4h,>0.30,,,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pstar.pjm0.4h,>0.30,,,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pcross.pjmA.4h,0.04240679583536823,0.028761569748833603,0.05191945585170414,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pcross.caisoA.4h,0.04040657214194121,0.0,0.05220015390453807,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pcross.nyA.4h,0.00941465391721746,0.0,0.03056679633570472,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pcross.isoneA.4h,0.04614875630165051,0.03482064048672845,0.054399827169729215,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pcross.dmA.4h,0.02550041042429696,0.0,0.04747318340374814,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pcross.wmA.4h,0.018550715516324416,0.0,0.04234569341661239,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pcross.cgA.4h,0.04033398439726193,0.027586039038934182,0.04786793817626603,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pcross.cg0.4h,0.0,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pcross.scmC.4h,0.0,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pcross.pjm0.4h,0.0,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.pjmA.4h.p0,0.047327538160745274,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.pjmA.4h.p0,0.0002519791496385781,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.pjmA.4h.p0.02,0.05065600506942539,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.pjmA.4h.p0.02,0.019929258142820625,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.pjmA.4h.p0.05,0.06708322166325704,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.pjmA.4h.p0.05,0.049191548286809425,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.pjmA.4h.p0.1,0.10663003643318981,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.pjmA.4h.p0.1,0.09878800812308289,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.pjmA.4h.p0.2,0.20141726784881508,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.pjmA.4h.p0.2,0.1977456060993752,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.pjmA.4h.p0.3,0.2981583021812607,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.pjmA.4h.p0.3,0.29613477703709934,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.caisoA.4h.p0,0.05337177195308504,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.caisoA.4h.p0,-0.009317157455448817,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.caisoA.4h.p0.02,0.055227700883665055,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.caisoA.4h.p0.02,0.008917957679259118,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.caisoA.4h.p0.05,0.06522929661988518,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.caisoA.4h.p0.05,0.03449196349338913,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.caisoA.4h.p0.1,0.09807725558336716,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.caisoA.4h.p0.1,0.07689335580030851,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.caisoA.4h.p0.2,0.15057516499519025,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.caisoA.4h.p0.2,0.12533744239617434,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.caisoA.4h.p0.3,0.1629589488571491,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.caisoA.4h.p0.3,0.14073928765571467,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.nyA.4h.p0,0.06034068509088833,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.nyA.4h.p0,0.005639718355951066,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.nyA.4h.p0.02,0.06270562163383753,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.nyA.4h.p0.02,0.024012964862709797,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.nyA.4h.p0.05,0.07733111552712688,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.nyA.4h.p0.05,0.05162963385748249,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.nyA.4h.p0.1,0.10850979777939886,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.nyA.4h.p0.1,0.0953670117884314,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.nyA.4h.p0.2,0.17259330803244,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.nyA.4h.p0.2,0.163942148312963,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.nyA.4h.p0.3,0.19257860343903405,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.nyA.4h.p0.3,0.1837488643346895,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.isoneA.4h.p0,0.04518395790063505,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.isoneA.4h.p0,-0.0016150278920222584,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.isoneA.4h.p0.02,0.048438310936741794,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.isoneA.4h.p0.02,0.018644379035157168,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.isoneA.4h.p0.05,0.06385989046772253,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.isoneA.4h.p0.05,0.04929955654456146,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.isoneA.4h.p0.1,0.10604141750232668,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.isoneA.4h.p0.1,0.0994808396877194,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.isoneA.4h.p0.2,0.20180847339400296,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.isoneA.4h.p0.2,0.19913581453229795,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.isoneA.4h.p0.3,0.30037622160093125,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.isoneA.4h.p0.3,0.2996259929747944,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.dmA.4h.p0,0.05826116392040017,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.dmA.4h.p0,-0.011013031763146264,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.dmA.4h.p0.02,0.06018640312966722,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.dmA.4h.p0.02,0.006050589061843354,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.dmA.4h.p0.05,0.06802012211977912,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.dmA.4h.p0.05,0.0319126597393786,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.dmA.4h.p0.1,0.0982302680728161,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.dmA.4h.p0.1,0.07327868485642411,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.dmA.4h.p0.2,0.14782336750073305,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.dmA.4h.p0.2,0.12486142471509447,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.dmA.4h.p0.3,0.16249434556967635,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.dmA.4h.p0.3,0.1394476964649088,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.wmA.4h.p0,0.05926620593354248,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.wmA.4h.p0,0.001709692155457243,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.wmA.4h.p0.02,0.06192026381732244,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.wmA.4h.p0.02,0.02151096878211513,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.wmA.4h.p0.05,0.07422024487553011,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.wmA.4h.p0.05,0.05076047557600981,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.wmA.4h.p0.1,0.1108591275405916,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.wmA.4h.p0.1,0.09848257834723773,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.wmA.4h.p0.2,0.19776787886804045,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.wmA.4h.p0.2,0.19279570246192673,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.wmA.4h.p0.3,0.27861900706933246,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.wmA.4h.p0.3,0.27718091316456694,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.cgA.4h.p0,0.04798406856316967,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.cgA.4h.p0,0.0008902450759903259,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.cgA.4h.p0.02,0.0514844985554647,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.cgA.4h.p0.02,0.020637052696075478,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.cgA.4h.p0.05,0.06840244144266913,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.cgA.4h.p0.05,0.05015928696546142,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.cgA.4h.p0.1,0.10789545079638725,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.cgA.4h.p0.1,0.09921607327776476,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.cgA.4h.p0.2,0.20142221470446775,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.cgA.4h.p0.2,0.1988079902443646,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.cgA.4h.p0.3,0.29979547887395674,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.cgA.4h.p0.3,0.2979628040320594,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.cg0.4h.p0,0.07664133983548364,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.cg0.4h.p0,0.012967793623644997,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.cg0.4h.p0.02,0.07664133983548364,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.cg0.4h.p0.02,0.012967793623644997,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.cg0.4h.p0.05,0.07664133983548364,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.cg0.4h.p0.05,0.012967793623644997,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.cg0.4h.p0.1,0.07664133983548364,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.cg0.4h.p0.1,0.012967793623644997,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.cg0.4h.p0.2,0.07664133983548364,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.cg0.4h.p0.2,0.012967793623644997,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.cg0.4h.p0.3,0.07664133983548364,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.cg0.4h.p0.3,0.012967793623644997,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.scmR.4h.p0,0.06148863104852696,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.scmR.4h.p0,0.010237616707073342,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.scmR.4h.p0.02,0.06148863104852696,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.scmR.4h.p0.02,0.010237616707073342,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.scmR.4h.p0.05,0.06148863104852696,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.scmR.4h.p0.05,0.010237616707073342,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.scmR.4h.p0.1,0.06148863104852696,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.scmR.4h.p0.1,0.010237616707073342,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.scmR.4h.p0.2,0.06148863104852696,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.scmR.4h.p0.2,0.010237616707073342,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.scmR.4h.p0.3,0.06148863104852696,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.scmR.4h.p0.3,0.010237616707073342,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.scmC.4h.p0,0.06406628058915419,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.scmC.4h.p0,0.014194519439237354,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.scmC.4h.p0.02,0.06406628058915419,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.scmC.4h.p0.02,0.014194519439237354,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.scmC.4h.p0.05,0.06406628058915419,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.scmC.4h.p0.05,0.014194519439237354,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.scmC.4h.p0.1,0.06406628058915419,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.scmC.4h.p0.1,0.014194519439237354,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.scmC.4h.p0.2,0.06406628058915419,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.scmC.4h.p0.2,0.014194519439237354,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.scmC.4h.p0.3,0.06406628058915419,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.scmC.4h.p0.3,0.014194519439237354,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.pjm0.4h.p0,0.0831529439242471,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.pjm0.4h.p0,-0.023970752925302097,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.pjm0.4h.p0.02,0.0831529439242471,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.pjm0.4h.p0.02,-0.023970752925302097,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.pjm0.4h.p0.05,0.0831529439242471,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.pjm0.4h.p0.05,-0.023970752925302097,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.pjm0.4h.p0.1,0.0831529439242471,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.pjm0.4h.p0.1,-0.023970752925302097,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.pjm0.4h.p0.2,0.0831529439242471,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.pjm0.4h.p0.2,-0.023970752925302097,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.pjm0.4h.p0.3,0.0831529439242471,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.pjm0.4h.p0.3,-0.023970752925302097,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+incr_sens.4h.p0.02,0.0033284669086801194,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,H4,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+incr_sens.4h.p0.05,0.01975568350251177,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,H4,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+incr_sens.4h.p0.1,0.05930249827244454,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,H4,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+incr_sens.4h.p0.2,0.1540897296880698,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,H4,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+incr_sens.4h.p0.3,0.25083076402051546,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,H4,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+pstar.pjmA.2h,0.27293962810014133,0.24682989392958832,0.28689206457143124,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pstar.caisoA.2h,>0.30,0.2811800836707361,,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pstar.nyA.2h,>0.30,,,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pstar.isoneA.2h,0.18541361650494861,0.17308330445043799,0.19402628172283054,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pstar.dmA.2h,>0.30,,,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pstar.wmA.2h,>0.30,,,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pstar.cgA.2h,0.26835291764359287,0.24574229717853682,0.2824780216096706,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pstar.cg0.2h,>0.30,,,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pstar.scmR.2h,>0.30,,,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pstar.scmC.2h,>0.30,,,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pstar.pjm0.2h,>0.30,,,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pcross.pjmA.2h,0.12529579235789778,0.08526926228476453,0.1534153023864667,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pcross.caisoA.2h,0.11878433725976244,0.0,0.15507733317798167,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pcross.nyA.2h,>0.30,0.0,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pcross.isoneA.2h,0.09110662572174916,0.0695430943608267,0.108068312783876,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pcross.dmA.2h,>0.30,0.0,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pcross.wmA.2h,>0.30,0.0,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pcross.cgA.2h,0.11803240803995999,0.08077398712466669,0.14158067006835642,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pcross.cg0.2h,0.0,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pcross.scmC.2h,0.0,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+pcross.pjm0.2h,0.0,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.pjmA.2h.p0,0.047327538160745274,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.pjmA.2h.p0,0.0002519791496385781,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.pjmA.2h.p0.02,0.04757906764617055,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.pjmA.2h.p0.02,0.007224695681332063,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.pjmA.2h.p0.05,0.05004752520579785,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.pjmA.2h.p0.05,0.0173047932406954,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.pjmA.2h.p0.1,0.056625526132907646,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.pjmA.2h.p0.1,0.03377434963463261,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.pjmA.2h.p0.2,0.07974299978288026,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.pjmA.2h.p0.2,0.06744363277708738,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.pjmA.2h.p0.3,0.10822690579386149,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.pjmA.2h.p0.3,0.10101778119791163,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.caisoA.2h.p0,0.05337177195308504,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.caisoA.2h.p0,-0.009317157455448817,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.caisoA.2h.p0.02,0.053077978957196195,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.caisoA.2h.p0.02,-0.002948650194847384,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.caisoA.2h.p0.05,0.05429374925734147,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.caisoA.2h.p0.05,0.006590913010712682,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.caisoA.2h.p0.1,0.05868904884525515,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.caisoA.2h.p0.1,0.02116455564841959,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.caisoA.2h.p0.2,0.07623859235427889,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.caisoA.2h.p0.2,0.05004467870885915,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.caisoA.2h.p0.3,0.0993542296202378,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.caisoA.2h.p0.3,0.07831057111909884,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.nyA.2h.p0,0.06034068509088833,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.nyA.2h.p0,0.005639718355951066,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.nyA.2h.p0.02,0.06034068509088833,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.nyA.2h.p0.02,0.005639718355951066,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.nyA.2h.p0.05,0.06034068509088833,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.nyA.2h.p0.05,0.005639718355951066,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.nyA.2h.p0.1,0.06034068509088833,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.nyA.2h.p0.1,0.005639718355951066,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.nyA.2h.p0.2,0.06034068509088833,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.nyA.2h.p0.2,0.005639718355951066,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.nyA.2h.p0.3,0.06034068509088833,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.nyA.2h.p0.3,0.005639718355951066,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.isoneA.2h.p0,0.04518395790063505,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.isoneA.2h.p0,-0.0016150278920222584,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.isoneA.2h.p0.02,0.04600978893497363,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.isoneA.2h.p0.02,0.008661200844450715,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.isoneA.2h.p0.05,0.05027437914219183,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.isoneA.2h.p0.05,0.023806185783474362,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.isoneA.2h.p0.1,0.06435368769309606,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.isoneA.2h.p0.1,0.04927246462538324,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.isoneA.2h.p0.2,0.10659366987368939,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.isoneA.2h.p0.2,0.09995544577398172,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.isoneA.2h.p0.3,0.15404592599774336,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.isoneA.2h.p0.3,0.15010134397740277,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.dmA.2h.p0,0.05826116392040017,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.dmA.2h.p0,-0.011013031763146264,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.dmA.2h.p0.02,0.05826116392040017,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.dmA.2h.p0.02,-0.011013031763146264,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.dmA.2h.p0.05,0.05826116392040017,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.dmA.2h.p0.05,-0.011013031763146264,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.dmA.2h.p0.1,0.05826116392040017,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.dmA.2h.p0.1,-0.011013031763146264,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.dmA.2h.p0.2,0.05826116392040017,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.dmA.2h.p0.2,-0.011013031763146264,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.dmA.2h.p0.3,0.05826116392040017,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.dmA.2h.p0.3,-0.011013031763146264,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.wmA.2h.p0,0.05926620593354248,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.wmA.2h.p0,0.001709692155457243,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.wmA.2h.p0.02,0.05926620593354248,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.wmA.2h.p0.02,0.001709692155457243,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.wmA.2h.p0.05,0.05926620593354248,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.wmA.2h.p0.05,0.001709692155457243,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.wmA.2h.p0.1,0.05926620593354248,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.wmA.2h.p0.1,0.001709692155457243,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.wmA.2h.p0.2,0.05926620593354248,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.wmA.2h.p0.2,0.001709692155457243,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.wmA.2h.p0.3,0.05926620593354248,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.wmA.2h.p0.3,0.001709692155457243,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.cgA.2h.p0,0.04798406856316967,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.cgA.2h.p0,0.0008902450759903259,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.cgA.2h.p0.02,0.048778761828143,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.cgA.2h.p0.02,0.007616355027614574,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.cgA.2h.p0.05,0.05031726571468866,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.cgA.2h.p0.05,0.01784070723701165,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.cgA.2h.p0.1,0.057877836786546275,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.cgA.2h.p0.1,0.03447571601256965,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.cgA.2h.p0.2,0.0814989471243641,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.cgA.2h.p0.2,0.0681510396576012,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.cgA.2h.p0.3,0.10981903138593027,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.cgA.2h.p0.3,0.10160859521442274,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.cg0.2h.p0,0.07664133983548364,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.cg0.2h.p0,0.012967793623644997,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.cg0.2h.p0.02,0.07664133983548364,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.cg0.2h.p0.02,0.012967793623644997,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.cg0.2h.p0.05,0.07664133983548364,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.cg0.2h.p0.05,0.012967793623644997,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.cg0.2h.p0.1,0.07664133983548364,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.cg0.2h.p0.1,0.012967793623644997,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.cg0.2h.p0.2,0.07664133983548364,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.cg0.2h.p0.2,0.012967793623644997,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.cg0.2h.p0.3,0.07664133983548364,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.cg0.2h.p0.3,0.012967793623644997,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.scmR.2h.p0,0.06148863104852696,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.scmR.2h.p0,0.010237616707073342,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.scmR.2h.p0.02,0.06148863104852696,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.scmR.2h.p0.02,0.010237616707073342,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.scmR.2h.p0.05,0.06148863104852696,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.scmR.2h.p0.05,0.010237616707073342,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.scmR.2h.p0.1,0.06148863104852696,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.scmR.2h.p0.1,0.010237616707073342,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.scmR.2h.p0.2,0.06148863104852696,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.scmR.2h.p0.2,0.010237616707073342,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.scmR.2h.p0.3,0.06148863104852696,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.scmR.2h.p0.3,0.010237616707073342,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.scmC.2h.p0,0.06406628058915419,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.scmC.2h.p0,0.014194519439237354,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.scmC.2h.p0.02,0.06406628058915419,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.scmC.2h.p0.02,0.014194519439237354,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.scmC.2h.p0.05,0.06406628058915419,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.scmC.2h.p0.05,0.014194519439237354,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.scmC.2h.p0.1,0.06406628058915419,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.scmC.2h.p0.1,0.014194519439237354,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.scmC.2h.p0.2,0.06406628058915419,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.scmC.2h.p0.2,0.014194519439237354,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.scmC.2h.p0.3,0.06406628058915419,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.scmC.2h.p0.3,0.014194519439237354,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.pjm0.2h.p0,0.0831529439242471,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.pjm0.2h.p0,-0.023970752925302097,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.pjm0.2h.p0.02,0.0831529439242471,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.pjm0.2h.p0.02,-0.023970752925302097,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.pjm0.2h.p0.05,0.0831529439242471,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.pjm0.2h.p0.05,-0.023970752925302097,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.pjm0.2h.p0.1,0.0831529439242471,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.pjm0.2h.p0.1,-0.023970752925302097,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.pjm0.2h.p0.2,0.0831529439242471,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.pjm0.2h.p0.2,-0.023970752925302097,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.relMAE.pjm0.2h.p0.3,0.0831529439242471,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+precool.bias.pjm0.2h.p0.3,-0.023970752925302097,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+incr_sens.2h.p0.02,0.0002515294854252767,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,H4,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+incr_sens.2h.p0.05,0.00271998704505258,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,H4,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+incr_sens.2h.p0.1,0.009297987972162372,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,H4,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+incr_sens.2h.p0.2,0.03241546162213498,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,H4,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+incr_sens.2h.p0.3,0.060899367633116215,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,H4,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H5.eta.pjmA,0.0011002786700352902,,,,,,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H5.eta.scmR,0.0037486441901392973,,,,,,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H5.eta_diff,-0.0028078977733088898,-0.00462497622539455,-0.0010222563089387912,,,11.0,,9479.0,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H5.p_signedrank,0.0048828125,,,0.0048828125,,11.0,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H5.p_holm,0.009765625,,,0.0048828125,0.009765625,11.0,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H5.p_wcb,0.00030003000300030005,,,0.00030003000300030005,,,,,events_erosion.pkl,secondary,none,H5,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H5.loso_min,-0.0031129575593259575,,,,,,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H5.loso_max,-0.002507432669379326,,,,,,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H5.loso_pmax,0.009765625,,,,,,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H5.site_robust,True,,,,,,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H5.site.Bear,-0.0065284719515517125,,,,,,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H5.site.Bull,0.0009082051439881981,,,,,,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H5.site.Cockatoo,-0.0029527177618657806,,,,,,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H5.site.Eagle,-0.0006425232498277202,,,,,,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H5.site.Fox,-0.0019062768447916036,,,,,,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H5.site.Hog,-0.004968801035844324,,,,,,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H5.site.Lamb,-0.0005263414557923245,,,,,,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H5.site.Peacock,-0.004463458408534317,,,,,,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H5.site.Rat,-0.0012571140828075912,,,,,,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H5.site.Robin,-0.0047864940422547835,,,,,,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H5.site.Wolf,-0.003757751255951061,,,,,,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H5.eta_definition,slope of site-median |rho-1| over K,,,,,,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H5s.eta_signed_diff.pjmA_minus_scmR,0.0003194299480681898,-0.002384005766720497,0.0029889303281808253,0.7646484375,,11.0,,,events_erosion.pkl,secondary,none,H5s,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H5s.eta_signed_diff.caisoA_minus_scmR,0.0020038803900555117,-0.0014771594872254445,0.007010690742761666,0.1748046875,,11.0,,,events_erosion.pkl,secondary,none,H5s,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H5s.eta_signed_diff.cgA_minus_scmR,0.00010271349322893398,-0.0022971666573545968,0.002509266897163946,0.8984375,,11.0,,,events_erosion.pkl,secondary,none,H5s,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H5s.eta_signed_diff.pjm0_minus_scmR,0.003225332960968835,-0.0021783072414785984,0.007714856738770773,0.1748046875,,11.0,,,events_erosion.pkl,secondary,none,H5s,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H5s.eta_diff.caisoA_minus_scmR,-0.0022972765591599328,-0.004211973860186982,0.004477601586465949,0.0673828125,,11.0,,,events_erosion.pkl,secondary,none,H5s,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H5s.eta_diff.cgA_minus_scmR,-0.0021027788678785386,-0.0041522102043939635,-0.0001648935921152823,0.0244140625,,11.0,,,events_erosion.pkl,secondary,none,H5s,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H5s.eta_diff.pjm0_minus_scmR,0.0029177159203116563,-0.00044922121486591616,0.00614677882949338,0.1015625,,11.0,,,events_erosion.pkl,secondary,none,H5s,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H5.Dtau.pjmA,>40.00,,,,,,,,events_erosion.pkl,secondary,none,H5,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H5.Dtau.pjmA.Bear,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.pjmA.Bull,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.pjmA.Cockatoo,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.pjmA.Eagle,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.pjmA.Fox,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.pjmA.Hog,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.pjmA.Lamb,39.57893462323188,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.pjmA.Peacock,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.pjmA.Rat,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.pjmA.Robin,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.pjmA.Wolf,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.eta_signed_pooled.pjmA,0.0007456611646962812,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.eta_abs_pooled.pjmA,0.0011002786700352902,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.eta_2pt.pjmA,0.0005959993965058825,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.rho.pjmA.K10,1.0025197914963855,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.rho.pjmA.K20,1.001375819702345,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.rho.pjmA.K30,0.9804496489182473,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.rho.pjmA.K40,0.984639809601209,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.absdev.pjmA.K10,0.2028417171846335,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.absdev.pjmA.K20,0.2154090198183638,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.absdev.pjmA.K30,0.23432173110594334,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.absdev.pjmA.K40,0.23321343575661668,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.caisoA,>40.00,,,,,,,,events_erosion.pkl,secondary,none,H5,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H5.Dtau.caisoA.Bear,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.caisoA.Bull,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.caisoA.Cockatoo,39.68765406394411,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.caisoA.Eagle,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.caisoA.Fox,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.caisoA.Hog,33.82935823983428,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.caisoA.Lamb,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.caisoA.Peacock,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.caisoA.Rat,23.77360088483872,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.caisoA.Robin,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.caisoA.Wolf,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.eta_signed_pooled.caisoA,0.001893403643706767,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.eta_abs_pooled.caisoA,0.003127284248693263,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.eta_2pt.caisoA,0.0018888931863785818,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.rho.caisoA.K10,0.9086663714435346,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.rho.caisoA.K20,0.9017157657685898,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.rho.caisoA.K30,0.8823757881719864,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.rho.caisoA.K40,0.8519995758521771,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.absdev.caisoA.K10,0.2393224596764767,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.absdev.caisoA.K20,0.25134612507328313,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.absdev.caisoA.K30,0.3039807189405982,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.absdev.caisoA.K40,0.3260204033438139,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.cgA,>40.00,,,,,,,,events_erosion.pkl,secondary,none,H5,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H5.Dtau.cgA.Bear,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.cgA.Bull,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.cgA.Cockatoo,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.cgA.Eagle,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.cgA.Fox,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.cgA.Hog,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.cgA.Lamb,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.cgA.Peacock,33.9975879745128,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.cgA.Rat,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.cgA.Robin,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.cgA.Wolf,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.eta_signed_pooled.cgA,-0.00015877119023246952,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.eta_abs_pooled.cgA,0.0017323781028463086,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.eta_2pt.cgA,-0.00010168006822985169,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.rho.cgA.K10,1.0089024507599027,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.rho.cgA.K20,0.9962117042991847,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.rho.cgA.K30,1.0029376171817455,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.rho.cgA.K40,1.0119528528067983,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.absdev.cgA.K10,0.18655668615239218,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.absdev.cgA.K20,0.20759107199725002,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.absdev.cgA.K30,0.22634389595146187,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.absdev.cgA.K40,0.2380516815958652,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.pjm0,33.38399242180736,,,,,,,,events_erosion.pkl,secondary,none,H5,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H5.Dtau.pjm0.Bear,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.pjm0.Bull,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.pjm0.Cockatoo,31.217749362351157,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.pjm0.Eagle,26.20793270484218,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.pjm0.Fox,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.pjm0.Hog,18.8702892176951,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.pjm0.Lamb,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.pjm0.Peacock,32.98740043942144,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.pjm0.Rat,22.311778257015625,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.pjm0.Robin,22.279226746340594,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.pjm0.Wolf,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.eta_signed_pooled.pjm0,0.004232949810985496,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.eta_abs_pooled.pjm0,0.00704367857394795,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.eta_2pt.pjm0,0.004211465119053159,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.rho.pjm0.K10,0.7576102203670415,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.rho.pjm0.K20,0.7153478929173676,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.rho.pjm0.K30,0.6710847725336029,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.rho.pjm0.K40,0.6312662667954467,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.absdev.pjm0.K10,0.5619475189394533,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.absdev.pjm0.K20,0.6372092078254374,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.absdev.pjm0.K30,0.689969658455647,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.absdev.pjm0.K40,0.779149987860982,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.scmR,>40.00,,,,,,,,events_erosion.pkl,secondary,none,H5,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,S10
+H5.Dtau.scmR.Bear,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.scmR.Bull,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.scmR.Cockatoo,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.scmR.Eagle,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.scmR.Fox,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.scmR.Hog,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.scmR.Lamb,36.94281656217346,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.scmR.Peacock,38.5553915121651,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.scmR.Rat,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.scmR.Robin,38.70718861752079,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.Dtau.scmR.Wolf,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.eta_signed_pooled.scmR,-0.00022788132923809608,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.eta_abs_pooled.scmR,0.0037486441901392973,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.eta_2pt.scmR,-0.00022555702724455322,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.rho.scmR.K10,1.0984613174642903,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.rho.scmR.K20,1.0977550498533248,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.rho.scmR.K30,1.1002430503251246,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.rho.scmR.K40,1.105228028281627,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.absdev.scmR.K10,0.3307880135974537,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.absdev.scmR.K20,0.369252193207666,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.absdev.scmR.K30,0.40975525931658985,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.absdev.scmR.K40,0.44224179789912244,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.age_days.pjm_lookback.K10,5.75,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.age_days.pjm_lookback.K20,7.0,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.age_days.pjm_lookback.K30,10.0,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.age_days.pjm_lookback.K40,12.0,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.age_days.scmR_preperiod.K10,7.571428571428571,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.age_days.scmR_preperiod.K20,9.428571428571429,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.age_days.scmR_preperiod.K30,12.142857142857142,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.age_days.scmR_preperiod.K40,15.571428571428571,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.fallback.PJM.K10,0.0,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.fallback.CAISO.K10,0.0,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.fallback.CAISO_lt10.K10,0.004536343496149383,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.fallback.PJM.K20,0.0,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.fallback.CAISO.K20,0.0,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.fallback.CAISO_lt10.K20,0.004536343496149383,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.fallback.PJM.K30,0.0,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.fallback.CAISO.K30,0.0,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.fallback.CAISO_lt10.K30,0.021626753876991242,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.fallback.PJM.K40,0.004536343496149383,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.fallback.CAISO.K40,0.005274818018778352,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+H5.fallback.CAISO_lt10.K40,0.11013820023209199,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjm0.R2LOO.relMAE_median,0.07760498011312228,,,,,,1005.0,9845.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjm0.R2LOO.bias_median,-0.026049286327889172,,,,,,1005.0,9845.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjm0.R2LOO.rmse_median,0.09393923453894144,,,,,,1005.0,9845.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjm0.R2LOO.PER_c10_median,0.7760498011312228,,,,,,1005.0,9845.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjm0.R2LOO.share_PER_gt_0_5,0.5588623666835957,,,,,,1005.0,9845.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjm0.R2LOO.nmbe_granderson,0.030344647021415507,,,,,,1005.0,9845.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjmA.R2LOO.relMAE_median,0.0464433450923735,,,,,,1005.0,9845.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjmA.R2LOO.bias_median,-0.003156476844844388,,,,,,1005.0,9845.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjmA.R2LOO.rmse_median,0.05916143634281395,,,,,,1005.0,9845.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjmA.R2LOO.PER_c10_median,0.464433450923735,,,,,,1005.0,9845.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjmA.R2LOO.share_PER_gt_0_5,0.3813103098019299,,,,,,1005.0,9845.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjmA.R2LOO.nmbe_granderson,0.00511804337867619,,,,,,1005.0,9845.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caiso0.R2LOO.relMAE_median,0.09752253794343396,,,,,,1005.0,9843.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caiso0.R2LOO.bias_median,-0.06975829250784552,,,,,,1005.0,9843.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caiso0.R2LOO.rmse_median,0.11560044259218487,,,,,,1005.0,9843.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caiso0.R2LOO.PER_c10_median,0.9752253794343396,,,,,,1005.0,9843.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caiso0.R2LOO.share_PER_gt_0_5,0.6580310880829016,,,,,,1005.0,9843.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caiso0.R2LOO.nmbe_granderson,0.07496811864528187,,,,,,1005.0,9843.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caisoA.R2LOO.relMAE_median,0.052933821367387515,,,,,,1005.0,9843.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caisoA.R2LOO.bias_median,-0.018764010060430977,,,,,,1005.0,9843.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caisoA.R2LOO.rmse_median,0.06537771843599478,,,,,,1005.0,9843.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caisoA.R2LOO.PER_c10_median,0.5293382136738751,,,,,,1005.0,9843.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caisoA.R2LOO.share_PER_gt_0_5,0.43137254901960786,,,,,,1005.0,9843.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caisoA.R2LOO.nmbe_granderson,0.021436535995907263,,,,,,1005.0,9843.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.ny0.R2LOO.relMAE_median,0.08324810855246305,,,,,,1000.0,9725.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.ny0.R2LOO.bias_median,-0.021898982697449745,,,,,,1000.0,9725.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.ny0.R2LOO.rmse_median,0.09979041073876932,,,,,,1000.0,9725.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.ny0.R2LOO.PER_c10_median,0.8324810855246304,,,,,,1000.0,9725.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.ny0.R2LOO.share_PER_gt_0_5,0.5694601542416452,,,,,,1000.0,9725.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.ny0.R2LOO.nmbe_granderson,0.026612902326584198,,,,,,1000.0,9725.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.nyA.R2LOO.relMAE_median,0.05718551063178842,,,,,,1000.0,9725.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.nyA.R2LOO.bias_median,-0.0028095404641146947,,,,,,1000.0,9725.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.nyA.R2LOO.rmse_median,0.07091413907834343,,,,,,1000.0,9725.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.nyA.R2LOO.PER_c10_median,0.5718551063178842,,,,,,1000.0,9725.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.nyA.R2LOO.share_PER_gt_0_5,0.4473007712082262,,,,,,1000.0,9725.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.nyA.R2LOO.nmbe_granderson,0.004504376143336335,,,,,,1000.0,9725.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cgA.R2LOO.relMAE_median,0.05035938100120896,,,,,,1005.0,9845.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cgA.R2LOO.bias_median,0.004341749931576719,,,,,,1005.0,9845.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cgA.R2LOO.rmse_median,0.0618100105498348,,,,,,1005.0,9845.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cgA.R2LOO.PER_c10_median,0.5035938100120896,,,,,,1005.0,9845.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cgA.R2LOO.share_PER_gt_0_5,0.404266124936516,,,,,,1005.0,9845.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cgA.R2LOO.nmbe_granderson,-0.002740662461856124,,,,,,1005.0,9845.0,secondary.py,exploratory,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.prev.w1620.relMAE_median,0.08452256228420255,,,,,,1005.0,9557.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.prev.w1620.bias_median,-0.03882044792286227,,,,,,1005.0,9557.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.prev.w1620.rmse_median,0.10887891420387324,,,,,,1005.0,9557.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.prev.w1620.PER_c10_median,0.8452256228420254,,,,,,1005.0,9557.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.prev.w1620.share_PER_gt_0_5,0.559799100136026,,,,,,1005.0,9557.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.prev.w1620.nmbe_granderson,0.04412837100659371,,,,,,1005.0,9557.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjm0.w1620.relMAE_median,0.08905109995915368,,,,,,1005.0,9557.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjm0.w1620.bias_median,-0.020924028962274133,,,,,,1005.0,9557.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjm0.w1620.rmse_median,0.10902798926622931,,,,,,1005.0,9557.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjm0.w1620.PER_c10_median,0.8905109995915368,,,,,,1005.0,9557.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjm0.w1620.share_PER_gt_0_5,0.5785288270377733,,,,,,1005.0,9557.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjm0.w1620.nmbe_granderson,0.028744027550804564,,,,,,1005.0,9557.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjmA.w1620.relMAE_median,0.04941124548995384,,,,,,1005.0,9557.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjmA.w1620.bias_median,0.0052359571684670436,,,,,,1005.0,9557.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjmA.w1620.rmse_median,0.06380434373001018,,,,,,1005.0,9557.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjmA.w1620.PER_c10_median,0.49411245489953837,,,,,,1005.0,9557.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjmA.w1620.share_PER_gt_0_5,0.4044156115935963,,,,,,1005.0,9557.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.pjmA.w1620.nmbe_granderson,-0.0041457064281798395,,,,,,1005.0,9557.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caiso0.w1620.relMAE_median,0.10194229672531292,,,,,,1005.0,9557.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caiso0.w1620.bias_median,-0.038016633812045966,,,,,,1005.0,9557.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caiso0.w1620.rmse_median,0.12247778456146699,,,,,,1005.0,9557.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caiso0.w1620.PER_c10_median,1.0194229672531292,,,,,,1005.0,9557.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caiso0.w1620.share_PER_gt_0_5,0.6450769069791775,,,,,,1005.0,9557.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caiso0.w1620.nmbe_granderson,0.04868211105766278,,,,,,1005.0,9557.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caisoA.w1620.relMAE_median,0.05474823523669779,,,,,,1005.0,9557.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caisoA.w1620.bias_median,-0.006450526730384512,,,,,,1005.0,9557.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caisoA.w1620.rmse_median,0.07032422277301571,,,,,,1005.0,9557.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caisoA.w1620.PER_c10_median,0.5474823523669778,,,,,,1005.0,9557.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caisoA.w1620.share_PER_gt_0_5,0.4252380454117401,,,,,,1005.0,9557.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.caisoA.w1620.nmbe_granderson,0.00967141532337047,,,,,,1005.0,9557.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.ny0.w1620.relMAE_median,0.09559883359582846,,,,,,1003.0,9501.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.ny0.w1620.bias_median,-0.0013362603632426817,,,,,,1003.0,9501.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.ny0.w1620.rmse_median,0.11682584268208532,,,,,,1003.0,9501.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.ny0.w1620.PER_c10_median,0.9559883359582846,,,,,,1003.0,9501.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.ny0.w1620.share_PER_gt_0_5,0.6094095358383328,,,,,,1003.0,9501.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.ny0.w1620.nmbe_granderson,0.00967971998595052,,,,,,1003.0,9501.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.nyA.w1620.relMAE_median,0.06050319586261073,,,,,,1003.0,9501.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.nyA.w1620.bias_median,0.0085182232726734,,,,,,1003.0,9501.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.nyA.w1620.rmse_median,0.07749913617252274,,,,,,1003.0,9501.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.nyA.w1620.PER_c10_median,0.6050319586261073,,,,,,1003.0,9501.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.nyA.w1620.share_PER_gt_0_5,0.4519524260604147,,,,,,1003.0,9501.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.nyA.w1620.nmbe_granderson,-0.005681143138826352,,,,,,1003.0,9501.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cgA.w1620.relMAE_median,0.050150121423442676,,,,,,1005.0,9551.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cgA.w1620.bias_median,-0.0007493240470278718,,,,,,1005.0,9551.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cgA.w1620.rmse_median,0.06282726554341596,,,,,,1005.0,9551.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cgA.w1620.PER_c10_median,0.5015012142344267,,,,,,1005.0,9551.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cgA.w1620.share_PER_gt_0_5,0.4180714061354832,,,,,,1005.0,9551.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.cgA.w1620.nmbe_granderson,0.0018615227866782158,,,,,,1005.0,9551.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.scmR.w1620.relMAE_median,0.06321077607097537,,,,,,1005.0,9540.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.scmR.w1620.bias_median,0.007205744997131934,,,,,,1005.0,9540.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.scmR.w1620.rmse_median,0.07876225534533222,,,,,,1005.0,9540.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.scmR.w1620.PER_c10_median,0.6321077607097537,,,,,,1005.0,9540.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.scmR.w1620.share_PER_gt_0_5,0.4977987421383648,,,,,,1005.0,9540.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.scmR.w1620.nmbe_granderson,-0.004291343214052844,,,,,,1005.0,9540.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+contam.q0.pjmA.relMAE_median,0.0672634637346996,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+contam.q0.pjmA.bias_median,0.04942361810344344,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+contam.q0.cgA.relMAE_median,0.06840244144266913,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+contam.q0.cgA.bias_median,0.05015928696546142,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+contam.q0.scmR.relMAE_median,0.06148863104852696,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+contam.q0.scmR.bias_median,0.010237616707073342,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+contam.q0.pjm0.relMAE_median,0.0831529439242471,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+contam.q0.pjm0.bias_median,-0.023563310336206393,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+contam.q0.25.pjmA.relMAE_median,0.0672634637346996,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+contam.q0.25.pjmA.bias_median,0.04942361810344344,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+contam.q0.25.cgA.relMAE_median,0.0512960041037977,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+contam.q0.25.cgA.bias_median,0.014296953991522551,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+contam.q0.25.scmR.relMAE_median,0.061739023970402464,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+contam.q0.25.scmR.bias_median,-0.014694989541488674,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+contam.q0.25.pjm0.relMAE_median,0.0831529439242471,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+contam.q0.25.pjm0.bias_median,-0.023563310336206393,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+contam.q0.5.pjmA.relMAE_median,0.0672634637346996,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+contam.q0.5.pjmA.bias_median,0.04942361810344344,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+contam.q0.5.cgA.relMAE_median,0.05464300867593227,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+contam.q0.5.cgA.bias_median,-0.025676981603813962,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+contam.q0.5.scmR.relMAE_median,0.07401920956839778,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+contam.q0.5.scmR.bias_median,-0.04251292517981388,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+contam.q0.5.pjm0.relMAE_median,0.0831529439242471,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+contam.q0.5.pjm0.bias_median,-0.023563310336206393,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+contam.q1.pjmA.relMAE_median,0.0672634637346996,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+contam.q1.pjmA.bias_median,0.04942361810344344,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+contam.q1.cgA.relMAE_median,0.10466959249104386,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+contam.q1.cgA.bias_median,-0.09914763843668507,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+contam.q1.scmR.relMAE_median,0.10415983326458692,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+contam.q1.scmR.bias_median,-0.09078614496363394,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+contam.q1.pjm0.relMAE_median,0.0831529439242471,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+contam.q1.pjm0.bias_median,-0.023563310336206393,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+rebound.max_abs_change_kwh,0.0,,,,,,,104889.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+heatwave.pjmA.relMAE_median,0.04742868928828525,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+heatwave.pjmA.rho_median,0.9849162449784918,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+heatwave.pjmA.fallback_pjm,0.0,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+heatwave.scmR.relMAE_median,0.06383830098859619,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+heatwave.scmR.rho_median,1.062674332590917,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+heatwave.scmR.fallback_pjm,0.0,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+heatwave.pjm0.relMAE_median,0.08591675131384606,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+heatwave.pjm0.rho_median,0.6905838832149205,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+heatwave.pjm0.fallback_pjm,0.0,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+heatwave.caisoA.relMAE_median,0.054129395124344205,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+heatwave.caisoA.rho_median,0.8934081118552382,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+heatwave.caisoA.fallback_pjm,0.0,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+heatwave.cgA.relMAE_median,0.04808731225115763,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+heatwave.cgA.rho_median,1.0002978980249972,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+heatwave.cgA.fallback_pjm,0.0,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+heatwave.n_dispatched_median,11.0,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.towt70.R1.relMAE_median,0.08693314869885713,,,,,,1005.0,9550.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.towt70.R1.bias_median,-0.01577376030889674,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.towt70.R1.support_share,1.0,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.towt70A.R1.relMAE_median,0.07038359948890703,,,,,,1005.0,9550.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.towt70A.R1.bias_median,-0.002872391637958479,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.towt70A.R1.support_share,1.0,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.towt7.R1.relMAE_median,0.17024273565579845,,,,,,1005.0,9550.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.towt7.R1.bias_median,-0.05316523449702185,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.towt7.R1.support_share,1.0,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.lgbM.R1.relMAE_median,0.04865273962000708,,,,,,1005.0,9550.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.lgbM.R1.bias_median,0.0015129474303042102,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.lgbM.R1.support_share,1.0,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.lgbD.R1.relMAE_median,0.06263964413514432,,,,,,1005.0,9544.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.lgbD.R1.bias_median,-0.005507414443699805,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.lgbD.R1.support_share,0.9993717277486911,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+hpo.lgb.trials,0,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+hpo.lgb.note,"Optuna not installed; fixed parameters {""objective"": ""l1"", ""learning_rate"": 0.05, ""num_leaves"": 31, ""min_child_samples"": 20, ""reg_lambda"": 1.0, ""feature_fraction"": 0.8, ""bagging_fraction"": 0.8, ""bagging_freq"": 1, ""seed"": 2016, ""deterministic"": true, ""verbose"": -1}; 40-trial HPO not run",,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+dst_alt.pjm0.R1.relMAE_median,0.0831529439242471,,,,,,1005.0,9550.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+dst_alt.pjm0.R1.bias_median,-0.02201256839652969,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+dst_alt.pjmA.R1.relMAE_median,0.04741237323325225,,,,,,1005.0,9550.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+dst_alt.pjmA.R1.bias_median,6.265405452380093e-06,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+dst_alt.caiso0.R1.relMAE_median,0.09329101346204505,,,,,,1005.0,9550.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+dst_alt.caiso0.R1.bias_median,-0.0391500826664388,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+dst_alt.caisoA.R1.relMAE_median,0.05344738347762288,,,,,,1005.0,9550.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+dst_alt.caisoA.R1.bias_median,-0.009133362855646513,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+dst_alt.cgA.R1.relMAE_median,0.048457597149013286,,,,,,1005.0,9544.0,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+dst_alt.cgA.R1.bias_median,0.0007921280873807296,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+dst_alt.H2.logratio.pjmA_pjm0,-0.41189323659013155,-0.6258323471034954,-0.22324197792963246,0.00048828125,,11.0,,,secondary.py,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+compute.peak_mem_gb,1.001467904,,,,,,,,results\run,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+compute.gpu_hours,0.0,,,,,,,,results\run,secondary,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none

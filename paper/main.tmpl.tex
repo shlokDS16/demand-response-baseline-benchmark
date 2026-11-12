@@ -1,0 +1,83 @@
+% main.tmpl.tex -> main.tex (src/paper/build_paper.py). Build from paper/ (bibtex needs paper/references.bib).
+% Class and journal: SPEC s10 (OR6). Section files are the filled versions of sections/*.tmpl.tex, with each float
+% placed after the paragraph of its first \ref by build_paper.py (sections/placed/NN_name.tex; floats.tmpl.tex).
+\documentclass[review,3p]{elsarticle}
+
+\journal{Sustainable Computing: Informatics and Systems}
+
+% figures/ and tables/ live next to paper/, so every \IfFileExists, \input and \includegraphics also searches ../
+\makeatletter
+\def\input@path{ {../} }
+\makeatother
+\graphicspath{ {../} }
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{xurl}
+\usepackage{longtable}
+\usepackage{needspace}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage[ruled,vlined,linesnumbered]{algorithm2e}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue,filecolor=blue,hypertexnames=false]{hyperref}
+\usepackage{xr-hyper}
+\externaldocument{supplement}[supplement.pdf]
+
+% sort without range compression: citation ranges print as lists, never with an en dash (owner rule)
+\biboptions{sort}
+
+\setlength{\LTpre}{6pt}
+\setlength{\LTpost}{6pt}
+\setlength{\emergencystretch}{3em}
+% captions above tables must not touch the top rule
+\setlength{\belowcaptionskip}{6pt}
+% no single line of a paragraph alone at the top or bottom of a page (e.g. "o(omega):" before Eq. B.7)
+\widowpenalty=10000
+\clubpenalty=10000
+% tall figures need float pages; without these settings a [t] float that cannot fit blocks every later float
+\renewcommand{\topfraction}{0.85}
+\renewcommand{\bottomfraction}{0.6}
+\renewcommand{\textfraction}{0.1}
+\renewcommand{\floatpagefraction}{0.8}% 0.7 left Fig. 7 alone on a float page with a third of it blank
+\setcounter{topnumber}{3}
+\setcounter{totalnumber}{4}
+% xurl breaks URLs at any character, so no stretchable URL glue is needed (it printed URLs as spaced fragments)
+
+% Placeholder markers: none may remain in the text (REVISION_1); kept defined so that an old template still compiles
+\newcommand{\pending}[1]{[pending: \detokenize{#1}]}
+\newcommand{\citeneeded}[1]{[cite: \detokenize{#1}]}
+
+% Figure widths: double column 190 mm, 1.5 column 140 mm, single column 90 mm in print (research/FIGURES_PLAN.md).
+% In the review layout the text block is narrower, so the widths are fractions of the line width.
+\newcommand{\FigD}{\linewidth}
+\newcommand{\FigM}{0.85\linewidth}
+\newcommand{\FigS}{0.6\linewidth}
+% Fig. 1 is taller than the text block at full width (float too large by 27 pt): 0.93 of the line width fits it with its caption
+\newcommand{\FigOne}{0.93\linewidth}
+% a heading must not hyphenate "pro-cess" (generative-AI declaration heading)
+\hyphenation{process}
+
+\begin{document}
+
+\input{sections/placed/00_frontmatter}
+
+\input{sections/placed/01_intro}
+\input{sections/placed/02_background}
+\input{sections/placed/03_data}
+\input{sections/placed/04_methods}
+\input{sections/placed/05_results}
+\input{sections/placed/06_discussion}
+\input{sections/placed/07_conclusion}
+\input{sections/placed/08_declarations}
+\input{sections/placed/09_appendix}
+
+% elsarticle-num-doi.bst: elsarticle-num with the DOI as the only link when a DOI exists, no title links,
+% and plain hyphens in page ranges (owner rule: no en dashes)
+\begingroup\raggedright
+\bibliographystyle{elsarticle-num-doi}
+\bibliography{references}
+\endgroup
+
+\end{document}

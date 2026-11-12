@@ -1,0 +1,16 @@
+site_id,Education,Entertainment/public assembly,Food sales and service,Healthcare,Lodging/residential,Manufacturing/industrial,Office,Other,Parking,Public services,Religious worship,Retail,Services,Technology/science,Utility,Warehouse/storage,TOTAL
+Bear,59,5,0,0,3,0,0,0,2,5,0,0,0,2,1,0,77
+Bobcat,3,1,0,0,3,0,1,1,0,0,0,0,0,0,0,0,9
+Bull,58,15,0,0,16,0,14,0,0,2,0,0,5,0,0,0,110
+Cockatoo,31,9,0,0,24,2,15,0,0,6,1,0,0,1,1,0,90
+Crow,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4
+Eagle,21,10,1,7,8,0,36,0,0,7,0,0,0,0,0,0,90
+Fox,57,19,2,1,12,0,24,0,3,6,0,1,0,0,1,2,128
+Gator,0,17,0,0,0,0,6,8,0,28,0,0,0,0,0,2,61
+Hog,21,6,1,3,10,5,67,3,7,5,0,0,4,1,0,3,136
+Lamb,73,21,1,1,2,4,12,2,0,4,0,0,0,0,0,1,121
+Moose,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9
+Peacock,13,3,0,0,11,0,8,0,0,1,0,0,0,0,0,0,36
+Rat,85,40,0,6,8,0,22,4,1,82,1,1,0,0,0,5,255
+Robin,22,1,0,0,10,0,16,0,0,2,0,0,0,0,0,0,51
+Wolf,20,1,0,0,0,0,9,0,0,1,0,3,0,1,0,0,35

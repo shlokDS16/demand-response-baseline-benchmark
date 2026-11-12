@@ -1,0 +1,212 @@
+{
+ "Bear": {
+  "mapped": true,
+  "ba": "CISO",
+  "confidence": "high",
+  "source": "BDG2 Table 1: UC Berkeley, Berkeley CA (doi:10.1038/s41597-020-00712-x); CAISO area",
+  "years": {
+   "2016": {
+    "weekdays_in_window": 100,
+    "rankable_days": 100,
+    "forecast_hours_missing_share": 0.0,
+    "r1_days": 10,
+    "r2_days": 10,
+    "overlap": 2,
+    "jaccard_K10": 0.111
+   },
+   "2017": {
+    "weekdays_in_window": 100,
+    "rankable_days": 100,
+    "forecast_hours_missing_share": 0.0,
+    "r1_days": 10,
+    "r2_days": 10,
+    "overlap": 3,
+    "jaccard_K10": 0.176
+   }
+  }
+ },
+ "Bobcat": {
+  "mapped": false,
+  "reason": "anonymous site, no lat/lng (US/Mountain, climate 5B): grid area unknown"
+ },
+ "Bull": {
+  "mapped": true,
+  "ba": "ERCO",
+  "confidence": "high",
+  "source": "BDG2 Table 1: Univ. of Texas - Austin; ERCOT",
+  "years": {
+   "2016": {
+    "weekdays_in_window": 100,
+    "rankable_days": 100,
+    "forecast_hours_missing_share": 0.0,
+    "r1_days": 10,
+    "r2_days": 10,
+    "overlap": 6,
+    "jaccard_K10": 0.429
+   },
+   "2017": {
+    "weekdays_in_window": 100,
+    "rankable_days": 100,
+    "forecast_hours_missing_share": 0.0,
+    "r1_days": 10,
+    "r2_days": 10,
+    "overlap": 6,
+    "jaccard_K10": 0.429
+   }
+  }
+ },
+ "Cockatoo": {
+  "mapped": true,
+  "ba": "NYIS",
+  "confidence": "high",
+  "source": "BDG2 Table 1: Cornell University, Ithaca NY; NYISO",
+  "years": {
+   "2016": {
+    "weekdays_in_window": 100,
+    "rankable_days": 100,
+    "forecast_hours_missing_share": 0.0,
+    "r1_days": 10,
+    "r2_days": 10,
+    "overlap": 2,
+    "jaccard_K10": 0.111
+   },
+   "2017": {
+    "weekdays_in_window": 100,
+    "rankable_days": 100,
+    "forecast_hours_missing_share": 0.0,
+    "r1_days": 10,
+    "r2_days": 10,
+    "overlap": 3,
+    "jaccard_K10": 0.176
+   }
+  }
+ },
+ "Eagle": {
+  "mapped": false,
+  "reason": "anonymous site, no lat/lng (US/Eastern, climate 4A): grid area unknown"
+ },
+ "Fox": {
+  "mapped": true,
+  "ba": "SRP",
+  "confidence": "medium",
+  "source": "metadata lat/lng 33.42,-111.93 = Tempe AZ (ASU); Tempe is served by SRP and APS, SRP chosen; AZPS is the alternative",
+  "years": {
+   "2016": {
+    "weekdays_in_window": 100,
+    "rankable_days": 100,
+    "forecast_hours_missing_share": 0.0,
+    "r1_days": 10,
+    "r2_days": 10,
+    "overlap": 6,
+    "jaccard_K10": 0.429
+   },
+   "2017": {
+    "weekdays_in_window": 100,
+    "rankable_days": 99,
+    "forecast_hours_missing_share": 0.01,
+    "r1_days": 10,
+    "r2_days": 10,
+    "overlap": 7,
+    "jaccard_K10": 0.538
+   }
+  }
+ },
+ "Gator": {
+  "mapped": false,
+  "reason": "anonymous site, no lat/lng (US/Eastern, climate 2A): grid area unknown"
+ },
+ "Hog": {
+  "mapped": true,
+  "ba": "MISO",
+  "confidence": "medium",
+  "source": "BDG2 site anonymous; metadata lat/lng 44.98,-93.26 = Minneapolis MN; MISO (Xcel NSP)",
+  "years": {
+   "2016": {
+    "weekdays_in_window": 100,
+    "rankable_days": 100,
+    "forecast_hours_missing_share": 0.0,
+    "r1_days": 10,
+    "r2_days": 10,
+    "overlap": 5,
+    "jaccard_K10": 0.333
+   },
+   "2017": {
+    "weekdays_in_window": 100,
+    "rankable_days": 100,
+    "forecast_hours_missing_share": 0.0,
+    "r1_days": 10,
+    "r2_days": 10,
+    "overlap": 3,
+    "jaccard_K10": 0.176
+   }
+  }
+ },
+ "Lamb": {
+  "mapped": false,
+  "reason": "Cardiff UK: GB national day-ahead forecast for 2016-17 not obtained (see DATA_EIA930.md)"
+ },
+ "Moose": {
+  "mapped": false,
+  "reason": "Ottawa, Canada (IESO): not in EIA-930, IESO source not obtained"
+ },
+ "Peacock": {
+  "mapped": true,
+  "ba": "PJM",
+  "confidence": "high",
+  "source": "BDG2 Table 1: Princeton University, NJ; PJM",
+  "years": {
+   "2016": {
+    "weekdays_in_window": 100,
+    "rankable_days": 100,
+    "forecast_hours_missing_share": 0.0,
+    "r1_days": 10,
+    "r2_days": 10,
+    "overlap": 5,
+    "jaccard_K10": 0.333
+   },
+   "2017": {
+    "weekdays_in_window": 100,
+    "rankable_days": 100,
+    "forecast_hours_missing_share": 0.0,
+    "r1_days": 10,
+    "r2_days": 10,
+    "overlap": 7,
+    "jaccard_K10": 0.538
+   }
+  }
+ },
+ "Rat": {
+  "mapped": true,
+  "ba": "PJM",
+  "confidence": "high",
+  "source": "metadata lat/lng 38.90,-77.01 = Washington DC (Pepco); PJM",
+  "years": {
+   "2016": {
+    "weekdays_in_window": 100,
+    "rankable_days": 100,
+    "forecast_hours_missing_share": 0.0,
+    "r1_days": 10,
+    "r2_days": 10,
+    "overlap": 6,
+    "jaccard_K10": 0.429
+   },
+   "2017": {
+    "weekdays_in_window": 100,
+    "rankable_days": 100,
+    "forecast_hours_missing_share": 0.0,
+    "r1_days": 10,
+    "r2_days": 10,
+    "overlap": 8,
+    "jaccard_K10": 0.667
+   }
+  }
+ },
+ "Robin": {
+  "mapped": false,
+  "reason": "London UK (UCL): as Lamb"
+ },
+ "Wolf": {
+  "mapped": false,
+  "reason": "UCD Dublin, Ireland: EirGrid day-ahead forecast for 2016-17 not obtained"
+ }
+}

@@ -1,0 +1,13 @@
+key,value,ci_low,ci_high,p_raw,p_holm,n_sites,n_buildings,n_events,source_file,status,family_id,hypothesis_id,estimand_version,data_year,freeze_hash,support_rule
+method.mlpD.R1.relMAE_median,0.06384039783150403,,,,,,1005.0,9544.0,src/secondary/hpo.py,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.mlpD.R1.bias_median,0.0007254557255336666,,,,,,1005.0,9544.0,src/secondary/hpo.py,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.mlpD.R1.support_share,0.9993717277486912,,,,,,1005.0,9544.0,src/secondary/hpo.py,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.mlpD.R1.relMAE_seed_sd,0.0015605975954033763,,,,,,,,src/secondary/hpo.py,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.mlpD.R1.n_seeds,5.0,,,,,,,,src/secondary/hpo.py,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.mlpD.R3.relMAE_median,0.06903812849228293,,,,,,1005.0,48098.0,src/secondary/hpo.py,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.mlpD.R3.bias_median,0.0020303747231902956,,,,,,1005.0,48098.0,src/secondary/hpo.py,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.mlpD.R3.support_share,0.9995843551269795,,,,,,1005.0,48098.0,src/secondary/hpo.py,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.mlpD.R3.relMAE_seed_sd,0.0005934301107916871,,,,,,,,src/secondary/hpo.py,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+method.mlpD.R3.n_seeds,5.0,,,,,,,,src/secondary/hpo.py,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+compute.eval.mlpD.time_s,1403.7,,,,,,,,src/secondary/hpo.py,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+compute.eval.mlpD.peak_rss_gb,1.285,,,,,,,,src/secondary/hpo.py,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none

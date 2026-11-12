@@ -1,0 +1,220 @@
+% 09_appendix.tmpl.tex: Appendix A (nomenclature) and Appendix B (algorithms, equations, Table B.1). SPEC s4, s5, s11.
+% Requires in the preamble: amsmath, amssymb, booktabs, array, longtable, algorithm2e [ruled,vlined,linesnumbered].
+% Labels used by Section 4: alg:B1, alg:B2, alg:B3, eq:B2 to eq:B10, eq:B12, eq:B13. The full methods table moved to the supplement (tabS:methodsfull, REVISION_1).
+
+\appendix
+
+\needspace{14\baselineskip}% layout: keep the heading, the intro and the first rows of the nomenclature table together
+\section{Nomenclature}\label{app:nomenclature}
+
+The list below gives every symbol used in the body and in Appendix~B. Each symbol has one meaning, with one exception: $p$ alone is the injected pre-event increase, whereas $p$ with a test subscript ($p_{\mathrm{lower}}$, $p_{\mathrm{sign}}$, $p_{\mathrm{TOST}}$) or the word p-value denotes a p-value. Subscripts $b$, $d$, $h$ and $s$ index buildings, days, clock hours and sites. The superscript $m$ names a baseline method.
+
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.33\textwidth}>{\raggedright\arraybackslash}p{0.62\textwidth}@{}}
+\toprule
+Symbol & Meaning \\
+\midrule
+\endfirsthead
+\toprule
+Symbol & Meaning \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+$s\in\mathcal{S}$, $S$ & analyzed site; number of sites ({{sample.n_sites|int}}) \\
+$b$, $\mathcal{B}_s$ & target building; buildings of site $s$ \\
+$j$, $\mathcal{J}_{b,d}$, $J$ & donor; donor pool (opposite fold, complete on $d$); its size \\
+$d$, $d'$ & event (scored) day; lookback or pre-period day \\
+$h$; $\mathcal{W}=\{h_0,\dots,h_1-1\}$ & clock hour; event window \\
+$\mathcal{A}^m$; $\mathcal{H}$ & adjustment hours of method $m$; shaped hours (four-hour set $\{h_0-4,\dots,h_0-1\}$, two-hour set $\{h_0-2,h_0-1\}$) \\
+$L_{b,d,h}$, $L_{b,d}$; $Y_{b,d,h}$ & true (uninjected) load in kWh and its window total; observed load after injection \\
+$\hat{L}^m_{b,d,h}$, $B^m_{b,d}$, $\mathcal{C}^m_{b,d}$ & baseline profile; baseline window energy; selected lookback days \\
+$e^m_{b,d}$, $\varepsilon^m_{b,d}$, $\mathcal{E}^m_b$ & settlement error; relative error; supported event days \\
+$c$, $p$, $\gamma$, $q$ & curtailment fraction; pre-event increase; rebound; donor contamination share \\
+$\pi^m_{b,d}$ & payment error ratio (PER) \\
+$\kappa_{b,d}$ & mean adjustment-hour load over mean window-hour load \\
+$E^m_s(p)$, $\bar{E}^m(p)$ & site-median and building-pooled median relMAE under increase $p$ \\
+$p^{\times}_s$, $p^{\star}_m$, $\Delta(p)$ & site break-even pre-event increase; 10\,\%-error threshold; incremental sensitivity \\
+$K$, $\mathcal{K}$, $\mathcal{D}_{\mathrm{sc}}$ & dispatched days; grid; scored days \\
+$\hat{C}^m_{b,d}$, $\rho^m_b(K)$ & estimated curtailment; curtailment estimation ratio \\
+$a^m_s(K)$, $\eta^m_s$, $\eta^{\pm,m}_s$ & site absolute estimation error; its slope per dispatch; signed slope \\
+$\mu_i$, $\mathcal{P}_{b,d}$, $n_{\mathrm{pre}}$ & pre-period mean; pre-period hours; pre-period weekdays \\
+$\mathbf{w}$, $\lambda$ & SCM weights; ridge penalty \\
+$\vartheta_{d,h}$; $\psi_i$ & hourly temperature; TOWT temperature-bin component \\
+$x_s$, $n$, $R_s$, $T^{+}$ & site value; nonzero site values; average rank; signed-rank statistic \\*
+$\hat\theta$, $A_{kl}$ & Hodges-Lehmann estimate; Walsh averages \\*
+$\delta$; $\bar{p}$ & equivalence margin; H4 threshold (top of the assumed realistic band) \\*
+$m_H$, $\alpha$; $v_s$ & Holm family size, family-wise error rate; Webb weight \\
+\end{longtable}
+
+\section{Algorithms and supporting equations}\label{app:details}
+
+\setcounter{equation}{0}
+\renewcommand{\theequation}{B.\arabic{equation}}
+\setcounter{algocf}{0}
+\renewcommand{\thealgocf}{B.\arabic{algocf}}
+
+This appendix gives three supporting algorithms (Algorithms~\ref{alg:B1} to~\ref{alg:B3}) and the equations that Section~\ref{sec:methods} cites by number. The full table of baseline methods with their sources is Supplement Table~\ref{tabS:methodsfull}.
+
+\subsection{Algorithms}\label{app:algorithms}
+
+Algorithm~\ref{alg:B1} builds the analysis sample from the raw meter files. Algorithm~\ref{alg:B2} produces the donor baselines used by CG-adj and SCM-ridge. Algorithm~\ref{alg:B3} turns building values into the site-level inference of Section~\ref{sec:methods:inference}.
+
+\begin{algorithm}[t]
+\caption{BuildSample: analysis sample, event dates and folds for one year}\label{alg:B1}
+\SetKwFunction{FBuild}{BuildSample}
+\SetKwProg{Fn}{Function}{:}{end}
+\KwIn{year, site list, frozen weather and holiday tables}
+\KwData{raw hourly electricity readings and hourly air temperature of the Building Data Genome Project 2; frozen manifest}
+\KwOut{eligible buildings, exclusion counts by site and reason, event dates (R1, R3), fold labels}
+\Fn{\FBuild{year}}{
+  map timestamps to local clock hours with the daylight-saving mapping and drop duplicate timestamps\;
+  \lForEach{meter}{apply E1: keep the meter only if it has at least 300 valid days in each year}
+  collapse duplicate meters whose correlation exceeds 0.999 and count the dropped ones\;
+  mark a day as flat if four or more consecutive readings between 10:00 and 20:00 are identical (E2)\;
+  \lForEach{meter}{apply E3: exclude the meter as target and donor if more than 20 percent of its warm-season weekdays are flat}
+  \lForEach{site}{apply E4: drop the site if fewer than 12 meters remain}
+  \ForEach{site}{
+    read the frozen R1 and R3 event dates (E8 weather rule, temperature rounded to 0.1\,\textdegree C)\;
+    \lForEach{building-event}{apply E5: keep it only if the event day is complete and not flat, $L>0$, and the method's lookback forms}
+  }
+  read the frozen fold labels computed before the flat-meter filter\;
+  \Return{sample, exclusion counts, event dates, folds}\;
+}
+\end{algorithm}
+
+\begin{algorithm}[t]
+\caption{DonorBaseline: CG-adj and SCM-ridge for one building-event}\label{alg:B2}
+\SetKwFunction{FDonor}{DonorBaseline}
+\SetKwProg{Fn}{Function}{:}{end}
+\KwIn{building $b$, event day $d$, folds, ridge penalty $\lambda$, pre-period length $n_{\mathrm{pre}}$}
+\KwData{load $Y$ of all buildings of the site; the target's PJM-adj baseline $B^{\mathrm{pjmA}}_{b,d}$; no random seeds}
+\KwOut{$B^{\mathrm{cgA}}_{b,d}$, $B^{\mathrm{scmR}}_{b,d}$, or missing}
+\Fn{\FDonor{$b,d$}}{
+  $\mathcal{J}_{b,d}\leftarrow$ buildings of the same site in the opposite fold that are complete on $d$ and never participants\;
+  \lIf{$\lvert\mathcal{J}_{b,d}\rvert<5$}{\Return{missing}}
+  $B^{\mathrm{cgA}}_{b,d}\leftarrow$ Eq.~\eqref{eq:cga}, the PJM-adj baseline times the donors' ratio of actual to PJM-adj window load\;
+  build the pre-period $\mathcal{P}_{b,d}$ and normalize each series by its pre-period mean $\mu_i$ as in Eq.~\eqref{eq:scmw}\;
+  $\hat{\mathbf{w}}\leftarrow$ closed form of Eq.~\eqref{eq:B5} for SCM-ridge; the non-negative variant of Eq.~\eqref{eq:B6} for SCM-classic\;
+  $B^{\mathrm{scmR}}_{b,d}\leftarrow$ Eq.~\eqref{eq:scmb}\;
+  \Return{$B^{\mathrm{cgA}}_{b,d}$, $B^{\mathrm{scmR}}_{b,d}$}\;
+}
+\end{algorithm}
+
+\begin{algorithm}[t]
+\caption{SiteInference: exact tests, intervals and sensitivity analyses for one hypothesis}\label{alg:B3}
+\SetKwFunction{FSite}{SiteInference}
+\SetKwProg{Fn}{Function}{:}{end}
+\KwIn{site values $x_s$ for $s\in\mathcal{S}$, null value, equivalence margin $\delta$ (H3 only), Holm family size $m_H$}
+\KwData{building values from Eqs.~\eqref{eq:h1} to~\eqref{eq:h23}; seeds: wild bootstrap 2017}
+\KwOut{estimate $\hat\theta$, interval, raw and Holm-adjusted $p$, leave-one-site-out range}
+\Fn{\FSite{$x$}}{
+  drop values with $\lvert x_s\rvert<10^{-12}$ and count them; give tied magnitudes average ranks\;
+  $T^{+}$ and the exact one-sided $p$ from the sign-flip enumeration, Eq.~\eqref{eq:sr}; for H3 the two one-sided tests of Eq.~\eqref{eq:tost}\;
+  $\hat\theta$ and its exact interval from the Walsh averages, Eq.~\eqref{eq:hl}; for H4 the sign test and the order-statistic interval of the median, Eq.~\eqref{eq:sign}\;
+  Holm step-down adjustment over the family, Eq.~\eqref{eq:holm}\;
+  wild cluster bootstrap of the site mean, Eq.~\eqref{eq:B12}, and leave-one-site-out range, Eq.~\eqref{eq:B13}\;
+  \Return{$\hat\theta$, interval, $p$, adjusted $p$, range; the decision uses the Holm-adjusted $p$ only}\;
+}
+\end{algorithm}
+
+\subsection{Supporting equations}\label{app:equations}
+
+\subsubsection*{Error metrics}
+The root mean squared relative error and the normalized mean bias error with the sign convention of the M\&V literature are
+\begin{equation}\label{eq:B1}
+\mathrm{RMSE}^{m}_{b}=\Bigl(\lvert\mathcal{E}^{m}_{b}\rvert^{-1}\sum_{d\in\mathcal{E}^{m}_{b}}\bigl(\varepsilon^{m}_{b,d}\bigr)^{2}\Bigr)^{1/2}
+\end{equation}
+\begin{equation}\label{eq:B2}
+\mathrm{NMBE}^{m}_{b}=\frac{\sum_{d\in\mathcal{E}^{m}_{b}}\bigl(L_{b,d}-B^{m}_{b,d}\bigr)}{\sum_{d\in\mathcal{E}^{m}_{b}}L_{b,d}}
+\end{equation}
+Equation~\eqref{eq:B2} is positive for under-prediction, which is the opposite of the signed error in Eq.~\eqref{eq:err}.
+
+\subsubsection*{Rule selection}
+The PJM selection keeps the four highest window-load days among the five most recent eligible weekdays within 45 days, after removing near-zero days:
+\begin{equation}\label{eq:B3}
+\mathcal{C}^{\mathrm{pjm}}_{b,d}=\operatorname{top}_{4}\Bigl\{d'\in\mathcal{V}_{b,d}:\ \bar{Y}_{b,d'}\ge \tfrac{1}{4}\,\overline{\bar{Y}}_{\mathcal{V}}\Bigr\}
+\end{equation}
+Here $\mathcal{V}_{b,d}$ is the set of the five most recent eligible weekdays within 45 days, $\bar{Y}_{b,d'}$ is the mean window-hour load of day $d'$, and $\overline{\bar{Y}}_{\mathcal{V}}$ is its mean over $\mathcal{V}_{b,d}$. If fewer than four days qualify, the highest-window-load event days are added and the fallback flag is set. The ISO-NE adjustment is additive with a floor at zero over the hours $\mathcal{A}^{\mathrm{isone}}=\{h_0-3,h_0-2\}$:
+\begin{equation}\label{eq:B4}
+B^{\mathrm{isoneA}}_{b,d}=\max\Bigl\{0,\ B^{\mathrm{isone0}}_{b,d}+\lvert\mathcal{W}\rvert\,\frac{1}{\lvert\mathcal{A}^{\mathrm{isone}}\rvert}\sum_{h\in\mathcal{A}^{\mathrm{isone}}}\bigl(Y_{b,d,h}-\hat{L}^{\mathrm{isone}}_{b,d,h}\bigr)\Bigr\}
+\end{equation}
+
+\subsubsection*{Synthetic control}
+With $\mathbf{M}=\tilde{\mathbf{X}}^{\top}\tilde{\mathbf{X}}+\lambda\mathbf{I}_{J}$, the equality-constrained ridge problem of Eq.~\eqref{eq:scmw} has the closed form
+\begin{equation}\label{eq:B5}
+\mathbf{a}=\mathbf{M}^{-1}\tilde{\mathbf{X}}^{\top}\tilde{\mathbf{y}},\qquad \mathbf{g}=\mathbf{M}^{-1}\mathbf{1},\qquad \hat{\mathbf{w}}=\mathbf{a}-\mathbf{g}\,\frac{\mathbf{1}^{\top}\mathbf{a}-1}{\mathbf{1}^{\top}\mathbf{g}}
+\end{equation}
+SCM-classic restricts the weights to be non-negative and enforces the sum-to-one constraint through a heavily weighted penalty row:
+\begin{equation}\label{eq:B6}
+\hat{\mathbf{w}}=\arg\min_{\mathbf{w}\ge\mathbf{0}}\Bigl\lVert\begin{bmatrix}\tilde{\mathbf{X}}\\ M_{\mathrm{pen}}\mathbf{1}^{\top}\end{bmatrix}\mathbf{w}-\begin{bmatrix}\tilde{\mathbf{y}}\\ M_{\mathrm{pen}}\end{bmatrix}\Bigr\rVert_{2}^{2}
+\end{equation}
+where $M_{\mathrm{pen}}$ is the penalty weight. The pre-period for SCM-classic is shorter than for SCM-ridge (Supplement Table~\ref{tabS:methodsfull}).
+
+\needspace{8\baselineskip}% keep the TOWT sentence with Eq. (B.7) (REVISION_1)
+\subsubsection*{Model-based baselines}
+The time-of-week-and-temperature baseline (TOWT) predicts each hour from an intercept for the time-of-week bin $\omega(d,h)$ and a piecewise-linear temperature response whose slopes depend on the occupancy state $o(\omega)$:
+\begin{equation}\label{eq:B7}
+\hat{L}^{\mathrm{towt}}_{b,d,h}=\alpha_{\omega(d,h)}+\sum_{i=1}^{6}\beta^{o(\omega)}_{i}\,\psi_{i}\bigl(\vartheta_{d,h}\bigr)
+\end{equation}
+The learned adjustment fits a gradient-boosted model to the ratio of true to unadjusted window energy, $z_{b,d}=L_{b,d}/B^{\mathrm{dm0}}_{b,d}$, with an absolute-error loss on features $\mathbf{u}$:
+\begin{equation}\label{eq:B8}
+\hat f=\arg\min_{f}\sum_{(b,d)}\bigl\lvert z_{b,d}-f(\mathbf{u}_{b,d})\bigr\rvert,\qquad B^{\mathrm{lgb}}_{b,d}=B^{\mathrm{dm0}}_{b,d}\,\hat f(\mathbf{u}_{b,d})
+\end{equation}
+
+\subsubsection*{Stress tests}
+The incremental sensitivity of PJM-adj relative to SCM-ridge to a pre-event increase $p$ is the difference of the two error changes from the uninjected case:
+\begin{equation}\label{eq:B9}
+\Delta(p)=\bigl[\bar{E}^{\mathrm{pjmA}}(p)-\bar{E}^{\mathrm{pjmA}}(0)\bigr]-\bigl[\bar{E}^{\mathrm{scmR}}(p)-\bar{E}^{\mathrm{scmR}}(0)\bigr]
+\end{equation}
+The signed slope $\eta^{\pm,m}_{s}$ is minus the least-squares slope of the site-median ratio $\bar{\rho}^{m}_{s}(K)=\operatorname{med}_{b}\rho^{m}_{b}(K)$ on $K$, so a positive value means that estimated curtailment falls as dispatch repeats:
+\begin{equation}\label{eq:B10}
+\eta^{\pm,m}_{s}=-\frac{\sum_{K\in\mathcal{K}}(K-\bar{K})\bigl(\bar{\rho}^{m}_{s}(K)-\bar{\bar{\rho}}^{m}_{s}\bigr)}{\sum_{K\in\mathcal{K}}(K-\bar{K})^{2}}
+\end{equation}
+where $\bar{\bar{\rho}}^{m}_{s}$ is the mean of $\bar{\rho}^{m}_{s}(K)$ over $\mathcal{K}$. The number of dispatches after which estimated curtailment has fallen by $\tau$ is
+\begin{equation}\label{eq:B11}
+D^{m}_{\tau,s}=\min\bigl\{K\in[K_{0},K_{\max}]:\ \bar{\rho}^{m}_{s}(K)\le\bar{\rho}^{m}_{s}(K_{0})-\tau\bigr\}
+\end{equation}
+with linear interpolation between grid points. The value is censored if no such $K$ exists.
+
+\subsubsection*{Site-level tests}
+The site values of H1 to H3 are site medians of building contrasts, where $Q_b$ is the number of random-weekday draws R3$_q$ of building $b$:
+\begin{equation}\label{eq:h1}
+x^{\mathrm{H1}}_{s}=\operatorname{med}_{b\in\mathcal{B}_{s}}\Bigl[\mathrm{bias}^{\mathrm{pjm0}}_{b}(\mathrm{R1})-\frac{1}{Q_{b}}\sum_{q=1}^{Q_{b}}\mathrm{bias}^{\mathrm{pjm0}}_{b}(\mathrm{R3}_{q})\Bigr]
+\end{equation}
+\begin{equation}\label{eq:h23}
+x^{\mathrm{H2}}_{s}=\operatorname{med}_{b\in\mathcal{B}_{s}}\log\frac{\mathrm{relMAE}^{\mathrm{pjmA}}_{b}}{\mathrm{relMAE}^{\mathrm{pjm0}}_{b}},\qquad x^{\mathrm{H3}}_{s}=\operatorname{med}_{b\in\mathcal{B}_{s}}\log\frac{\mathrm{relMAE}^{\mathrm{cgA}}_{b}}{\mathrm{relMAE}^{\mathrm{pjmA}}_{b}}
+\end{equation}
+The exact signed-rank statistic and its lower-tail p-value over all sign patterns $\boldsymbol{\sigma}$ are
+\begin{equation}\label{eq:sr}
+T^{+}=\sum_{s:\,x_{s}>0}R_{s},\qquad p_{\mathrm{lower}}=2^{-n}\bigl\lvert\{\boldsymbol{\sigma}\in\{-1,1\}^{n}:T^{+}(\boldsymbol{\sigma})\le T^{+}_{\mathrm{obs}}\}\bigr\rvert\ \ge 2^{-n}
+\end{equation}
+The Hodges-Lehmann estimate is the median of the Walsh averages, and its interval inverts the exact test:
+\begin{equation}\label{eq:hl}
+A_{kl}=\tfrac{1}{2}(x_{k}+x_{l})\ (k\le l),\qquad \hat{\theta}=\operatorname{med}_{k\le l}A_{kl},\qquad \bigl[A_{(k_{\alpha})},\,A_{(N_{A}-k_{\alpha}+1)}\bigr],\quad N_{A}=\tfrac{n(n+1)}{2}
+\end{equation}
+The H4 sign test counts the sites $n_{<}$ whose break-even pre-event increase lies below $\bar{p}$, and the order-statistic interval covers the median site value:
+\begin{equation}\label{eq:sign}
+\begin{gathered}
+p_{\mathrm{sign}}=\sum_{i=n_{<}}^{n}\binom{n}{i}2^{-n},\qquad n_{<}=\lvert\{s:p^{\times}_{s}<\bar{p}\}\rvert,\\
+\bigl[x_{(l)},x_{(u)}\bigr]\ \text{with}\ \Pr\{l\le U<u\}\ge 1-\alpha,\quad U\sim\mathrm{Bin}(n,\tfrac{1}{2})
+\end{gathered}
+\end{equation}
+The H3 equivalence test takes the larger of two one-sided signed-rank p-values at the shifted site values:
+\begin{equation}\label{eq:tost}
+p_{\mathrm{TOST}}=\max\{p_{\mathrm{lo}},p_{\mathrm{up}}\},\quad p_{\mathrm{lo}}=\Pr_{0}\{T^{+}\ge T^{+}_{\mathrm{obs}}\mid x_{s}+\delta\},\quad p_{\mathrm{up}}=\Pr_{0}\{T^{+}\le T^{+}_{\mathrm{obs}}\mid x_{s}-\delta\}
+\end{equation}
+The Holm step-down adjustment over the $m_H=5$ ordered p-values is
+\begin{equation}\label{eq:holm}
+\tilde{p}_{(i)}=\max_{k\le i}\min\bigl\{1,(m_{H}-k+1)\,p_{(k)}\bigr\}
+\end{equation}
+
+\subsubsection*{Inference sensitivity analyses}
+The wild cluster bootstrap resamples whole sites with Webb six-point weights $v_s\in\{\pm\sqrt{3/2},\pm1,\pm\sqrt{1/2}\}$, each with probability $1/6$, under the null value $\theta_0$:
+\begin{equation}\label{eq:B12}
+\bar{x}^{*}_{s}=\theta_{0}+v_{s}\bigl(\bar{x}_{s}-\theta_{0}\bigr),\qquad t=\frac{\hat\beta_{0}-\theta_{0}}{\widehat{\mathrm{se}}},\quad \hat\beta_{0}=\frac{1}{S}\sum_{s}\bar{x}_{s},\quad \widehat{\mathrm{se}}=\frac{1}{S}\Bigl(\sum_{s}\bigl(\bar{x}_{s}-\hat\beta_{0}\bigr)^{2}\Bigr)^{1/2}
+\end{equation}
+Here $\bar{x}_{s}$ is the site mean of building values, which is a different estimand from the site median $x_s$. The leave-one-site-out analysis recomputes the Hodges-Lehmann estimate without site $s$ and reports its range:
+\begin{equation}\label{eq:B13}
+\hat\theta_{(-s)},\qquad \Bigl[\min_{s}\hat\theta_{(-s)},\ \max_{s}\hat\theta_{(-s)}\Bigr]
+\end{equation}
+The leave-one-site-out range is an influence analysis, not a replication.

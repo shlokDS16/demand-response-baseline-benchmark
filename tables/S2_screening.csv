@@ -1,0 +1,14 @@
+Quantity,Value,Interval,Ledger key
+Training buildings (2016),1088,,screen.tree.n_train
+Training accuracy,0.46,,screen.tree.train_accuracy
+"Training best-method share, PJM-adj",0.42,,screen.train.class_share.pjmA
+"Training best-method share, CG-adj",0.30,,screen.train.class_share.cgA
+"Training best-method share, SCM-ridge",0.28,,screen.train.class_share.scmR
+"Test assignment share, PJM-adj",0.976,,screen.test.assigned_share.pjmA
+"Test assignment share, CG-adj",0.000,,screen.test.assigned_share.cgA
+"Test assignment share, SCM-ridge",0.024,,screen.test.assigned_share.scmR
+Test buildings (2017),1001,,screen.test.n_buildings
+Site-median log ratio vs PJM-adj (median over sites),0.000,,screen.test.logratio_site_median_of_medians
+Hodges-Lehmann log ratio vs PJM-adj,0.000,"[-0.008, 0.000]",screen.test.logratio_vs_pjmA
+Sites where the tree is better,1,,screen.test.n_sites_better
+"Pooled relMAE ratio, tree choice over PJM-adj",1.002,,screen.test.pooled_relMAE_chosen_over_pjmA

@@ -1,0 +1,91 @@
+{\footnotesize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.0}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.34\textwidth}>{\raggedright\arraybackslash}p{0.17\textwidth}>{\raggedright\arraybackslash}p{0.21\textwidth}>{\raggedright\arraybackslash}p{0.24\textwidth}@{}}
+\caption{Analysis inventory: every analysis unit with its status, where it is reported and its ledger key prefix.}\label{tabS:inventory}\\
+\toprule
+Analysis & Status & Where reported & Key prefix \\
+\midrule
+\endfirsthead
+\toprule
+Analysis & Status & Where reported & Key prefix \\
+\midrule
+\endhead
+\midrule \multicolumn{4}{r}{\emph{continued on the next page}} \\ \endfoot
+\bottomrule \endlastfoot
+H1 hot-day minus random-weekday bias of unadjusted PJM & confirmatory & Main, Results, confirmatory table & \texttt{H1.\allowbreak {*}} \\
+H2 PJM-adj against PJM, log relMAE ratio & confirmatory & Main, Results, confirmatory table & \texttt{H2.\allowbreak {*}} \\
+H3 CG-adj against PJM-adj, equivalence (TOST, 10 \% margin) & confirmatory & Main, Results, confirmatory table & \texttt{H3.\allowbreak {*}} \\
+H4 break-even pre-event increase p-cross, 4 h shape & confirmatory & Main, Results, H4 section, figure & \texttt{H4.\allowbreak median\_site\_pcross,\allowbreak  H4.\allowbreak p\_{*}} \\
+H5 absolute-error slope difference, 14:00 to 18:00 & confirmatory & Main, Results, H5 section, figure & \texttt{H5.\allowbreak eta\_diff,\allowbreak  H5.\allowbreak p\_{*}} \\
+Holm adjustment over H1 to H5 & confirmatory & Main, Results, confirmatory table & \texttt{family.\allowbreak holm\_members,\allowbreak  {*}.\allowbreak p\_holm} \\
+Leave-one-site-out ranges, five tests & secondary (pre-specified) & Suppl., sensitivity figure & \texttt{H{*}.\allowbreak loso\_{*}} \\
+Site-level wild cluster bootstrap, five tests & secondary (pre-specified) & Suppl., sensitivity figure & \texttt{H{*}.\allowbreak p\_wcb} \\
+Conditional two-stage bootstrap intervals & secondary (pre-specified) & Main, Results, confirmatory table & \texttt{H{*}.\allowbreak ci\_boot\_conditional} \\
+Site-level values and robustness flags, five tests & secondary (pre-specified) & Suppl., H1, H2 site figures & \texttt{H{*}.\allowbreak site.\allowbreak {*},\allowbreak  H{*}.\allowbreak site\_robust} \\
+Break-even level p{*} per method (settlement error equals a 10 \% curtailment) & secondary (pre-specified) & Main, Results, H4 section, figure & \texttt{pstar.\allowbreak {*}} \\
+Pooled break-even per method, building-pooled & secondary (pre-specified) & Main, Results, H4 section & \texttt{pcross.\allowbreak {*},\allowbreak  H4.\allowbreak pcross.\allowbreak {*}} \\
+Incremental sensitivity at p = 0.10 & secondary (pre-specified) & Main, Results, H4 section & \texttt{H4.\allowbreak sens\_increment\_p10,\allowbreak  incr\_sens.\allowbreak {*}} \\
+Per-method absolute-error slope, building-pooled & secondary (pre-specified) & Main, Results, H5 section & \texttt{H5.\allowbreak eta\_abs\_pooled.\allowbreak {*},\allowbreak  H5.\allowbreak eta.\allowbreak {*}} \\
+Per-method absolute-error slope, median of site slopes (D19 label fix) & secondary (pre-specified) & Main, Results, H5 section & \texttt{H5.\allowbreak eta\_abs.\allowbreak median\_of\_site\_slopes.\allowbreak {*}} \\
+Signed rho curves by K and signed-slope contrast & secondary (pre-specified) & Main, Results, H5 section, figure & \texttt{H5.\allowbreak rho.\allowbreak {*},\allowbreak  H5.\allowbreak eta\_signed\_pooled.\allowbreak {*},\allowbreak  H5s.\allowbreak eta\_signed\_diff.\allowbreak {*}} \\
+Site-median absolute deviation level by K (matches the H5 figure) & descriptive & Main, Results, H5 section & \texttt{derived.\allowbreak H5.\allowbreak absdev\_sitemedian.\allowbreak {*}} \\
+Fallback rates by K & secondary (pre-specified) & Suppl., fallback table & \texttt{H5.\allowbreak fallback.\allowbreak {*}} \\
+Age of information read by each rule by K & secondary (pre-specified) & Suppl., age figure & \texttt{H5.\allowbreak age\_days.\allowbreak {*}} \\
+D\_tau: first K at which rho falls 0.10 below its K = 10 value & secondary (pre-specified) & Suppl., inventory section & \texttt{H5.\allowbreak Dtau.\allowbreak {*}} \\
+H5 two-point slope (K = 10 and K = 40) & secondary (pre-specified) & Suppl., inventory section & \texttt{H5.\allowbreak eta\_2pt.\allowbreak {*}} \\
+Method accuracy and bias, hot days (R1) and random weekdays (R3), all baselines & descriptive & Main, Results, accuracy table, figure & \texttt{method.\allowbreak \textless{}m\textgreater{}.\allowbreak R1.\allowbreak {*},\allowbreak  method.\allowbreak \textless{}m\textgreater{}.\allowbreak R3.\allowbreak {*}} \\
+Previous-day naive baseline against unadjusted PJM on hot days & descriptive & Main, Results, accuracy table & \texttt{method.\allowbreak prev.\allowbreak {*}} \\
+Pre-event increase curves of relMAE and bias, all methods & descriptive & Main, Results, H4 section, figure & \texttt{precool.\allowbreak {*}} \\
+Sample, exclusions, support shares and DST table & descriptive & Suppl., data and eligibility table & \texttt{sample.\allowbreak {*}} \\
+Development-year (2016) estimates & descriptive & Suppl., development table & \texttt{{*}\_v0 (summary\_dev)} \\
+Secondary rule family (NYISO, CAISO, ISO-NE): H1 and H2 endpoints, per-rule H5 & secondary (pre-specified) & Suppl., inventory section & \texttt{H1s.\allowbreak {*},\allowbreak  H2s.\allowbreak {*},\allowbreak  H5s.\allowbreak {*}} \\
+Within-family Holm for the secondary rule family (promised in the pre-registration) & secondary (pre-specified) & Main, Results, H1 and H2; Suppl., inventory section & \texttt{H1s.\allowbreak p\_holm\_family{*},\allowbreak  H2s.\allowbreak p\_holm\_family{*}} \\
+R2-ISO event definition (7 US sites) & secondary (pre-specified) & Suppl., sensitivity figure and table & \texttt{method.\allowbreak \textless{}m\textgreater{}.\allowbreak R2ISO.\allowbreak {*}} \\
+R2-LOO event definition (leave-one-out site load) & secondary (pre-specified) & Suppl., inventory section & \texttt{method.\allowbreak \textless{}m\textgreater{}.\allowbreak R2LOO.\allowbreak {*}} \\
+16:00 to 20:00 window: accuracy and H4 & secondary (pre-specified) & Suppl., sensitivity figure and table & \texttt{method.\allowbreak \textless{}m\textgreater{}.\allowbreak w1620.\allowbreak {*},\allowbreak  exploratory.\allowbreak h4\_win1620.\allowbreak {*}} \\
+16:00 to 20:00 window: H5 slope contrast (inconclusive) & secondary (pre-specified) & Main, Results, H5 section and H5 window table & \texttt{exploratory.\allowbreak h5\_win1620.\allowbreak {*}} \\
+H5 level ordering and relative growth K = 10 to 40, both windows & descriptive & Main, Results, H5 section and H5 window table & \texttt{derived.\allowbreak H5.\allowbreak absdev\_sitemedian\_w1620.\allowbreak {*},\allowbreak  derived.\allowbreak H5.\allowbreak levels\_{*},\allowbreak  derived.\allowbreak H5.\allowbreak n\_sites\_pjmA\_lower.\allowbreak {*},\allowbreak  derived.\allowbreak H5.\allowbreak relgrowth\_{*}} \\
+Alternative DST mapping: accuracy, H2, H4, H5 & secondary (pre-specified) & Suppl., sensitivity table & \texttt{dst\_alt.\allowbreak {*},\allowbreak  exploratory.\allowbreak dst\_alt.\allowbreak {*}} \\
+Event rules on non-event E3 days: H1 to H3 and accuracy & secondary (pre-specified) & Suppl., secondary table & \texttt{nonevent.\allowbreak {*}} \\
+Flatline filter off: H1 to H3 and accuracy & secondary (pre-specified) & Suppl., secondary table & \texttt{flatoff.\allowbreak {*}} \\
+Two-hour pre-event shape & secondary (pre-specified) & Suppl., sensitivity figure & \texttt{incr\_sens.\allowbreak 2h.\allowbreak {*},\allowbreak  pstar.\allowbreak {*}.\allowbreak 2h} \\
+Rebound after the event (0 and 10 \%) & secondary (pre-specified) & Suppl., secondary table & \texttt{rebound.\allowbreak {*}} \\
+Donor contamination q in \{0, 0.25, 0.5, 1\} & secondary (pre-specified) & Main, Results, H4 section; Discussion & \texttt{contam.\allowbreak {*},\allowbreak  derived.\allowbreak contam.\allowbreak {*}} \\
+Heterogeneous increase p\_bd $\sim$ U(0, 2p) & secondary (pre-specified) & Suppl., inventory section & \texttt{hetp.\allowbreak {*}} \\
+Heat-wave subset of repeated dispatch & secondary (pre-specified) & Suppl., secondary table & \texttt{heatwave.\allowbreak {*}} \\
+Payment error ratio at c = 0.05, 0.10, 0.20 & secondary (pre-specified) & Suppl., payment table & \texttt{method.\allowbreak \textless{}m\textgreater{}.\allowbreak PER.\allowbreak {*},\allowbreak  derived.\allowbreak PER.\allowbreak {*}} \\
+Fixed-parameter LightGBM (morning and donor features) & secondary (pre-specified) & Main, Results, accuracy table & \texttt{method.\allowbreak lgbM.\allowbreak {*},\allowbreak  method.\allowbreak lgbD.\allowbreak {*}} \\
+TOWT (70, 7) and TOWT-adj & secondary (pre-specified) & Main, Results, accuracy table & \texttt{method.\allowbreak towt{*}} \\
+Classic SCM and ridge SCM (W, lambda grid on 2016) & secondary (pre-specified) & Main, Results, H4 and H5 sections & \texttt{method.\allowbreak scmC.\allowbreak {*},\allowbreak  method.\allowbreak scmR.\allowbreak {*},\allowbreak  hpo.\allowbreak scm.\allowbreak {*}} \\
+M3 and Mid8 rules & secondary (pre-specified) & Suppl., bridge and accuracy tables & \texttt{method.\allowbreak m3.\allowbreak {*},\allowbreak  method.\allowbreak mid8.\allowbreak {*}} \\
+LightGBM tuned (40 TPE trials, 2016 tuning) & secondary (pre-specified) & Main, Results, accuracy table & \texttt{hpo.\allowbreak lgbM.\allowbreak {*},\allowbreak  hpo.\allowbreak lgbD.\allowbreak {*},\allowbreak  method.\allowbreak lgb{*}\_hpo.\allowbreak {*}} \\
+MLP tuned (40 TPE trials, 2016 tuning) & secondary (pre-specified) & Main, Results, accuracy table & \texttt{hpo.\allowbreak mlpM.\allowbreak {*},\allowbreak  hpo.\allowbreak mlpD.\allowbreak {*},\allowbreak  method.\allowbreak mlp{*}.\allowbreak {*}} \\
+HPO tuning-score choice (objective on non-event 2016 months) & exploratory (post-2017 decision) & Main, Methods; Suppl., deviations & \texttt{hpo.\allowbreak \textless{}m\textgreater{}.\allowbreak choice.\allowbreak {*}} \\
+Per-method computational cost & descriptive & Suppl., cost table & \texttt{compute.\allowbreak method.\allowbreak {*}} \\
+H6 portfolio payment error, n = 1 to 20, against load-matched random portfolios & secondary (pre-specified) & Suppl., portfolio figure, secondary table & \texttt{H6.\allowbreak {*}} \\
+Screening tree (depth 2, 2016 training; the plan labels it exploratory) & secondary (pre-specified) & Suppl., screening table & \texttt{screen.\allowbreak {*}} \\
+Ablation: PJM-adj adjustment on or off & secondary (pre-specified) & Suppl., secondary table & \texttt{ablation.\allowbreak adjustment.\allowbreak {*}} \\
+Ablation: PJM adjustment cap on or off & secondary (pre-specified) & Suppl., secondary table & \texttt{ablation.\allowbreak cap.\allowbreak {*}} \\
+Ablation: adjustment hours & secondary (pre-specified) & Suppl., secondary table & \texttt{ablation.\allowbreak adjhours.\allowbreak {*}} \\
+Ablation: donor pool (same use or whole site) and donor count & secondary (pre-specified) & Suppl., secondary table & \texttt{ablation.\allowbreak donor.\allowbreak {*}} \\
+Ablation: drop the 10 \% of donors most correlated with the target & secondary (pre-specified) & Suppl., inventory section & \texttt{ablation.\allowbreak donor.\allowbreak drop\_corr10.\allowbreak {*}} \\
+X1 bridge to LBNL metrics (NMBE with Granderson sign, relative RMSE) & descriptive & Suppl., bridge table & \texttt{method.\allowbreak \textless{}m\textgreater{}.\allowbreak R1.\allowbreak nmbe\_granderson,\allowbreak  rmse\_median} \\
+X2 site-level order-statistic intervals on method medians & descriptive & Main, Results, accuracy table & \texttt{derived.\allowbreak T4.\allowbreak {*}} \\
+X3 sites inside the H3 margin at 5, 10, 15 \% & descriptive & Main, Results, H3 text & \texttt{derived.\allowbreak H3.\allowbreak {*}} \\
+X4 share of hot-day building-events over- and under-paid & descriptive & Main, Results, payment section & \texttt{derived.\allowbreak X4.\allowbreak {*}} \\
+X5 break-even as a pre-event energy increase in kWh & exploratory (post-2017 decision) & Main, Results, exploratory section & \texttt{exploratory.\allowbreak x5.\allowbreak {*}} \\
+X6 rank correlation of site break-even with site gap at p = 0 & exploratory (post-2017 decision) & Main, Results, H4 section & \texttt{exploratory.\allowbreak x6.\allowbreak {*}} \\
+X7 ridge SCM with the longer window W = 10 (H5) & exploratory (post-2017 decision) & Main, Results, exploratory section & \texttt{exploratory.\allowbreak x7.\allowbreak {*}} \\
+X8 mirror stress test with a pre-event decrease & exploratory (post-2017 decision) & Main, Results, exploratory section & \texttt{exploratory.\allowbreak neg\_p.\allowbreak {*}} \\
+X10 example building-event panel (plot only) & descriptive & Suppl., figure & \texttt{(none)} \\
+Early-shaping variants (shaping shifted earlier so that it overlaps only the first of the three adjustment hours; no-overlap variant invariant by construction) & exploratory (post-2017 decision) & Main, Results, exploratory section; Suppl., shaping-placement panel & \texttt{exploratory.\allowbreak early\_shape.\allowbreak {*}} \\
+Cross-window contrast of the H5 slope difference (14:00 to 18:00 against 16:00 to 20:00) & exploratory (post-2017 decision) & Main, H5 window table note; Suppl., inventory section & \texttt{exploratory.\allowbreak h5\_window\_contrast.\allowbreak {*}} \\
+Clopper-Pearson lower bounds for site shares & descriptive & Main, Discussion, limitations & \texttt{derived.\allowbreak H{*}.\allowbreak prev\_share\_{*}} \\
+Distribution-free prediction interval for a new site & descriptive & Main, Discussion, limitations & \texttt{derived.\allowbreak H{*}.\allowbreak pred\_int} \\
+H4 threshold tipping value & descriptive & Main, Discussion, limitations & \texttt{derived.\allowbreak H4.\allowbreak tip\_{*}} \\
+Per-site event-day table with heat-episode counts & descriptive & Main, Results, sample; Suppl., event-day table & \texttt{sample.\allowbreak event\_days{*},\allowbreak  sample.\allowbreak heat\_episodes{*}} \\
+Practitioner units: break-even as a share of shed energy, over-payment multiplier & descriptive & Main, Results, H4 section; Discussion & \texttt{derived.\allowbreak H4.\allowbreak energy\_offset\_share.\allowbreak {*},\allowbreak  derived.\allowbreak H4.\allowbreak overpay\_multiplier.\allowbreak {*}} \\
+\end{longtable}
+\par\smallskip{\footnotesize Status follows the pre-registration and the post-freeze register (Supplement Section S1). Confirmatory: the five Holm tests. Secondary (pre-specified): named in the pre-registration before any 2017 result and run on 2017 without a Holm adjustment of the confirmatory family. Exploratory (post-2017 decision): designed or chosen after the 2017 confirmatory results were seen. Descriptive: summaries of existing quantities; those chosen after the 2017 results are listed with dates in the post-freeze register (Supplement Section S1). The screening tree is called exploratory in the pre-registration only in the sense that it carries no test of its own. A key prefix with * stands for several keys; 	extless m	extgreater{} stands for a method code.\par}
+}

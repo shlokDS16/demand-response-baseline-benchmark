@@ -1,0 +1,90 @@
+R1 rows 9550 sites 11 buildings 1005
+H1 sites 11 zeros 0 support drops R1 {} R3 min events per site 819 neg sites 10
+H2 n_sites 11 zeros 0 drops {} n_b 1005 n_ev 9550 neg sites 11
+H3 p_lower 0.01611328 p_upper 0.00341797 p_tost 0.01611328; n_ev 9544 drops {}; 90pct HL [-0.0824, 0.0564] margin +-0.0953; max|site| 0.1893
+H4 sites below 0.10: 11 of 11, drops {}, n_ev 9533; site pcross {'Bear': 0.039, 'Bull': 0.0256, 'Cockatoo': 0.0507, 'Eagle': 0.0, 'Fox': 0.0448, 'Hog': 0.0503, 'Lamb': 0.0, 'Peacock': 0.0407, 'Rat': 0.0573, 'Robin': 0.0665, 'Wolf': 0.0466}
+H5 n_sites 11 zeros 0 n_common 9479 dropped []; sites negative 10; pooled-site eta pjmA 0.00125 scmR 0.00353
+H5 site abs-dev K10 / K40 pjmA median 0.2327/0.2647 scmR 0.3320/0.5088
+raw p {'H1': 0.00146484375, 'H2': 0.00048828125, 'H3': 0.01611328125, 'H4': 0.00048828125, 'H5': 0.0048828125}
+holm {'H2': 0.00244140625, 'H4': 0.00244140625, 'H1': 0.00439453125, 'H5': 0.009765625, 'H3': 0.01611328125}
+H3 decision (mine): equivalent
+H1.est(HL)               mine=-0.04846748676 ledger=-0.04846748676 diff=0.00e+00 OK
+H1.ci_low                mine=-0.09563581084 ledger=-0.09563581084 diff=4.16e-17 OK
+H1.ci_high               mine=-0.009832146284 ledger=-0.009832146284 diff=7.98e-17 OK
+H1.p                     mine= 0.00146484375 ledger= 0.00146484375 diff=0.00e+00 OK
+H1.site.Bear             mine=-0.009832146284 ledger=-0.009832146284 diff=0.00e+00 OK
+H1.site.Bull             mine=-0.003288611543 ledger=-0.003288611543 diff=0.00e+00 OK
+H1.site.Cockatoo         mine=-0.06637239702 ledger=-0.06637239702 diff=0.00e+00 OK
+H1.site.Eagle            mine=-0.007241678539 ledger=-0.007241678539 diff=0.00e+00 OK
+H1.site.Fox              mine=-0.03534807801 ledger=-0.03534807801 diff=0.00e+00 OK
+H1.site.Hog              mine=-0.07693146363 ledger=-0.07693146363 diff=0.00e+00 OK
+H1.site.Lamb             mine= 0.003469402296 ledger= 0.003469402296 diff=0.00e+00 OK
+H1.site.Peacock          mine=-0.02119797574 ledger=-0.02119797574 diff=0.00e+00 OK
+H1.site.Rat              mine=-0.1840299431 ledger=-0.1840299431 diff=0.00e+00 OK
+H1.site.Robin            mine=-0.1049605402 ledger=-0.1049605402 diff=0.00e+00 OK
+H1.site.Wolf             mine=-0.08849882914 ledger=-0.08849882914 diff=0.00e+00 OK
+H2.est                   mine=-0.397640332 ledger=-0.397640332 diff=0.00e+00 OK
+H2.ci_low                mine=-0.6252832258 ledger=-0.6252832258 diff=0.00e+00 OK
+H2.ci_high               mine=-0.2232419779 ledger=-0.2232419779 diff=5.55e-17 OK
+H2.p                     mine= 0.00048828125 ledger= 0.00048828125 diff=0.00e+00 OK
+H2.site.Bear             mine=-0.2505883306 ledger=-0.2505883306 diff=0.00e+00 OK
+H2.site.Bull             mine=-0.2602085217 ledger=-0.2602085217 diff=0.00e+00 OK
+H2.site.Cockatoo         mine=-0.2682476948 ledger=-0.2682476948 diff=0.00e+00 OK
+H2.site.Eagle            mine=-0.000757414364 ledger=-0.000757414364 diff=0.00e+00 OK
+H2.site.Fox              mine=-0.329141302 ledger=-0.329141302 diff=0.00e+00 OK
+H2.site.Hog              mine=-0.4931230445 ledger=-0.4931230445 diff=0.00e+00 OK
+H2.site.Lamb             mine=-0.4457964592 ledger=-0.4457964592 diff=0.00e+00 OK
+H2.site.Peacock          mine=-0.1173426539 ledger=-0.1173426539 diff=0.00e+00 OK
+H2.site.Rat              mine=-0.8975367755 ledger=-0.8975367755 diff=0.00e+00 OK
+H2.site.Robin            mine=-0.8047699923 ledger=-0.8047699923 diff=0.00e+00 OK
+H2.site.Wolf             mine=-0.784276507 ledger=-0.784276507 diff=0.00e+00 OK
+H3.est                   mine=-0.008857745097 ledger=-0.008857745097 diff=0.00e+00 OK
+H3.ci90_low              mine=-0.08243067062 ledger=-0.08243067062 diff=4.16e-17 OK
+H3.ci90_high             mine= 0.05641273887 ledger= 0.05641273887 diff=6.25e-17 OK
+H3.p_tost                mine= 0.01611328125 ledger= 0.01611328125 diff=0.00e+00 OK
+H3.site.Bear             mine=-0.009200905602 ledger=-0.009200905602 diff=0.00e+00 OK
+H3.site.Bull             mine=-0.008524508239 ledger=-0.008524508239 diff=0.00e+00 OK
+H3.site.Cockatoo         mine=-0.006229086718 ledger=-0.006229086718 diff=0.00e+00 OK
+H3.site.Eagle            mine=-0.02335463865 ledger=-0.02335463865 diff=0.00e+00 OK
+H3.site.Fox              mine=-0.1556604356 ledger=-0.1556604356 diff=0.00e+00 OK
+H3.site.Hog              mine= 0.1893024074 ledger= 0.1893024074 diff=0.00e+00 OK
+H3.site.Lamb             mine= 0.1220263833 ledger= 0.1220263833 diff=0.00e+00 OK
+H3.site.Peacock          mine=-0.1250232411 ledger=-0.1250232411 diff=0.00e+00 OK
+H3.site.Rat              mine= 0.005649072097 ledger= 0.005649072097 diff=0.00e+00 OK
+H3.site.Robin            mine=-0.1823294598 ledger=-0.1823294598 diff=0.00e+00 OK
+H3.site.Wolf             mine=-0.002710379304 ledger=-0.002710379304 diff=0.00e+00 OK
+H4.p_sign                mine= 0.00048828125 ledger= 0.00048828125 diff=0.00e+00 OK
+H4.median_site_pcross    mine= 0.04483937433 ledger= 0.04483937433 diff=0.00e+00 OK
+H4.pooled_pcross         mine= 0.04240679584 ledger= 0.04240679584 diff=0.00e+00 OK
+H4.site.Bear             mine= 0.03903959179 ledger= 0.03903959179 diff=0.00e+00 OK
+H4.site.Bull             mine= 0.02563484602 ledger= 0.02563484602 diff=0.00e+00 OK
+H4.site.Cockatoo         mine= 0.05066093409 ledger= 0.05066093409 diff=0.00e+00 OK
+H4.site.Eagle            mine= 0 ledger= 0 diff=0.00e+00 OK
+H4.site.Fox              mine= 0.04483937433 ledger= 0.04483937433 diff=0.00e+00 OK
+H4.site.Hog              mine= 0.05028923624 ledger= 0.05028923624 diff=0.00e+00 OK
+H4.site.Lamb             mine= 0 ledger= 0 diff=0.00e+00 OK
+H4.site.Peacock          mine= 0.04067535457 ledger= 0.04067535457 diff=0.00e+00 OK
+H4.site.Rat              mine= 0.05732870221 ledger= 0.05732870221 diff=0.00e+00 OK
+H4.site.Robin            mine= 0.06650816083 ledger= 0.06650816083 diff=0.00e+00 OK
+H4.site.Wolf             mine= 0.04659990537 ledger= 0.04659990537 diff=0.00e+00 OK
+H5.eta_diff              mine=-0.002807897773 ledger=-0.002807897773 diff=0.00e+00 OK
+H5.ci_low                mine=-0.004624976225 ledger=-0.004624976225 diff=4.94e-17 OK
+H5.ci_high               mine=-0.001022256309 ledger=-0.001022256309 diff=9.13e-17 OK
+H5.p                     mine= 0.0048828125 ledger= 0.0048828125 diff=0.00e+00 OK
+H5.site.Bear             mine=-0.006528471952 ledger=-0.006528471952 diff=0.00e+00 OK
+H5.site.Bull             mine= 0.000908205144 ledger= 0.000908205144 diff=0.00e+00 OK
+H5.site.Cockatoo         mine=-0.002952717762 ledger=-0.002952717762 diff=0.00e+00 OK
+H5.site.Eagle            mine=-0.0006425232498 ledger=-0.0006425232498 diff=0.00e+00 OK
+H5.site.Fox              mine=-0.001906276845 ledger=-0.001906276845 diff=0.00e+00 OK
+H5.site.Hog              mine=-0.004968801036 ledger=-0.004968801036 diff=0.00e+00 OK
+H5.site.Lamb             mine=-0.0005263414558 ledger=-0.0005263414558 diff=0.00e+00 OK
+H5.site.Peacock          mine=-0.004463458409 ledger=-0.004463458409 diff=0.00e+00 OK
+H5.site.Rat              mine=-0.001257114083 ledger=-0.001257114083 diff=0.00e+00 OK
+H5.site.Robin            mine=-0.004786494042 ledger=-0.004786494042 diff=0.00e+00 OK
+H5.site.Wolf             mine=-0.003757751256 ledger=-0.003757751256 diff=0.00e+00 OK
+H2.p_holm                mine= 0.00244140625 ledger= 0.00244140625 diff=0.00e+00 OK
+H4.p_holm                mine= 0.00244140625 ledger= 0.00244140625 diff=0.00e+00 OK
+H1.p_holm                mine= 0.00439453125 ledger= 0.00439453125 diff=0.00e+00 OK
+H5.p_holm                mine= 0.009765625 ledger= 0.009765625 diff=0.00e+00 OK
+H3.p_holm                mine= 0.01611328125 ledger= 0.01611328125 diff=0.00e+00 OK
+TOTAL compared 79 DIFFS 0

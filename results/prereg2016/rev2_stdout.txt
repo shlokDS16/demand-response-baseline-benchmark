@@ -1,0 +1,338 @@
+{
+ "definitions": "PREREG Revision 2",
+ "n_events_R1": 10507,
+ "n_events_R3": 53067,
+ "n_rows_erosion": 42028,
+ "H1": {
+  "site_values": {
+   "Bear": -0.0296,
+   "Bull": -0.0125,
+   "Cockatoo": -0.0318,
+   "Eagle": -0.0117,
+   "Fox": -0.0257,
+   "Hog": -0.0703,
+   "Lamb": 0.2774,
+   "Peacock": -0.0133,
+   "Rat": -0.1402,
+   "Robin": -0.0858,
+   "Wolf": -0.0213
+  },
+  "n_sites": 11,
+  "HL": -0.0262,
+  "HL_ci95": [
+   -0.0764,
+   0.0686
+  ],
+  "median_of_sites": -0.0257,
+  "signed_rank": {
+   "p": 0.02685546875,
+   "n": 11,
+   "n_zero": 0,
+   "W_plus": 11.0
+  },
+  "source_direction": "Coughlin 2009 (10.1016/j.enbuild.2008.11.002); Granderson 2021 (10.1016/j.enbuild.2021.111031)"
+ },
+ "H2": {
+  "site_values": {
+   "Bear": -0.4018,
+   "Bull": -0.1808,
+   "Cockatoo": -0.1495,
+   "Eagle": 0.0726,
+   "Fox": -0.3909,
+   "Hog": -0.4402,
+   "Lamb": -0.5003,
+   "Peacock": -0.1162,
+   "Rat": -0.8106,
+   "Robin": -0.528,
+   "Wolf": -0.6941
+  },
+  "n_sites": 11,
+  "HL": -0.3936,
+  "HL_ci95": [
+   -0.5672,
+   -0.1651
+  ],
+  "median_of_sites": -0.4018,
+  "signed_rank": {
+   "p": 0.0009765625,
+   "n": 11,
+   "n_zero": 0,
+   "W_plus": 1.0
+  }
+ },
+ "H3": {
+  "site_values": {
+   "Bear": 0.0098,
+   "Bull": -0.0027,
+   "Cockatoo": 0.0689,
+   "Eagle": -0.0004,
+   "Fox": 0.0089,
+   "Hog": 0.3149,
+   "Lamb": 0.128,
+   "Peacock": -0.0148,
+   "Rat": -0.0431,
+   "Robin": 0.0842,
+   "Wolf": 0.0256
+  },
+  "n_sites": 11,
+  "HL": 0.0345,
+  "HL_ci90": [
+   -0.0015,
+   0.0984
+  ],
+  "p_lower": 0.00048828125,
+  "p_upper": 0.05078125,
+  "p_TOST": 0.05078125,
+  "delta": 0.0953
+ },
+ "H4": {
+  "site_pcross": {
+   "Bear": 0.0513,
+   "Bull": 0.0253,
+   "Cockatoo": 0.0236,
+   "Eagle": 0.0066,
+   "Fox": 0.0302,
+   "Hog": 0.0597,
+   "Lamb": 0.0,
+   "Peacock": 0.0243,
+   "Rat": 0.0529,
+   "Robin": 0.0848,
+   "Wolf": 0.0562
+  },
+  "n_sites": 11,
+  "median_site_pcross": 0.0302,
+  "median_ci95_order_stat": [
+   0.0066,
+   0.0597
+  ],
+  "sign_test_less_0.10": {
+   "p": 0.00048828125,
+   "k": 11,
+   "n": 11,
+   "n_zero": 0
+  },
+  "signed_rank_sensitivity": {
+   "p": 0.00048828125,
+   "n": 11,
+   "n_zero": 0,
+   "W_plus": 0.0
+  },
+  "source_direction": "E4_novelty_gaming.md s1-2 (LBNL-4984E, Braithwait 2010, CPUC D.09-08-027)",
+  "threshold_0.10_source": "top of the realistic pre-cooling band, E4_novelty_gaming.md s3",
+  "pooled_pcross": 0.0415,
+  "incremental_sensitivity_pooled": {
+   "0.02": 0.0045,
+   "0.05": 0.019,
+   "0.1": 0.0596,
+   "0.2": 0.1545,
+   "0.3": 0.252
+  }
+ },
+ "pstar_pooled": {
+  "pjmA": 0.0921,
+  "scmr_W7_l3": ">0.30",
+  "caisoA": 0.1049,
+  "cgA": 0.0893,
+  "pjm0": ">0.30"
+ },
+ "H5_support_events_per_K": 10462,
+ "H5": {
+  "site_values": {
+   "Bear": 0.006,
+   "Bull": 0.0016,
+   "Cockatoo": 0.0023,
+   "Eagle": 0.0007,
+   "Fox": 0.0013,
+   "Hog": 0.0053,
+   "Lamb": -0.0046,
+   "Peacock": -0.0001,
+   "Rat": 0.002,
+   "Robin": 0.0076,
+   "Wolf": 0.0028
+  },
+  "n_sites": 11,
+  "HL": 0.0021,
+  "HL_ci95": [
+   0.0004,
+   0.0044
+  ],
+  "median_of_sites": 0.002,
+  "signed_rank": {
+   "p": 0.01611328125,
+   "n": 11,
+   "n_zero": 0,
+   "W_plus": 57.0
+  },
+  "source_direction": "Nexant CAISO BAWG 2017 s1.3; NAESB 2009 (E4_novelty_gaming.md s5)",
+  "eta_pooled": {
+   "pjmA": 0.00153,
+   "scmr_W7_l3": -0.00064,
+   "caisoA": 0.00226,
+   "pjm0": 0.00466,
+   "cgA": 0.00099
+  },
+  "rho_pooled_by_K": {
+   "pjmA": [
+    0.983,
+    0.9638,
+    0.9559,
+    0.9344
+   ],
+   "scmr_W7_l3": [
+    1.0825,
+    1.0815,
+    1.0965,
+    1.0989
+   ],
+   "caisoA": [
+    0.9423,
+    0.9253,
+    0.9074,
+    0.8729
+   ],
+   "pjm0": [
+    0.9012,
+    0.8557,
+    0.8203,
+    0.7576
+   ],
+   "cgA": [
+    0.9903,
+    0.9907,
+    0.9883,
+    0.9582
+   ]
+  },
+  "Dtau_site": {
+   "pjmA": {
+    "Bear": ">40",
+    "Bull": ">40",
+    "Cockatoo": ">40",
+    "Eagle": ">40",
+    "Fox": ">40",
+    "Hog": ">40",
+    "Lamb": ">40",
+    "Peacock": ">40",
+    "Rat": ">40",
+    "Robin": 35.4793,
+    "Wolf": 37.6168
+   },
+   "scmr_W7_l3": {
+    "Bear": ">40",
+    "Bull": ">40",
+    "Cockatoo": ">40",
+    "Eagle": ">40",
+    "Fox": ">40",
+    "Hog": ">40",
+    "Lamb": ">40",
+    "Peacock": ">40",
+    "Rat": ">40",
+    "Robin": ">40",
+    "Wolf": ">40"
+   },
+   "caisoA": {
+    "Bear": ">40",
+    "Bull": ">40",
+    "Cockatoo": ">40",
+    "Eagle": ">40",
+    "Fox": ">40",
+    "Hog": ">40",
+    "Lamb": ">40",
+    "Peacock": ">40",
+    "Rat": 23.5229,
+    "Robin": 28.6743,
+    "Wolf": ">40"
+   },
+   "pjm0": {
+    "Bear": ">40",
+    "Bull": ">40",
+    "Cockatoo": ">40",
+    "Eagle": 39.7539,
+    "Fox": 31.6277,
+    "Hog": 17.9328,
+    "Lamb": ">40",
+    "Peacock": 28.4848,
+    "Rat": 14.4355,
+    "Robin": 36.6617,
+    "Wolf": ">40"
+   },
+   "cgA": {
+    "Bear": ">40",
+    "Bull": 37.0104,
+    "Cockatoo": ">40",
+    "Eagle": ">40",
+    "Fox": ">40",
+    "Hog": ">40",
+    "Lamb": ">40",
+    "Peacock": ">40",
+    "Rat": ">40",
+    "Robin": 38.2625,
+    "Wolf": ">40"
+   }
+  },
+  "fallback_rate_by_K": {
+   "10": {
+    "pjm_fb": 0.0,
+    "caiso_fb": 0.0001,
+    "caiso_lt10_days": 0.0006
+   },
+   "20": {
+    "pjm_fb": 0.0001,
+    "caiso_fb": 0.0001,
+    "caiso_lt10_days": 0.003
+   },
+   "30": {
+    "pjm_fb": 0.0001,
+    "caiso_fb": 0.0024,
+    "caiso_lt10_days": 0.0551
+   },
+   "40": {
+    "pjm_fb": 0.0466,
+    "caiso_fb": 0.048,
+    "caiso_lt10_days": 0.1822
+   }
+  }
+ },
+ "support": {
+  "H2": {
+   "Bear": 720,
+   "Bull": 989,
+   "Cockatoo": 896,
+   "Eagle": 655,
+   "Fox": 1253,
+   "Hog": 1281,
+   "Lamb": 1102,
+   "Peacock": 358,
+   "Rat": 2470,
+   "Robin": 438,
+   "Wolf": 345
+  },
+  "H3": {
+   "Bear": 720,
+   "Bull": 989,
+   "Cockatoo": 896,
+   "Eagle": 652,
+   "Fox": 1253,
+   "Hog": 1281,
+   "Lamb": 1102,
+   "Peacock": 358,
+   "Rat": 2470,
+   "Robin": 438,
+   "Wolf": 345
+  },
+  "H4": {
+   "Bear": 720,
+   "Bull": 989,
+   "Cockatoo": 896,
+   "Eagle": 635,
+   "Fox": 1253,
+   "Hog": 1281,
+   "Lamb": 1102,
+   "Peacock": 358,
+   "Rat": 2470,
+   "Robin": 438,
+   "Wolf": 345
+  },
+  "min_per_site": 10
+ }
+}

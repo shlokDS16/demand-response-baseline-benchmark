@@ -1,0 +1,35 @@
+key,value,ci_low,ci_high,p_raw,p_holm,n_sites,n_buildings,n_events,source_file,status,family_id,hypothesis_id,estimand_version,data_year,freeze_hash,support_rule
+exploratory.x7.h5_W10.window_v0,14-18,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2016,dev-unfrozen,none
+exploratory.x7.h5_W10.eta_diff.pjmA_minus_scmR_v0,-0.0019509398580989847,-0.00363227978104239,-0.0002677932058916436,,,11.0,,10403.0,src/secondary,exploratory,secondary,none,PREREG-R2,2016,dev-unfrozen,none
+exploratory.x7.h5_W10.p_signedrank_two_sided_unadjusted_v0,0.009765625,,,0.009765625,,11.0,,,src/secondary,exploratory,secondary,none,PREREG-R2,2016,dev-unfrozen,none
+exploratory.x7.h5_W10.median_over_sites_v0,-0.0018145349938047967,,,,,11.0,,,src/secondary,exploratory,secondary,none,PREREG-R2,2016,dev-unfrozen,none
+exploratory.x7.h5_W10.loso_min_v0,-0.0024427988387914156,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2016,dev-unfrozen,none
+exploratory.x7.h5_W10.loso_max_v0,-0.0015788275223609153,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2016,dev-unfrozen,none
+exploratory.x7.h5_W10.loso_pmax_v0,0.01953125,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2016,dev-unfrozen,none
+exploratory.x7.h5_W10.site_robust_v0,True,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2016,dev-unfrozen,none
+exploratory.x7.h5_W10.p_wcb_sensitivity_v0,0.9877987798779878,,,0.9877987798779878,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2016,dev-unfrozen,none
+exploratory.x7.h5_W10.site.Bear_v0,-0.0037880876950122065,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2016,dev-unfrozen,none
+exploratory.x7.h5_W10.site.Bull_v0,-0.001336065038684772,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2016,dev-unfrozen,none
+exploratory.x7.h5_W10.site.Cockatoo_v0,-0.0018145349938047967,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2016,dev-unfrozen,none
+exploratory.x7.h5_W10.site.Eagle_v0,-0.00015032240709850523,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2016,dev-unfrozen,none
+exploratory.x7.h5_W10.site.Fox_v0,-0.0015537100532268997,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2016,dev-unfrozen,none
+exploratory.x7.h5_W10.site.Hog_v0,-0.00426555692074642,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2016,dev-unfrozen,none
+exploratory.x7.h5_W10.site.Lamb_v0,-0.002529284291600455,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2016,dev-unfrozen,none
+exploratory.x7.h5_W10.site.Peacock_v0,0.0012789485820215096,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2016,dev-unfrozen,none
+exploratory.x7.h5_W10.site.Rat_v0,-0.0038652675101347495,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2016,dev-unfrozen,none
+exploratory.x7.h5_W10.site.Robin_v0,-0.004735275270484326,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2016,dev-unfrozen,none
+exploratory.x7.h5_W10.site.Wolf_v0,0.0011079018760245898,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2016,dev-unfrozen,none
+exploratory.x7.h5_W10.eta_abs_pooled.pjmA_v0,0.0019085059098265997,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2016,dev-unfrozen,none
+exploratory.x7.h5_W10.absdev.pjmA.K10_v0,0.1832433200313075,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2016,dev-unfrozen,none
+exploratory.x7.h5_W10.absdev.pjmA.K20_v0,0.20025463237259156,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2016,dev-unfrozen,none
+exploratory.x7.h5_W10.absdev.pjmA.K30_v0,0.2203985256225549,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2016,dev-unfrozen,none
+exploratory.x7.h5_W10.absdev.pjmA.K40_v0,0.24014555260887305,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2016,dev-unfrozen,none
+exploratory.x7.h5_W10.eta_abs_pooled.scmR_v0,0.003968532244104985,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2016,dev-unfrozen,none
+exploratory.x7.h5_W10.absdev.scmR.K10_v0,0.3133052417782507,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2016,dev-unfrozen,none
+exploratory.x7.h5_W10.absdev.scmR.K20_v0,0.33945566575179975,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2016,dev-unfrozen,none
+exploratory.x7.h5_W10.absdev.scmR.K30_v0,0.38691541565561693,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2016,dev-unfrozen,none
+exploratory.x7.h5_W10.absdev.scmR.K40_v0,0.42976973328047785,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2016,dev-unfrozen,none
+exploratory.x7.h5_W10.eta_definition_v0,"slope of site-median |rho-1| over K (pjmA minus scmR), exact two-sided signed-rank",,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2016,dev-unfrozen,none
+exploratory.x7.W_choice_v0,W=10 lambda=3 chosen on 2016 accuracy (best W>7 in the 2016 grid),,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2016,dev-unfrozen,none
+exploratory.compute.x7.time_s_v0,162.7,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2016,dev-unfrozen,none
+exploratory.compute.x7.peak_mem_gb_v0,0.566,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2016,dev-unfrozen,none

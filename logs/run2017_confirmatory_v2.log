@@ -1,0 +1,31 @@
+start 2026-11-11 18:56:11 IST
+loaded 2017 meters 1208 2 s
+Bear core done 6 s
+Bull core done 17 s
+Cockatoo core done 25 s
+Eagle core done 29 s
+Fox core done 44 s
+Hog core done 60 s
+Lamb core done 60 s
+Peacock core done 62 s
+Rat core done 109 s
+Robin core done 112 s
+Wolf core done 113 s
+C:\Users\Shlok\AppData\Roaming\Python\Python314\site-packages\numpy\lib\_function_base_impl.py:4596: RuntimeWarning: invalid value encountered in scalar subtract
+  diff_b_a = b - a
+Bear erosion done 4 s
+Bull erosion done 11 s
+Cockatoo erosion done 17 s
+Eagle erosion done 21 s
+Fox erosion done 32 s
+Hog erosion done 44 s
+Lamb erosion done 44 s
+Peacock erosion done 46 s
+Rat erosion done 82 s
+Robin erosion done 84 s
+Wolf erosion done 86 s
+ledger rows 1090 -> <ROOT>\tables\summary.csv
+Holm: {'H2': 0.00244140625, 'H4': 0.00244140625, 'H1': 0.00439453125, 'H5': 0.009765625, 'H3': 0.01611328125}
+timing: {"load": {"time_s": 2.431748628616333, "peak_gb": 0.359133184}, "core_run": {"time_s": 114.00394892692566, "peak_gb": 0.66291712}, "core_analysis": {"time_s": 20.829641103744507, "peak_gb": 0.66291712}, "precool": {"time_s": 216.55998969078064, "peak_gb": 0.723324928}, "erosion": {"time_s": 88.59486293792725, "peak_gb": 0.799346688}}
+exit 0
+end 19:03:36

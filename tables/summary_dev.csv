@@ -1,0 +1,13 @@
+key,value,ci_low,ci_high,p_raw,p_holm,n_sites,n_buildings,n_events,source_file,status,family_id,hypothesis_id,estimand_version,data_year,freeze_hash,support_rule
+H1.delta_bias.pjm0_v0,-0.02615743714939007,-0.07636151743341318,0.06859135449206297,,,11.0,1091.0,10467.0,events_R1.pkl,confirmatory,C5,H1,PREREG-R2,2016,dev-unfrozen,S10
+H1.p_holm_v0,0.0537109375,,,0.02685546875,0.0537109375,11.0,,,events_R1.pkl,confirmatory,C5,H1,PREREG-R2,2016,dev-unfrozen,S10
+H2.logratio.pjmA_pjm0_v0,-0.39357868304721827,-0.5671528604873184,-0.16514490448525285,,,11.0,1091.0,10467.0,events_R1.pkl,confirmatory,C5,H2,PREREG-R2,2016,dev-unfrozen,S10
+H2.p_holm_v0,0.00390625,,,0.0009765625,0.00390625,11.0,,,events_R1.pkl,confirmatory,C5,H2,PREREG-R2,2016,dev-unfrozen,S10
+H3.logratio.cgA_pjmA_v0,0.036786371243403185,0.0030847406536242735,0.09844591203675193,,,11.0,1091.0,10464.0,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2016,dev-unfrozen,S10
+H3.p_tost_v0,0.05078125,,,0.05078125,,11.0,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2016,dev-unfrozen,S10
+H3.p_holm_v0,0.0537109375,,,0.05078125,0.0537109375,11.0,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2016,dev-unfrozen,S10
+H3.decision_v0,not shown equivalent (HL estimate +0.0368: comparison group worse),,,,,,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2016,dev-unfrozen,S10
+H4.median_site_pcross_v0,0.03019893902744412,0.009825221122358915,0.05973075371809432,,,11.0,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2016,dev-unfrozen,S10
+H4.p_holm_v0,0.00244140625,,,0.00048828125,0.00244140625,11.0,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2016,dev-unfrozen,S10
+H5.eta_diff_v0,-0.0021982744146984944,-0.0038305935732509213,-0.0012870412035538986,,,11.0,,10422.0,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2016,dev-unfrozen,S10
+H5.p_holm_v0,0.00390625,,,0.0009765625,0.00390625,11.0,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2016,dev-unfrozen,S10

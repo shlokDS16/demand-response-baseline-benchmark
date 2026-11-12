@@ -1,0 +1,39 @@
+% 00_frontmatter.tmpl.tex: title, authors, abstract, highlights and keywords (SPEC s1-s2).
+% Abstract plan: SPEC s2.1 (six moves, order H4, H5, replications and H3, implication). Wording limits: JOURNAL_EXPERT_BRIEF s2,
+% research/codex/R5_response.md and R6_response.md (REVISION_1). Numbers only as placeholders. No citations, no secondary
+% p-values, no "erosion" for SCM-ridge. H4 estimand sentence and H3 symmetry clause are required (REVISION_1 decisions 3, 4).
+% The highlights below must match paper/highlights.tmpl.txt (build_paper.py checks this and writes paper/highlights.txt).
+% Author block: owner items, rendered as neutral bracketed text for review (REVISION_1 decision 1).
+
+% FINAL TITLE (D29 item 10, 2026-11-12 09:23; replaces the D28 title): names the methods, says the shaping is injected and
+% drops the window-specific dispatch claim (finding-led, flowing, no question or negative words). History: SPEC s1, D28.
+\begin{frontmatter}
+
+\title{Injected Pre-Event Load Shaping Reveals an Accuracy and Robustness Trade-Off Between Adjusted and Synthetic-Control Demand-Response Baselines}
+
+\author[vit]{Shlok Kumar Goenka}
+\ead{shlok.goenka2023@vitstudent.ac.in}
+\author[vit]{N. Balaji\corref{cor1}}
+\ead{n.balaji@vit.ac.in}
+\author[vit]{G. N. Balaji}
+\ead{balaji.gn@vit.ac.in}
+\cortext[cor1]{Corresponding author.}
+\address[vit]{School of Computer Science and Engineering, Vellore Institute of Technology, Vellore, 632014, Tamil Nadu, India}
+
+\begin{abstract}
+Demand-response (DR) programs settle building flexibility against a customer baseline load (CBL) from an information set. An open, pre-specified, hash-frozen pipeline evaluates {{sample.n_buildings|int}} buildings at {{sample.n_sites|int}} campus-heavy sites of Building Data Genome 2 (2017 held-out year), with hot weekdays as proxy events. In the injected four-hour pre-event stress test, the day-of-adjusted PJM Interconnection rule (PJM-adj) lost its accuracy advantage over a ridge synthetic control method (SCM-ridge) at a break-even pre-event increase of {{H4.median_site_pcross|pct1}} at the median site (interval {{H4.median_site_pcross:ci_low|pct1}} to {{H4.median_site_pcross:ci_high|pct1}}). This is the median of site break-evens, all {{derived.H4.n_sites_pcross_lt_threshold|int}} below the pre-set ten percent threshold (exact sign test), for a worst-case placement covering the hours the adjustment reads; SCM-ridge is immune by construction. Under injected repeated dispatch, PJM-adj had the lower absolute error at every count in both windows, 14:00 to 18:00 and 16:00 to 20:00. Both errors grew, SCM-ridge's faster in the confirmatory window (slope difference {{H5.eta_diff|.4f}}); in the pre-specified secondary window it was inconclusive. As replications, day-of adjustment reduced hot-day error, and unadjusted PJM was more negatively biased on hot days than random weekdays. Under the signed-rank symmetry assumption, an adjusted comparison group (CG-adj) was equivalent to PJM-adj at the site median within a pre-set margin, with {{derived.H3.n_sites_outside_margin|int}} of {{sample.n_sites|int}} sites outside. All five confirmatory decisions met Holm-adjusted criteria. Choose and monitor baselines by the hours they read and expected shaping and dispatch.
+\end{abstract}
+
+\begin{highlights}
+\item Injected four-hour pre-event increase erases PJM-adj's edge over synthetic control
+\item Under injected dispatch, PJM-adj had the lower error at every count in both windows
+\item Synthetic control error grew faster at 14:00 to 18:00; inconclusive at 16:00 to 20:00
+\item Comparison group and PJM-adj were equivalent at the site median, not every site
+\item Evidence from {{sample.n_sites|int}} campus-heavy sites; shaping and dispatch are injected stress tests
+\end{highlights}
+
+\begin{keyword}
+Demand response \sep Customer baseline load \sep Settlement error \sep Synthetic control \sep Smart buildings \sep Information set
+\end{keyword}
+
+\end{frontmatter}

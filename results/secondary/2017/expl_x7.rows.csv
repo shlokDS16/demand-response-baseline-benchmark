@@ -1,0 +1,35 @@
+key,value,ci_low,ci_high,p_raw,p_holm,n_sites,n_buildings,n_events,source_file,status,family_id,hypothesis_id,estimand_version,data_year,freeze_hash,support_rule
+exploratory.x7.h5_W10.window,14-18,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+exploratory.x7.h5_W10.eta_diff.pjmA_minus_scmR,-0.002954287147077199,-0.004185450029805929,-0.0010803417570057752,,,11.0,,9473.0,src/secondary,exploratory,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+exploratory.x7.h5_W10.p_signedrank_two_sided_unadjusted,0.0068359375,,,0.0068359375,,11.0,,,src/secondary,exploratory,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+exploratory.x7.h5_W10.median_over_sites,-0.0034847437163815055,,,,,11.0,,,src/secondary,exploratory,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+exploratory.x7.h5_W10.loso_min,-0.0034847437163815055,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+exploratory.x7.h5_W10.loso_max,-0.0028629321272241413,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+exploratory.x7.h5_W10.loso_pmax,0.013671875,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+exploratory.x7.h5_W10.site_robust,True,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+exploratory.x7.h5_W10.p_wcb_sensitivity,0.0177017701770177,,,0.0177017701770177,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+exploratory.x7.h5_W10.site.Bear,-0.003548338634159573,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+exploratory.x7.h5_W10.site.Bull,0.0016333589471859106,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+exploratory.x7.h5_W10.site.Cockatoo,-0.003794042461197461,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+exploratory.x7.h5_W10.site.Eagle,0.00018411091271862564,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+exploratory.x7.h5_W10.site.Fox,-0.003444336199469306,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+exploratory.x7.h5_W10.site.Hog,-0.0034847437163815055,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+exploratory.x7.h5_W10.site.Lamb,-0.0023920331188838585,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+exploratory.x7.h5_W10.site.Peacock,-0.004846643282062721,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+exploratory.x7.h5_W10.site.Rat,-0.0008792209723855618,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+exploratory.x7.h5_W10.site.Robin,-0.004859588691473269,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+exploratory.x7.h5_W10.site.Wolf,-0.004576857598414396,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+exploratory.x7.h5_W10.eta_abs_pooled.pjmA,0.0011271371257425295,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+exploratory.x7.h5_W10.absdev.pjmA.K10,0.2014588468699705,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+exploratory.x7.h5_W10.absdev.pjmA.K20,0.21300609881789134,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+exploratory.x7.h5_W10.absdev.pjmA.K30,0.23288129482259246,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+exploratory.x7.h5_W10.absdev.pjmA.K40,0.23240501905982114,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+exploratory.x7.h5_W10.eta_abs_pooled.scmR,0.0036872126117301345,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+exploratory.x7.h5_W10.absdev.scmR.K10,0.3404610877792116,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+exploratory.x7.h5_W10.absdev.scmR.K20,0.37402105006509156,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+exploratory.x7.h5_W10.absdev.scmR.K30,0.42896583421815704,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+exploratory.x7.h5_W10.absdev.scmR.K40,0.445053246785861,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+exploratory.x7.h5_W10.eta_definition,"slope of site-median |rho-1| over K (pjmA minus scmR), exact two-sided signed-rank",,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+exploratory.x7.W_choice,W=10 lambda=3 chosen on 2016 accuracy (best W>7 in the 2016 grid),,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+exploratory.compute.x7.time_s,121.0,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+exploratory.compute.x7.peak_mem_gb,0.542,,,,,,,,src/secondary,exploratory,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none

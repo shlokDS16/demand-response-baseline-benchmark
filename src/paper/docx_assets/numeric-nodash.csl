@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" default-locale="en-US">
+  <info>
+    <title>Numeric (Elsevier-like, with titles, no ranges)</title>
+    <id>http://local/numeric-elsevier-like-no-ranges</id>
+    <updated>2026-11-12T00:00:00+00:00</updated>
+    <category citation-format="numeric"/>
+  </info>
+  <macro name="author">
+    <names variable="author">
+      <name initialize-with=". " delimiter=", " delimiter-precedes-last="always" and="text" name-as-sort-order="none"/>
+      <substitute>
+        <names variable="editor"/>
+        <text variable="publisher"/>
+      </substitute>
+    </names>
+  </macro>
+  <macro name="source">
+    <choose>
+      <if type="article-journal">
+        <group delimiter=" ">
+          <text variable="container-title"/>
+          <text variable="volume"/>
+          <date variable="issued" prefix="(" suffix=")"><date-part name="year"/></date>
+          <text variable="page"/>
+        </group>
+      </if>
+      <else-if type="paper-conference">
+        <group delimiter=", ">
+          <text variable="container-title"/>
+          <date variable="issued"><date-part name="year"/></date>
+          <text variable="page"/>
+        </group>
+      </else-if>
+      <else>
+        <group delimiter=", ">
+          <text variable="publisher"/>
+          <text variable="genre"/>
+          <text variable="number"/>
+          <text variable="note"/>
+          <date variable="issued"><date-part name="year"/></date>
+        </group>
+      </else>
+    </choose>
+  </macro>
+  <macro name="access">
+    <choose>
+      <if variable="DOI">
+        <text variable="DOI" prefix="https://doi.org/"/>
+      </if>
+      <else-if variable="URL">
+        <text variable="URL"/>
+      </else-if>
+    </choose>
+  </macro>
+  <citation collapse="none">
+    <sort>
+      <key variable="citation-number"/>
+    </sort>
+    <layout prefix="[" suffix="]" delimiter=", ">
+      <text variable="citation-number"/>
+    </layout>
+  </citation>
+  <bibliography entry-spacing="0" et-al-min="99" et-al-use-first="98">
+    <layout>
+      <text variable="citation-number" prefix="[" suffix="] "/>
+      <group delimiter=", ">
+        <text macro="author"/>
+        <text variable="title"/>
+        <text macro="source"/>
+      </group>
+      <text macro="access" prefix=". "/>
+    </layout>
+  </bibliography>
+</style>

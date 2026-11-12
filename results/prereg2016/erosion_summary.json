@@ -1,0 +1,221 @@
+{
+ "n_rows": 42028,
+ "K": [
+  10,
+  20,
+  30,
+  40
+ ],
+ "methods": {
+  "pjm0": {
+   "median_rho_by_K": {
+    "10": 0.9068,
+    "20": 0.8571,
+    "30": 0.8208,
+    "40": 0.7576
+   },
+   "eta_per_dispatch": 0.00497,
+   "D_tau": 32.21963777805827,
+   "eta_site": {
+    "Bear": -0.00069,
+    "Bull": 0.00143,
+    "Cockatoo": 0.00295,
+    "Eagle": 0.0032,
+    "Fox": 0.00761,
+    "Hog": 0.01173,
+    "Lamb": -0.01568,
+    "Peacock": 0.00589,
+    "Rat": 0.01438,
+    "Robin": 0.00404,
+    "Wolf": -0.00207
+   }
+  },
+  "pjmA": {
+   "median_rho_by_K": {
+    "10": 0.9815,
+    "20": 0.9628,
+    "30": 0.9525,
+    "40": 0.9333
+   },
+   "eta_per_dispatch": 0.00161,
+   "D_tau": ">40",
+   "eta_site": {
+    "Bear": 0.00069,
+    "Bull": 0.00273,
+    "Cockatoo": 0.00081,
+    "Eagle": 0.00045,
+    "Fox": 0.00079,
+    "Hog": 0.00265,
+    "Lamb": -0.0046,
+    "Peacock": -0.00196,
+    "Rat": 0.00172,
+    "Robin": 0.00455,
+    "Wolf": 0.00382
+   }
+  },
+  "caisoA": {
+   "median_rho_by_K": {
+    "10": 0.9443,
+    "20": 0.9249,
+    "30": 0.9049,
+    "40": 0.8726
+   },
+   "eta_per_dispatch": 0.00239,
+   "D_tau": ">40",
+   "eta_site": {
+    "Bear": -0.00023,
+    "Bull": 0.00311,
+    "Cockatoo": 0.00211,
+    "Eagle": 0.00258,
+    "Fox": 0.00089,
+    "Hog": 0.00312,
+    "Lamb": -0.03372,
+    "Peacock": -0.002,
+    "Rat": 0.0096,
+    "Robin": 0.0055,
+    "Wolf": 6e-05
+   }
+  },
+  "cgA": {
+   "median_rho_by_K": {
+    "10": 0.9899,
+    "20": 0.9905,
+    "30": 0.983,
+    "40": 0.9579
+   },
+   "eta_per_dispatch": 0.00107,
+   "D_tau": ">40",
+   "eta_site": {
+    "Bear": -4e-05,
+    "Bull": 0.00481,
+    "Cockatoo": 4e-05,
+    "Eagle": 0.00015,
+    "Fox": 0.00113,
+    "Hog": -0.00145,
+    "Lamb": -0.0082,
+    "Peacock": -0.00134,
+    "Rat": -7e-05,
+    "Robin": 0.00423,
+    "Wolf": -0.00186
+   }
+  },
+  "scmr_W7_l3": {
+   "median_rho_by_K": {
+    "10": 1.0825,
+    "20": 1.0806,
+    "30": 1.0985,
+    "40": 1.0989
+   },
+   "eta_per_dispatch": -0.00054,
+   "D_tau": ">40",
+   "eta_site": {
+    "Bear": -0.00499,
+    "Bull": 0.00104,
+    "Cockatoo": -0.00133,
+    "Eagle": -0.0012,
+    "Fox": -0.0004,
+    "Hog": -0.00182,
+    "Lamb": -5e-05,
+    "Peacock": -0.00214,
+    "Rat": -0.00074,
+    "Robin": -0.00266,
+    "Wolf": 0.00065
+   }
+  },
+  "scmc_W7": {
+   "median_rho_by_K": {
+    "10": 1.1186,
+    "20": 1.1409,
+    "30": 1.1662,
+    "40": 1.1637
+   },
+   "eta_per_dispatch": -0.0015,
+   "D_tau": ">40",
+   "eta_site": {
+    "Bear": -0.00283,
+    "Bull": -0.00083,
+    "Cockatoo": -0.00079,
+    "Eagle": 0.00027,
+    "Fox": -0.00377,
+    "Hog": -0.00181,
+    "Lamb": -0.00141,
+    "Peacock": -0.00523,
+    "Rat": -0.0013,
+    "Robin": -0.00406,
+    "Wolf": -0.00397
+   }
+  }
+ },
+ "H5_dev_pjmA_minus_scmr_W7_l3": {
+  "site_diff": {
+   "Bear": 0.00568,
+   "Bull": 0.00169,
+   "Cockatoo": 0.00214,
+   "Eagle": 0.00165,
+   "Fox": 0.00119,
+   "Hog": 0.00447,
+   "Lamb": -0.00455,
+   "Peacock": 0.00018,
+   "Rat": 0.00246,
+   "Robin": 0.00721,
+   "Wolf": 0.00317
+  },
+  "median": 0.00214,
+  "wilcoxon_p_greater": 0.01611328125,
+  "mde_site": 0.0026
+ },
+ "H5_dev_caisoA_minus_scmr_W7_l3": {
+  "site_diff": {
+   "Bear": 0.00476,
+   "Bull": 0.00207,
+   "Cockatoo": 0.00344,
+   "Eagle": 0.00378,
+   "Fox": 0.00129,
+   "Hog": 0.00494,
+   "Lamb": -0.03367,
+   "Peacock": 0.00014,
+   "Rat": 0.01034,
+   "Robin": 0.00816,
+   "Wolf": -0.00059
+  },
+  "median": 0.00344,
+  "wilcoxon_p_greater": 0.04150390625,
+  "mde_site": 0.00993
+ },
+ "H5_dev_cgA_minus_scmr_W7_l3": {
+  "site_diff": {
+   "Bear": 0.00495,
+   "Bull": 0.00377,
+   "Cockatoo": 0.00137,
+   "Eagle": 0.00135,
+   "Fox": 0.00153,
+   "Hog": 0.00037,
+   "Lamb": -0.00815,
+   "Peacock": 0.0008,
+   "Rat": 0.00067,
+   "Robin": 0.00689,
+   "Wolf": -0.00251
+  },
+  "median": 0.00135,
+  "wilcoxon_p_greater": 0.10302734375,
+  "mde_site": 0.00332
+ },
+ "H5_dev_pjm0_minus_scmr_W7_l3": {
+  "site_diff": {
+   "Bear": 0.0043,
+   "Bull": 0.00039,
+   "Cockatoo": 0.00428,
+   "Eagle": 0.0044,
+   "Fox": 0.00801,
+   "Hog": 0.01355,
+   "Lamb": -0.01563,
+   "Peacock": 0.00803,
+   "Rat": 0.01512,
+   "Robin": 0.0067,
+   "Wolf": -0.00272
+  },
+  "median": 0.0044,
+  "wilcoxon_p_greater": 0.04150390625,
+  "mde_site": 0.00705
+ }
+}

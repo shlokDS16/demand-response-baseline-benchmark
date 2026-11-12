@@ -1,0 +1,15 @@
+\begin{tabular}{lrr}
+\toprule
+ & 14:00-18:00 (confirmatory) & 16:00-20:00 (pre-specified secondary) \\
+\midrule
+Site-median $|\rho-1|$, $K = 10$, PJM-adj & 0.233 & 0.203 \\
+Site-median $|\rho-1|$, $K = 10$, SCM-ridge & 0.332 & 0.342 \\
+Site-median $|\rho-1|$, $K = 40$, PJM-adj & 0.265 & 0.258 \\
+Site-median $|\rho-1|$, $K = 40$, SCM-ridge & 0.509 & 0.442 \\
+$K$ (of 4) where PJM-adj is lower & 4 of 4 & 4 of 4 \\
+Slope contrast, HL [95 \% CI] ($\times 10^{{-}3}$ per $K$) & $-$2.81 [$-$4.62, $-$1.02] & $-$0.75 [$-$3.39, $+$2.17] \\
+$p$-value (exact signed-rank) & 0.0098 (Holm) & 0.365 (unadjusted) \\
+Sites with SCM-ridge's error growing faster & 10 of 11 & 7 of 11 \\
+\bottomrule
+\end{tabular}
+\par\smallskip{\footnotesize\raggedright PJM-adj, PJM rule with same-day adjustment; SCM-ridge, ridge synthetic control from other buildings; HL, Hodges-Lehmann estimate; CI, confidence interval; $K$, number of dispatched days. Site-median values are medians over the 11 sites of each site's median absolute error $|\rho-1|$. The slope contrast is the per-site slope of the site-median error over $K$ for PJM-adj minus SCM-ridge; negative means SCM-ridge's error grows faster. The 14:00-18:00 window is the confirmatory test (Holm-adjusted within the confirmatory family); 16:00-20:00 is a pre-specified secondary rerun with no adjustment. The windows are not pooled. Exploratory cross-window contrast (14:00-18:00 minus 16:00-20:00, per-site paired): HL $-$1.61 ($\times 10^{{-}3}$ per $K$), 95\,\% CI [$-$5.28, $+$0.26], unadjusted $p=0.10$.\par}

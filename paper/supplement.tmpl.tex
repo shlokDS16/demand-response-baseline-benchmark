@@ -1,0 +1,45 @@
+% supplement.tmpl.tex -> supplement.tex: the supplementary material as a separate document (build_paper.py).
+% Cross-references to the main text resolve through main.aux (xr-hyper); the main text refers to Figs. S1-S3 and
+% Tables S1-S3 through supplement.aux.
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=25mm]{geometry}
+\makeatletter
+\def\input@path{ {../} }
+\makeatother
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{xurl}
+\usepackage{longtable}
+\usepackage{graphicx}
+\graphicspath{ {../} }
+\usepackage{xcolor}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue,filecolor=blue,hypertexnames=false]{hyperref}
+% citations print the reference numbers of the main text: xr-hyper imports main's \bibcite entries (natbib format)
+\usepackage[numbers,sort]{natbib}
+\usepackage{xr-hyper}
+\externaldocument{main}[main.pdf]
+\setlength{\belowcaptionskip}{6pt}
+% longtable captions as wide as the text, like the floating tables (the default 4 in made a narrow centered block)
+\AtBeginDocument{\setlength{\LTcapwidth}{\textwidth}}% after geometry has set the text width
+% float placement as in main.tmpl.tex, so that a short figure or table shares a page instead of sitting alone on a float page
+\renewcommand{\topfraction}{0.85}
+\renewcommand{\bottomfraction}{0.6}
+\renewcommand{\textfraction}{0.1}
+\renewcommand{\floatpagefraction}{0.7}
+\setcounter{topnumber}{3}
+\setcounter{bottomnumber}{2}
+\setcounter{totalnumber}{4}
+
+\newcommand{\pending}[1]{[pending: \detokenize{#1}]}
+\newcommand{\citeneeded}[1]{[cite: \detokenize{#1}]}
+
+\title{Supplementary material to: Injected Pre-Event Load Shaping Reveals an Accuracy and Robustness Trade-Off Between Adjusted and Synthetic-Control Demand-Response Baselines}
+\author{Shlok Kumar Goenka, N. Balaji and G. N. Balaji}
+\date{}
+
+\begin{document}
+\maketitle
+\input{sections/S_supplement}
+\end{document}

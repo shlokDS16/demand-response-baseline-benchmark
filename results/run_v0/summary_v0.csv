@@ -1,0 +1,1309 @@
+key,value,ci_low,ci_high,p_raw,p_holm,n_sites,n_buildings,n_events,source_file,status,family_id,hypothesis_id,estimand_version,data_year,freeze_hash,support_rule
+sample.n_sites_v0,11,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.sites_v0,"Bear,Bull,Cockatoo,Eagle,Fox,Hog,Lamb,Peacock,Rat,Robin,Wolf",,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.n_buildings_v0,1091,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.n_meters_e1_v0,1208,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.n_excl_flat_meter_v0,102,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.n_dup_dropped_v0,5,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Bear.e1_v0,77,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Bear.e3_flat_meter_v0,1,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Bear.dup_dropped_v0,0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Bear.n_after_v0,76,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Bobcat.e1_v0,9,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Bobcat.e3_flat_meter_v0,0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Bobcat.dup_dropped_v0,0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Bobcat.n_after_v0,9,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Bull.e1_v0,110,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Bull.e3_flat_meter_v0,8,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Bull.dup_dropped_v0,0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Bull.n_after_v0,102,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Cockatoo.e1_v0,90,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Cockatoo.e3_flat_meter_v0,0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Cockatoo.dup_dropped_v0,0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Cockatoo.n_after_v0,90,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Eagle.e1_v0,90,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Eagle.e3_flat_meter_v0,8,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Eagle.dup_dropped_v0,5,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Eagle.n_after_v0,77,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Fox.e1_v0,128,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Fox.e3_flat_meter_v0,1,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Fox.dup_dropped_v0,0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Fox.n_after_v0,127,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Gator.e1_v0,61,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Gator.e3_flat_meter_v0,61,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Gator.dup_dropped_v0,0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Gator.n_after_v0,0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Hog.e1_v0,136,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Hog.e3_flat_meter_v0,0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Hog.dup_dropped_v0,0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Hog.n_after_v0,136,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Lamb.e1_v0,121,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Lamb.e3_flat_meter_v0,5,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Lamb.dup_dropped_v0,0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Lamb.n_after_v0,116,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Moose.e1_v0,9,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Moose.e3_flat_meter_v0,8,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Moose.dup_dropped_v0,0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Moose.n_after_v0,1,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Peacock.e1_v0,36,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Peacock.e3_flat_meter_v0,0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Peacock.dup_dropped_v0,0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Peacock.n_after_v0,36,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Rat.e1_v0,255,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Rat.e3_flat_meter_v0,3,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Rat.dup_dropped_v0,0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Rat.n_after_v0,252,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Robin.e1_v0,51,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Robin.e3_flat_meter_v0,7,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Robin.dup_dropped_v0,0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Robin.n_after_v0,44,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Wolf.e1_v0,35,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Wolf.e3_flat_meter_v0,0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Wolf.dup_dropped_v0,0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.excl.Wolf.n_after_v0,35,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.n_events.R1_v0,10467,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.n_events.R3_v0,52857,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.support_share.prev_v0,1.0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.support_share.pjm0_v0,1.0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.support_share.pjmA_v0,1.0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.support_share.caiso0_v0,0.999904461641349,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.support_share.caisoA_v0,0.999904461641349,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.support_share.ny0_v0,0.9898729339829941,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.support_share.nyA_v0,0.9898729339829941,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.support_share.isone0_v0,0.999904461641349,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.support_share.isoneA_v0,0.999904461641349,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.support_share.dm0_v0,1.0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.support_share.dmA_v0,1.0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.support_share.wm0_v0,1.0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.support_share.wmA_v0,1.0,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.support_share.m3_v0,0.999426769848094,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.support_share.mid8_v0,0.999426769848094,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.support_share.cg0_v0,0.999713384924047,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.support_share.cgA_v0,0.999713384924047,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.support_share.scmR_v0,0.99808923282698,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.support_share.scmC_v0,0.999617846565396,,,,,,,,sample.json,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.dst.Bear_v0,CLOCK,,,,,,,,dst_table,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.dst.Bobcat_v0,AMBIGUOUS,,,,,,,,dst_table,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.dst.Bull_v0,CLOCK,,,,,,,,dst_table,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.dst.Cockatoo_v0,AMBIGUOUS,,,,,,,,dst_table,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.dst.Eagle_v0,STD,,,,,,,,dst_table,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.dst.Fox_v0,CLOCK,,,,,,,,dst_table,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.dst.Gator_v0,AMBIGUOUS,,,,,,,,dst_table,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.dst.Hog_v0,CLOCK,,,,,,,,dst_table,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.dst.Lamb_v0,AMBIGUOUS,,,,,,,,dst_table,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.dst.Moose_v0,STD,,,,,,,,dst_table,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.dst.Peacock_v0,CLOCK,,,,,,,,dst_table,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.dst.Rat_v0,STD,,,,,,,,dst_table,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.dst.Robin_v0,AMBIGUOUS,,,,,,,,dst_table,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+sample.dst.Wolf_v0,STD,,,,,,,,dst_table,confirmatory,C5,none,PREREG-R2,2016,dev-unfrozen,none
+family.holm_members_v0,"H1,H2,H3,H4,H5",,,,,,,,results\run_v0,confirmatory,C5,family,PREREG-R2,2016,dev-unfrozen,none
+H1.delta_bias.pjm0_v0,-0.02615743714939007,-0.07636151743341318,0.06859135449206297,,,11.0,1091.0,10467.0,events_R1.pkl,confirmatory,C5,H1,PREREG-R2,2016,dev-unfrozen,S10
+H1.p_signedrank_v0,0.02685546875,,,0.02685546875,,11.0,,,events_R1.pkl,confirmatory,C5,H1,PREREG-R2,2016,dev-unfrozen,S10
+H1.p_holm_v0,0.0537109375,,,0.02685546875,0.0537109375,11.0,,,events_R1.pkl,confirmatory,C5,H1,PREREG-R2,2016,dev-unfrozen,S10
+H1.p_wcb_v0,0.6718671867186718,,,0.6718671867186718,,,,,events_R1.pkl,secondary,none,H1,PREREG-R2,2016,dev-unfrozen,S10
+H1.loso_min_v0,-0.03182907449416626,,,,,,,,events_R1.pkl,confirmatory,C5,H1,PREREG-R2,2016,dev-unfrozen,S10
+H1.loso_max_v0,-0.022172370207055037,,,,,,,,events_R1.pkl,confirmatory,C5,H1,PREREG-R2,2016,dev-unfrozen,S10
+H1.loso_pmax_v0,0.0419921875,,,,,,,,events_R1.pkl,confirmatory,C5,H1,PREREG-R2,2016,dev-unfrozen,S10
+H1.site_robust_v0,True,,,,,,,,events_R1.pkl,confirmatory,C5,H1,PREREG-R2,2016,dev-unfrozen,S10
+H1.site.Bear_v0,-0.029640973559212525,,,,,,,,events_R1.pkl,confirmatory,C5,H1,PREREG-R2,2016,dev-unfrozen,S10
+H1.site.Bull_v0,-0.012515665919943807,,,,,,,,events_R1.pkl,confirmatory,C5,H1,PREREG-R2,2016,dev-unfrozen,S10
+H1.site.Cockatoo_v0,-0.03182907449416626,,,,,,,,events_R1.pkl,confirmatory,C5,H1,PREREG-R2,2016,dev-unfrozen,S10
+H1.site.Eagle_v0,-0.010893509667916485,,,,,,,,events_R1.pkl,confirmatory,C5,H1,PREREG-R2,2016,dev-unfrozen,S10
+H1.site.Fox_v0,-0.025747193303395456,,,,,,,,events_R1.pkl,confirmatory,C5,H1,PREREG-R2,2016,dev-unfrozen,S10
+H1.site.Hog_v0,-0.07026634715656079,,,,,,,,events_R1.pkl,confirmatory,C5,H1,PREREG-R2,2016,dev-unfrozen,S10
+H1.site.Lamb_v0,0.2773900779310085,,,,,,,,events_R1.pkl,confirmatory,C5,H1,PREREG-R2,2016,dev-unfrozen,S10
+H1.site.Peacock_v0,-0.013294387923813645,,,,,,,,events_R1.pkl,confirmatory,C5,H1,PREREG-R2,2016,dev-unfrozen,S10
+H1.site.Rat_v0,-0.14020736894688257,,,,,,,,events_R1.pkl,confirmatory,C5,H1,PREREG-R2,2016,dev-unfrozen,S10
+H1.site.Robin_v0,-0.08576027498106903,,,,,,,,events_R1.pkl,confirmatory,C5,H1,PREREG-R2,2016,dev-unfrozen,S10
+H1.site.Wolf_v0,-0.0213062874966031,,,,,,,,events_R1.pkl,confirmatory,C5,H1,PREREG-R2,2016,dev-unfrozen,S10
+H1.ci_boot_conditional_v0,-0.025747193303395456,-0.06913162852783744,-0.011310567728276794,,,,,,events_R1.pkl,secondary,none,H1,PREREG-R2,2016,dev-unfrozen,S10
+H2.logratio.pjmA_pjm0_v0,-0.39357868304721827,-0.5671528604873184,-0.16514490448525285,,,11.0,1091.0,10467.0,events_R1.pkl,confirmatory,C5,H2,PREREG-R2,2016,dev-unfrozen,S10
+H2.p_signedrank_v0,0.0009765625,,,0.0009765625,,11.0,,,events_R1.pkl,confirmatory,C5,H2,PREREG-R2,2016,dev-unfrozen,S10
+H2.p_holm_v0,0.00390625,,,0.0009765625,0.00390625,11.0,,,events_R1.pkl,confirmatory,C5,H2,PREREG-R2,2016,dev-unfrozen,S10
+H2.p_wcb_v0,0.0006000600060006001,,,0.0006000600060006001,,,,,events_R1.pkl,secondary,none,H2,PREREG-R2,2016,dev-unfrozen,S10
+H2.loso_min_v0,-0.4218122360414145,,,,,,,,events_R1.pkl,confirmatory,C5,H2,PREREG-R2,2016,dev-unfrozen,S10
+H2.loso_max_v0,-0.32491351852222905,,,,,,,,events_R1.pkl,confirmatory,C5,H2,PREREG-R2,2016,dev-unfrozen,S10
+H2.loso_pmax_v0,0.001953125,,,,,,,,events_R1.pkl,confirmatory,C5,H2,PREREG-R2,2016,dev-unfrozen,S10
+H2.site_robust_v0,True,,,,,,,,events_R1.pkl,confirmatory,C5,H2,PREREG-R2,2016,dev-unfrozen,S10
+H2.site.Bear_v0,-0.4017532574107963,,,,,,,,events_R1.pkl,confirmatory,C5,H2,PREREG-R2,2016,dev-unfrozen,S10
+H2.site.Bull_v0,-0.18076653806395637,,,,,,,,events_R1.pkl,confirmatory,C5,H2,PREREG-R2,2016,dev-unfrozen,S10
+H2.site.Cockatoo_v0,-0.14952327090654932,,,,,,,,events_R1.pkl,confirmatory,C5,H2,PREREG-R2,2016,dev-unfrozen,S10
+H2.site.Eagle_v0,0.09057994024757239,,,,,,,,events_R1.pkl,confirmatory,C5,H2,PREREG-R2,2016,dev-unfrozen,S10
+H2.site.Fox_v0,-0.3908538249260256,,,,,,,,events_R1.pkl,confirmatory,C5,H2,PREREG-R2,2016,dev-unfrozen,S10
+H2.site.Hog_v0,-0.4402045197983572,,,,,,,,events_R1.pkl,confirmatory,C5,H2,PREREG-R2,2016,dev-unfrozen,S10
+H2.site.Lamb_v0,-0.5003037661379088,,,,,,,,events_R1.pkl,confirmatory,C5,H2,PREREG-R2,2016,dev-unfrozen,S10
+H2.site.Peacock_v0,-0.11621829460041805,,,,,,,,events_R1.pkl,confirmatory,C5,H2,PREREG-R2,2016,dev-unfrozen,S10
+H2.site.Rat_v0,-0.8106330665699133,,,,,,,,events_R1.pkl,confirmatory,C5,H2,PREREG-R2,2016,dev-unfrozen,S10
+H2.site.Robin_v0,-0.5279897317053107,,,,,,,,events_R1.pkl,confirmatory,C5,H2,PREREG-R2,2016,dev-unfrozen,S10
+H2.site.Wolf_v0,-0.6941012011762796,,,,,,,,events_R1.pkl,confirmatory,C5,H2,PREREG-R2,2016,dev-unfrozen,S10
+H2.ci_boot_conditional_v0,-0.4017532574107963,-0.5735815656239169,-0.16006711385271724,,,,,,events_R1.pkl,secondary,none,H2,PREREG-R2,2016,dev-unfrozen,S10
+H3.logratio.cgA_pjmA_v0,0.036786371243403185,0.0030847406536242735,0.09844591203675193,,,11.0,1091.0,10464.0,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2016,dev-unfrozen,S10
+H3.p_tost_v0,0.05078125,,,0.05078125,,11.0,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2016,dev-unfrozen,S10
+H3.p_holm_v0,0.0537109375,,,0.05078125,0.0537109375,11.0,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2016,dev-unfrozen,S10
+H3.p_wcb_v0,,,,,,,,,events_R1.pkl,secondary,none,H3,PREREG-R2,2016,dev-unfrozen,S10
+H3.loso_min_v0,0.018019469569008986,,,,,,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2016,dev-unfrozen,S10
+H3.loso_max_v0,0.04071945947561045,,,,,,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2016,dev-unfrozen,S10
+H3.loso_pmax_v0,0.080078125,,,,,,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2016,dev-unfrozen,S10
+H3.site_robust_v0,True,,,,,,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2016,dev-unfrozen,S10
+H3.site.Bear_v0,0.009751986619900458,,,,,,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2016,dev-unfrozen,S10
+H3.site.Bull_v0,-0.0027207563602859326,,,,,,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2016,dev-unfrozen,S10
+H3.site.Cockatoo_v0,0.06891247626783477,,,,,,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2016,dev-unfrozen,S10
+H3.site.Eagle_v0,0.010466898849231413,,,,,,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2016,dev-unfrozen,S10
+H3.site.Fox_v0,0.00889023766753448,,,,,,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2016,dev-unfrozen,S10
+H3.site.Hog_v0,0.3149460233997665,,,,,,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2016,dev-unfrozen,S10
+H3.site.Lamb_v0,0.1279793478056691,,,,,,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2016,dev-unfrozen,S10
+H3.site.Peacock_v0,-0.014816904273263359,,,,,,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2016,dev-unfrozen,S10
+H3.site.Rat_v0,-0.043085892151647986,,,,,,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2016,dev-unfrozen,S10
+H3.site.Robin_v0,0.08415967531150684,,,,,,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2016,dev-unfrozen,S10
+H3.site.Wolf_v0,0.025572040288786558,,,,,,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2016,dev-unfrozen,S10
+H3.ci_boot_conditional_v0,0.010466898849231413,-0.00403003519635739,0.08937552163622214,,,,,,events_R1.pkl,secondary,none,H3,PREREG-R2,2016,dev-unfrozen,S10
+H3.ci90_v0,0.036786371243403185,0.0030847406536242735,0.09844591203675193,,,,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2016,dev-unfrozen,S10
+H3.margin_v0,0.0953101798043249,,,,,,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2016,dev-unfrozen,S10
+H3.decision_v0,not shown equivalent (HL estimate +0.0368: comparison group worse),,,,,,,,events_R1.pkl,confirmatory,C5,H3,PREREG-R2,2016,dev-unfrozen,S10
+method.prev.R1.relMAE_median_v0,0.07247281113769766,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.prev.R1.bias_median_v0,-0.017352870839852777,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.prev.R1.rmse_median_v0,0.09092418587093966,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.prev.R1.PER_c10_median_v0,0.7247281113769766,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.prev.R1.share_PER_gt_0_5_v0,0.5187732874749211,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.prev.R1.nmbe_granderson_v0,0.021416752314522464,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.prev.R1.support_share_v0,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjm0.R1.relMAE_median_v0,0.08130433948496482,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjm0.R1.bias_median_v0,-0.00921987523614404,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjm0.R1.rmse_median_v0,0.09868144830214302,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjm0.R1.PER_c10_median_v0,0.8130433948496482,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjm0.R1.share_PER_gt_0_5_v0,0.5680710805388364,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjm0.R1.nmbe_granderson_v0,0.013236479238932614,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjm0.R1.support_share_v0,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjmA.R1.relMAE_median_v0,0.04753604609948371,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjmA.R1.bias_median_v0,-0.0018389005019136258,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjmA.R1.rmse_median_v0,0.060951394917516354,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjmA.R1.PER_c10_median_v0,0.4753604609948371,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjmA.R1.share_PER_gt_0_5_v0,0.3933314225661603,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjmA.R1.nmbe_granderson_v0,0.0026167085280685565,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjmA.R1.support_share_v0,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caiso0.R1.relMAE_median_v0,0.08917352938186288,,,,,,1091.0,10466.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caiso0.R1.bias_median_v0,-0.025755647991061104,,,,,,1091.0,10466.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caiso0.R1.rmse_median_v0,0.10672988379079144,,,,,,1091.0,10466.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caiso0.R1.PER_c10_median_v0,0.8917352938186287,,,,,,1091.0,10466.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caiso0.R1.share_PER_gt_0_5_v0,0.6096885151920505,,,,,,1091.0,10466.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caiso0.R1.nmbe_granderson_v0,0.03439350150018852,,,,,,1091.0,10466.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caiso0.R1.support_share_v0,0.999904461641349,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caisoA.R1.relMAE_median_v0,0.04962978578300062,,,,,,1091.0,10466.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caisoA.R1.bias_median_v0,-0.005563842203789891,,,,,,1091.0,10466.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caisoA.R1.rmse_median_v0,0.06295018426799474,,,,,,1091.0,10466.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caisoA.R1.PER_c10_median_v0,0.4962978578300062,,,,,,1091.0,10466.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caisoA.R1.share_PER_gt_0_5_v0,0.3960443340340149,,,,,,1091.0,10466.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caisoA.R1.nmbe_granderson_v0,0.00804842564605481,,,,,,1091.0,10466.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caisoA.R1.support_share_v0,0.999904461641349,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.ny0.R1.relMAE_median_v0,0.07809770083845811,,,,,,1091.0,10361.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.ny0.R1.bias_median_v0,0.009176831411937503,,,,,,1091.0,10361.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.ny0.R1.rmse_median_v0,0.09617385200273333,,,,,,1091.0,10361.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.ny0.R1.PER_c10_median_v0,0.7809770083845811,,,,,,1091.0,10361.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.ny0.R1.share_PER_gt_0_5_v0,0.5593089470128366,,,,,,1091.0,10361.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.ny0.R1.nmbe_granderson_v0,-0.005814690463723736,,,,,,1091.0,10361.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.ny0.R1.support_share_v0,0.9898729339829941,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.nyA.R1.relMAE_median_v0,0.0555134713110084,,,,,,1091.0,10361.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.nyA.R1.bias_median_v0,0.00992700418401264,,,,,,1091.0,10361.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.nyA.R1.rmse_median_v0,0.07009768101865584,,,,,,1091.0,10361.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.nyA.R1.PER_c10_median_v0,0.555134713110084,,,,,,1091.0,10361.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.nyA.R1.share_PER_gt_0_5_v0,0.44503426310201716,,,,,,1091.0,10361.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.nyA.R1.nmbe_granderson_v0,-0.0076397502101997,,,,,,1091.0,10361.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.nyA.R1.support_share_v0,0.9898729339829941,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isone0.R1.relMAE_median_v0,0.08901065324382754,,,,,,1091.0,10466.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isone0.R1.bias_median_v0,-0.025755647991061104,,,,,,1091.0,10466.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isone0.R1.rmse_median_v0,0.10672988379079144,,,,,,1091.0,10466.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isone0.R1.PER_c10_median_v0,0.8901065324382753,,,,,,1091.0,10466.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isone0.R1.share_PER_gt_0_5_v0,0.6095929677049493,,,,,,1091.0,10466.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isone0.R1.nmbe_granderson_v0,0.03439350150018852,,,,,,1091.0,10466.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isone0.R1.support_share_v0,0.999904461641349,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isoneA.R1.relMAE_median_v0,0.04639609435596591,,,,,,1091.0,10466.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isoneA.R1.bias_median_v0,-0.007725104733128954,,,,,,1091.0,10466.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isoneA.R1.rmse_median_v0,0.0595454070614323,,,,,,1091.0,10466.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isoneA.R1.PER_c10_median_v0,0.46396094355965906,,,,,,1091.0,10466.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isoneA.R1.share_PER_gt_0_5_v0,0.3810433785591439,,,,,,1091.0,10466.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isoneA.R1.nmbe_granderson_v0,0.008909740058710102,,,,,,1091.0,10466.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isoneA.R1.support_share_v0,0.999904461641349,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dm0.R1.relMAE_median_v0,0.08917352938186288,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dm0.R1.bias_median_v0,-0.025755647991061104,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dm0.R1.rmse_median_v0,0.10672988379079144,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dm0.R1.PER_c10_median_v0,0.8917352938186287,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dm0.R1.share_PER_gt_0_5_v0,0.6096302665520207,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dm0.R1.nmbe_granderson_v0,0.03439350150018852,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dm0.R1.support_share_v0,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dmA.R1.relMAE_median_v0,0.054834570733853116,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dmA.R1.bias_median_v0,-0.006752544858348636,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dmA.R1.rmse_median_v0,0.06878162907163678,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dmA.R1.PER_c10_median_v0,0.5483457073385312,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dmA.R1.share_PER_gt_0_5_v0,0.43126015095060666,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dmA.R1.nmbe_granderson_v0,0.008754825427760068,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dmA.R1.support_share_v0,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wm0.R1.relMAE_median_v0,0.0812469898658977,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wm0.R1.bias_median_v0,-0.014018043593005059,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wm0.R1.rmse_median_v0,0.09714460148672,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wm0.R1.PER_c10_median_v0,0.812469898658977,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wm0.R1.share_PER_gt_0_5_v0,0.5829750644883921,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wm0.R1.nmbe_granderson_v0,0.021865340657129723,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wm0.R1.support_share_v0,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wmA.R1.relMAE_median_v0,0.05774193353128979,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wmA.R1.bias_median_v0,-0.0010221445585123629,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wmA.R1.rmse_median_v0,0.07300887590213333,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wmA.R1.PER_c10_median_v0,0.5774193353128979,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wmA.R1.share_PER_gt_0_5_v0,0.44625967325881344,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wmA.R1.nmbe_granderson_v0,0.0031121080168856584,,,,,,1091.0,10467.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wmA.R1.support_share_v0,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.m3.R1.relMAE_median_v0,0.07142069189560482,,,,,,1091.0,10461.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.m3.R1.bias_median_v0,0.015017253421140651,,,,,,1091.0,10461.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.m3.R1.rmse_median_v0,0.08699596665602669,,,,,,1091.0,10461.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.m3.R1.PER_c10_median_v0,0.7142069189560482,,,,,,1091.0,10461.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.m3.R1.share_PER_gt_0_5_v0,0.5382850587897906,,,,,,1091.0,10461.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.m3.R1.nmbe_granderson_v0,-0.011270047680971057,,,,,,1091.0,10461.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.m3.R1.support_share_v0,0.999426769848094,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.mid8.R1.relMAE_median_v0,0.08884905001874782,,,,,,1091.0,10461.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.mid8.R1.bias_median_v0,-0.025545180503794517,,,,,,1091.0,10461.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.mid8.R1.rmse_median_v0,0.10640584725595542,,,,,,1091.0,10461.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.mid8.R1.PER_c10_median_v0,0.8884905001874782,,,,,,1091.0,10461.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.mid8.R1.share_PER_gt_0_5_v0,0.603001625083644,,,,,,1091.0,10461.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.mid8.R1.nmbe_granderson_v0,0.03480784190335082,,,,,,1091.0,10461.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.mid8.R1.support_share_v0,0.999426769848094,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cg0.R1.relMAE_median_v0,0.07983532084951299,,,,,,1091.0,10464.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cg0.R1.bias_median_v0,0.010084250204073095,,,,,,1091.0,10464.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cg0.R1.rmse_median_v0,0.09646480382217208,,,,,,1091.0,10464.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cg0.R1.PER_c10_median_v0,0.7983532084951298,,,,,,1091.0,10464.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cg0.R1.share_PER_gt_0_5_v0,0.5630733944954128,,,,,,1091.0,10464.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cg0.R1.nmbe_granderson_v0,-0.004646788350240163,,,,,,1091.0,10464.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cg0.R1.support_share_v0,0.999713384924047,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cgA.R1.relMAE_median_v0,0.05193185140010813,,,,,,1091.0,10464.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cgA.R1.bias_median_v0,-0.0009489737371879125,,,,,,1091.0,10464.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cgA.R1.rmse_median_v0,0.06429881060709658,,,,,,1091.0,10464.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cgA.R1.PER_c10_median_v0,0.5193185140010812,,,,,,1091.0,10464.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cgA.R1.share_PER_gt_0_5_v0,0.4235474006116208,,,,,,1091.0,10464.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cgA.R1.nmbe_granderson_v0,0.0014932695893147936,,,,,,1091.0,10464.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cgA.R1.support_share_v0,0.999713384924047,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.scmR.R1.relMAE_median_v0,0.06178520808837321,,,,,,1091.0,10447.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.scmR.R1.bias_median_v0,0.008246933464161542,,,,,,1091.0,10447.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.scmR.R1.rmse_median_v0,0.07821102189860882,,,,,,1091.0,10447.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.scmR.R1.PER_c10_median_v0,0.6178520808837321,,,,,,1091.0,10447.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.scmR.R1.share_PER_gt_0_5_v0,0.5018665645639897,,,,,,1091.0,10447.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.scmR.R1.nmbe_granderson_v0,-0.0036444983119291795,,,,,,1091.0,10447.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.scmR.R1.support_share_v0,0.99808923282698,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.scmC.R1.relMAE_median_v0,0.06665017394183284,,,,,,1091.0,10463.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.scmC.R1.bias_median_v0,0.010925195184742713,,,,,,1091.0,10463.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.scmC.R1.rmse_median_v0,0.08339980692936301,,,,,,1091.0,10463.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.scmC.R1.PER_c10_median_v0,0.6665017394183284,,,,,,1091.0,10463.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.scmC.R1.share_PER_gt_0_5_v0,0.517537991015961,,,,,,1091.0,10463.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.scmC.R1.nmbe_granderson_v0,-0.00726206863399397,,,,,,1091.0,10463.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.scmC.R1.support_share_v0,0.999617846565396,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.prev.R3.relMAE_median_v0,0.07281404019608487,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.prev.R3.bias_median_v0,0.004855290521653106,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.prev.R3.rmse_median_v0,0.09798436916465152,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.prev.R3.PER_c10_median_v0,0.7281404019608486,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.prev.R3.share_PER_gt_0_5_v0,0.48670942353898256,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.prev.R3.nmbe_granderson_v0,0.0007115717587759858,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.prev.R3.support_share_v0,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjm0.R3.relMAE_median_v0,0.08259079400585705,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjm0.R3.bias_median_v0,0.033060461589945286,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjm0.R3.rmse_median_v0,0.11296537542218811,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjm0.R3.PER_c10_median_v0,0.8259079400585704,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjm0.R3.share_PER_gt_0_5_v0,0.5153527441966059,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjm0.R3.nmbe_granderson_v0,-0.021669184346517417,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjm0.R3.support_share_v0,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjmA.R3.relMAE_median_v0,0.05571073122181208,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjmA.R3.bias_median_v0,0.007217691395284642,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjmA.R3.rmse_median_v0,0.0752892192895865,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjmA.R3.PER_c10_median_v0,0.5571073122181208,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjmA.R3.share_PER_gt_0_5_v0,0.41489301322436006,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjmA.R3.nmbe_granderson_v0,-0.00607583586984738,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjmA.R3.support_share_v0,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caiso0.R3.relMAE_median_v0,0.08779799917021078,,,,,,1091.0,52854.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caiso0.R3.bias_median_v0,0.010716035488836286,,,,,,1091.0,52854.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caiso0.R3.rmse_median_v0,0.11698650776139569,,,,,,1091.0,52854.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caiso0.R3.PER_c10_median_v0,0.8779799917021077,,,,,,1091.0,52854.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caiso0.R3.share_PER_gt_0_5_v0,0.5442729027131343,,,,,,1091.0,52854.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caiso0.R3.nmbe_granderson_v0,0.0007264335676199287,,,,,,1091.0,52854.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caiso0.R3.support_share_v0,0.9999432430898462,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caisoA.R3.relMAE_median_v0,0.056021019830465944,,,,,,1091.0,52854.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caisoA.R3.bias_median_v0,0.0034473511474729466,,,,,,1091.0,52854.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caisoA.R3.rmse_median_v0,0.07593334102472692,,,,,,1091.0,52854.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caisoA.R3.PER_c10_median_v0,0.5602101983046595,,,,,,1091.0,52854.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caisoA.R3.share_PER_gt_0_5_v0,0.4055322208347523,,,,,,1091.0,52854.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caisoA.R3.nmbe_granderson_v0,0.001329561023676145,,,,,,1091.0,52854.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caisoA.R3.support_share_v0,0.9999432430898462,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.ny0.R3.relMAE_median_v0,0.11503523874810426,,,,,,1091.0,51624.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.ny0.R3.bias_median_v0,0.08093633913541622,,,,,,1091.0,51624.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.ny0.R3.rmse_median_v0,0.16083523349040052,,,,,,1091.0,51624.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.ny0.R3.PER_c10_median_v0,1.1503523874810424,,,,,,1091.0,51624.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.ny0.R3.share_PER_gt_0_5_v0,0.6114016736401674,,,,,,1091.0,51624.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.ny0.R3.nmbe_granderson_v0,-0.0673181292214848,,,,,,1091.0,51624.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.ny0.R3.support_share_v0,0.9766729099267836,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.nyA.R3.relMAE_median_v0,0.07325861868637439,,,,,,1091.0,51624.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.nyA.R3.bias_median_v0,0.03048103405935765,,,,,,1091.0,51624.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.nyA.R3.rmse_median_v0,0.09658963933622648,,,,,,1091.0,51624.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.nyA.R3.PER_c10_median_v0,0.7325861868637438,,,,,,1091.0,51624.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.nyA.R3.share_PER_gt_0_5_v0,0.4846776693011003,,,,,,1091.0,51624.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.nyA.R3.nmbe_granderson_v0,-0.024983732704939317,,,,,,1091.0,51624.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.nyA.R3.support_share_v0,0.9766729099267836,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isone0.R3.relMAE_median_v0,0.08779799917021078,,,,,,1091.0,52854.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isone0.R3.bias_median_v0,0.010716035488836286,,,,,,1091.0,52854.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isone0.R3.rmse_median_v0,0.11698650776139569,,,,,,1091.0,52854.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isone0.R3.PER_c10_median_v0,0.8779799917021077,,,,,,1091.0,52854.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isone0.R3.share_PER_gt_0_5_v0,0.5442918227570288,,,,,,1091.0,52854.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isone0.R3.nmbe_granderson_v0,0.0007264335676199287,,,,,,1091.0,52854.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isone0.R3.support_share_v0,0.9999432430898462,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isoneA.R3.relMAE_median_v0,0.05327353852657194,,,,,,1091.0,52854.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isoneA.R3.bias_median_v0,0.001646980531525467,,,,,,1091.0,52854.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isoneA.R3.rmse_median_v0,0.0716298909874655,,,,,,1091.0,52854.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isoneA.R3.PER_c10_median_v0,0.5327353852657194,,,,,,1091.0,52854.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isoneA.R3.share_PER_gt_0_5_v0,0.39961024709577325,,,,,,1091.0,52854.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isoneA.R3.nmbe_granderson_v0,-0.0010182056510862336,,,,,,1091.0,52854.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isoneA.R3.support_share_v0,0.9999432430898462,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dm0.R3.relMAE_median_v0,0.08779799917021078,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dm0.R3.bias_median_v0,0.010695988374016783,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dm0.R3.rmse_median_v0,0.11698650776139569,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dm0.R3.PER_c10_median_v0,0.8779799917021077,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dm0.R3.share_PER_gt_0_5_v0,0.5442798494049984,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dm0.R3.nmbe_granderson_v0,0.0006647660514814385,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dm0.R3.support_share_v0,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dmA.R3.relMAE_median_v0,0.06135814371865785,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dmA.R3.bias_median_v0,0.003542692355673005,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dmA.R3.rmse_median_v0,0.08189273908358081,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dmA.R3.PER_c10_median_v0,0.6135814371865785,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dmA.R3.share_PER_gt_0_5_v0,0.4369336133340901,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dmA.R3.nmbe_granderson_v0,0.0014126955134594985,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dmA.R3.support_share_v0,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wm0.R3.relMAE_median_v0,0.10423640758884556,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wm0.R3.bias_median_v0,0.007142200922189823,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wm0.R3.rmse_median_v0,0.13872917632082485,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wm0.R3.PER_c10_median_v0,1.0423640758884556,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wm0.R3.share_PER_gt_0_5_v0,0.6047070397487561,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wm0.R3.nmbe_granderson_v0,0.006501575351724569,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wm0.R3.support_share_v0,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wmA.R3.relMAE_median_v0,0.06684487107499862,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wmA.R3.bias_median_v0,0.0035827639873153897,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wmA.R3.rmse_median_v0,0.09034565303650104,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wmA.R3.PER_c10_median_v0,0.6684487107499861,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wmA.R3.share_PER_gt_0_5_v0,0.48334184686985643,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wmA.R3.nmbe_granderson_v0,0.0014467965499800894,,,,,,1091.0,52857.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wmA.R3.support_share_v0,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.m3.R3.relMAE_median_v0,0.11620085679225704,,,,,,1091.0,52824.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.m3.R3.bias_median_v0,0.0929449111591683,,,,,,1091.0,52824.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.m3.R3.rmse_median_v0,0.16389570150549226,,,,,,1091.0,52824.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.m3.R3.PER_c10_median_v0,1.1620085679225705,,,,,,1091.0,52824.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.m3.R3.share_PER_gt_0_5_v0,0.6147584431319097,,,,,,1091.0,52824.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.m3.R3.nmbe_granderson_v0,-0.08034776798717629,,,,,,1091.0,52824.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.m3.R3.support_share_v0,0.9993756739883081,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.mid8.R3.relMAE_median_v0,0.08741178025600332,,,,,,1091.0,52824.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.mid8.R3.bias_median_v0,0.010456594906034632,,,,,,1091.0,52824.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.mid8.R3.rmse_median_v0,0.11685627192231414,,,,,,1091.0,52824.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.mid8.R3.PER_c10_median_v0,0.8741178025600332,,,,,,1091.0,52824.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.mid8.R3.share_PER_gt_0_5_v0,0.5371422080872331,,,,,,1091.0,52824.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.mid8.R3.nmbe_granderson_v0,0.0005042607197896837,,,,,,1091.0,52824.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.mid8.R3.support_share_v0,0.9993756739883081,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.prev.R2ISO.relMAE_median_v0,0.061429805056383846,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.prev.R2ISO.bias_median_v0,-0.014241615735195506,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.prev.R2ISO.rmse_median_v0,0.07783902838251663,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.prev.R2ISO.PER_c10_median_v0,0.6142980505638385,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.prev.R2ISO.share_PER_gt_0_5_v0,0.46665001249063204,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.prev.R2ISO.nmbe_granderson_v0,0.017457842481751716,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.prev.R2ISO.support_share_v0,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjm0.R2ISO.relMAE_median_v0,0.06710574086826093,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjm0.R2ISO.bias_median_v0,-0.01415017772452587,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjm0.R2ISO.rmse_median_v0,0.08127926152008708,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjm0.R2ISO.PER_c10_median_v0,0.6710574086826093,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjm0.R2ISO.share_PER_gt_0_5_v0,0.5049962528103922,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjm0.R2ISO.nmbe_granderson_v0,0.019534594637964392,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjm0.R2ISO.support_share_v0,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjmA.R2ISO.relMAE_median_v0,0.040111507415631534,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjmA.R2ISO.bias_median_v0,0.002354471040139115,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjmA.R2ISO.rmse_median_v0,0.05001994261772569,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjmA.R2ISO.PER_c10_median_v0,0.4011150741563153,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjmA.R2ISO.share_PER_gt_0_5_v0,0.333999500374719,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjmA.R2ISO.nmbe_granderson_v0,-0.0008669396216397457,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjmA.R2ISO.support_share_v0,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caiso0.R2ISO.relMAE_median_v0,0.0720218568781249,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caiso0.R2ISO.bias_median_v0,-0.028136315664929346,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caiso0.R2ISO.rmse_median_v0,0.08682840251313444,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caiso0.R2ISO.PER_c10_median_v0,0.720218568781249,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caiso0.R2ISO.share_PER_gt_0_5_v0,0.5329752685485886,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caiso0.R2ISO.nmbe_granderson_v0,0.034668892807035875,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caiso0.R2ISO.support_share_v0,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caisoA.R2ISO.relMAE_median_v0,0.04111046327578487,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caisoA.R2ISO.bias_median_v0,-0.0029072295052209843,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caisoA.R2ISO.rmse_median_v0,0.051261808820246724,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caisoA.R2ISO.PER_c10_median_v0,0.41110463275784864,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caisoA.R2ISO.share_PER_gt_0_5_v0,0.33137646764926304,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caisoA.R2ISO.nmbe_granderson_v0,0.00501486361089133,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caisoA.R2ISO.support_share_v0,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.ny0.R2ISO.relMAE_median_v0,0.06697273274421199,,,,,,818.0,7979.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.ny0.R2ISO.bias_median_v0,0.006269125339517243,,,,,,818.0,7979.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.ny0.R2ISO.rmse_median_v0,0.08187971664978394,,,,,,818.0,7979.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.ny0.R2ISO.PER_c10_median_v0,0.6697273274421198,,,,,,818.0,7979.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.ny0.R2ISO.share_PER_gt_0_5_v0,0.5182353678405816,,,,,,818.0,7979.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.ny0.R2ISO.nmbe_granderson_v0,-0.0025356095507341916,,,,,,818.0,7979.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.ny0.R2ISO.support_share_v0,0.9966275293529853,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.nyA.R2ISO.relMAE_median_v0,0.0477108778923323,,,,,,818.0,7979.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.nyA.R2ISO.bias_median_v0,0.009459574615324358,,,,,,818.0,7979.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.nyA.R2ISO.rmse_median_v0,0.061851928268017844,,,,,,818.0,7979.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.nyA.R2ISO.PER_c10_median_v0,0.47710877892332293,,,,,,818.0,7979.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.nyA.R2ISO.share_PER_gt_0_5_v0,0.3892718385762627,,,,,,818.0,7979.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.nyA.R2ISO.nmbe_granderson_v0,-0.00783949518669849,,,,,,818.0,7979.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.nyA.R2ISO.support_share_v0,0.9966275293529853,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isone0.R2ISO.relMAE_median_v0,0.0720218568781249,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isone0.R2ISO.bias_median_v0,-0.028136315664929346,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isone0.R2ISO.rmse_median_v0,0.08682840251313444,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isone0.R2ISO.PER_c10_median_v0,0.720218568781249,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isone0.R2ISO.share_PER_gt_0_5_v0,0.5328503622283287,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isone0.R2ISO.nmbe_granderson_v0,0.034668892807035875,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isone0.R2ISO.support_share_v0,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isoneA.R2ISO.relMAE_median_v0,0.03893818565967683,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isoneA.R2ISO.bias_median_v0,-0.00211048710646316,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isoneA.R2ISO.rmse_median_v0,0.04951328128228118,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isoneA.R2ISO.PER_c10_median_v0,0.38938185659676827,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isoneA.R2ISO.share_PER_gt_0_5_v0,0.3152635523357482,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isoneA.R2ISO.nmbe_granderson_v0,0.0030001839073101775,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isoneA.R2ISO.support_share_v0,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dm0.R2ISO.relMAE_median_v0,0.0720218568781249,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dm0.R2ISO.bias_median_v0,-0.028136315664929346,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dm0.R2ISO.rmse_median_v0,0.08682840251313444,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dm0.R2ISO.PER_c10_median_v0,0.720218568781249,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dm0.R2ISO.share_PER_gt_0_5_v0,0.5329752685485886,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dm0.R2ISO.nmbe_granderson_v0,0.034668892807035875,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dm0.R2ISO.support_share_v0,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dmA.R2ISO.relMAE_median_v0,0.04421462267869451,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dmA.R2ISO.bias_median_v0,-0.0031780442156383194,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dmA.R2ISO.rmse_median_v0,0.05600876233457623,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dmA.R2ISO.PER_c10_median_v0,0.4421462267869451,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dmA.R2ISO.share_PER_gt_0_5_v0,0.35935548338745943,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dmA.R2ISO.nmbe_granderson_v0,0.0049568166843492675,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dmA.R2ISO.support_share_v0,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wm0.R2ISO.relMAE_median_v0,0.066053142739149,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wm0.R2ISO.bias_median_v0,-0.01392075139838491,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wm0.R2ISO.rmse_median_v0,0.08268513231509908,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wm0.R2ISO.PER_c10_median_v0,0.66053142739149,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wm0.R2ISO.share_PER_gt_0_5_v0,0.5148638521109168,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wm0.R2ISO.nmbe_granderson_v0,0.018665805785503337,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wm0.R2ISO.support_share_v0,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wmA.R2ISO.relMAE_median_v0,0.047093265518796695,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wmA.R2ISO.bias_median_v0,0.0011471511129523223,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wmA.R2ISO.rmse_median_v0,0.06160300408909791,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wmA.R2ISO.PER_c10_median_v0,0.47093265518796695,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wmA.R2ISO.share_PER_gt_0_5_v0,0.3812140894329253,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wmA.R2ISO.nmbe_granderson_v0,0.00010637590520520601,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wmA.R2ISO.support_share_v0,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.m3.R2ISO.relMAE_median_v0,0.061695252117810365,,,,,,818.0,8003.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.m3.R2ISO.bias_median_v0,0.016253959874028175,,,,,,818.0,8003.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.m3.R2ISO.rmse_median_v0,0.07648622974524798,,,,,,818.0,8003.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.m3.R2ISO.PER_c10_median_v0,0.6169525211781036,,,,,,818.0,8003.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.m3.R2ISO.share_PER_gt_0_5_v0,0.4883168811695614,,,,,,818.0,8003.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.m3.R2ISO.nmbe_granderson_v0,-0.012132777690550621,,,,,,818.0,8003.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.m3.R2ISO.support_share_v0,0.9996252810392205,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.mid8.R2ISO.relMAE_median_v0,0.0716354732564756,,,,,,818.0,8003.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.mid8.R2ISO.bias_median_v0,-0.028173854345343478,,,,,,818.0,8003.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.mid8.R2ISO.rmse_median_v0,0.08728639268155935,,,,,,818.0,8003.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.mid8.R2ISO.PER_c10_median_v0,0.7163547325647559,,,,,,818.0,8003.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.mid8.R2ISO.share_PER_gt_0_5_v0,0.5296763713607398,,,,,,818.0,8003.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.mid8.R2ISO.nmbe_granderson_v0,0.033937954866896825,,,,,,818.0,8003.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.mid8.R2ISO.support_share_v0,0.9996252810392205,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cg0.R2ISO.relMAE_median_v0,0.06447135239402935,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cg0.R2ISO.bias_median_v0,0.0073127495569074085,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cg0.R2ISO.rmse_median_v0,0.07795796281185474,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cg0.R2ISO.PER_c10_median_v0,0.6447135239402935,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cg0.R2ISO.share_PER_gt_0_5_v0,0.501873594803897,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cg0.R2ISO.nmbe_granderson_v0,-0.003629613198149496,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cg0.R2ISO.support_share_v0,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cgA.R2ISO.relMAE_median_v0,0.043400135688972954,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cgA.R2ISO.bias_median_v0,-0.0019745877424237127,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cgA.R2ISO.rmse_median_v0,0.054356753239207835,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cgA.R2ISO.PER_c10_median_v0,0.4340013568897295,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cgA.R2ISO.share_PER_gt_0_5_v0,0.3478641019235573,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cgA.R2ISO.nmbe_granderson_v0,0.0031060255027089353,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cgA.R2ISO.support_share_v0,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.scmR.R2ISO.relMAE_median_v0,0.052167863310791616,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.scmR.R2ISO.bias_median_v0,0.005002592822869549,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.scmR.R2ISO.rmse_median_v0,0.06583485012682028,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.scmR.R2ISO.PER_c10_median_v0,0.5216786331079162,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.scmR.R2ISO.share_PER_gt_0_5_v0,0.4349238071446415,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.scmR.R2ISO.nmbe_granderson_v0,-0.002707564570582776,,,,,,818.0,8006.0,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.scmR.R2ISO.support_share_v0,1.0,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.prev.info_v0,I-hist,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjm0.info_v0,I-hist,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjmA.info_v0,I-morn,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caiso0.info_v0,I-hist,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caisoA.info_v0,I-morn,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.ny0.info_v0,I-hist,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.nyA.info_v0,I-morn,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isone0.info_v0,I-hist,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.isoneA.info_v0,I-morn,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.mid8.info_v0,I-hist,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dm0.info_v0,I-hist,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.dmA.info_v0,I-morn,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wm0.info_v0,I-hist,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.wmA.info_v0,I-morn,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.m3.info_v0,I-hist,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.m3A.info_v0,I-morn,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.towt70.info_v0,I-hist,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.towt70A.info_v0,I-morn,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.towt7.info_v0,I-hist,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cgA.info_v0,I-donor+I-morn,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cg0.info_v0,I-donor,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.scmR.info_v0,I-donor,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.scmC.info_v0,I-donor,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.lgbM.info_v0,I-morn,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.lgbD.info_v0,I-donor,,,,,,,,baselines.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H3.anchor.caisoA_vs_pjmA_v0,0.0012676795845881356,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H3.anchor.nyA_vs_pjmA_v0,0.14906560787965956,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H3.anchor.isoneA_vs_pjmA_v0,-0.05956263573871939,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H3.anchor.dmA_vs_pjmA_v0,0.08806348915634102,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W2_l0.01_v0,0.08759108092650689,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W2_l0.1_v0,0.07118133545256097,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W2_l0.3_v0,0.06651354394140555,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W2_l1_v0,0.0644240628846068,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W2_l3_v0,0.06591065215338715,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W2_l10_v0,0.07160824043465312,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W2_l100_v0,0.10241961780681104,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmc_W2_v0,0.06900399805671656,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W3_l0.01_v0,0.08660272342204028,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W3_l0.1_v0,0.07109106667953585,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W3_l0.3_v0,0.06546556123536304,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W3_l1_v0,0.06235534713997799,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W3_l3_v0,0.06419781169015965,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W3_l10_v0,0.06872265804934234,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W3_l100_v0,0.0987085915600689,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmc_W3_v0,0.06754876963871376,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W5_l0.01_v0,0.08232621025973419,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W5_l0.1_v0,0.0688749322120843,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W5_l0.3_v0,0.06454913887911831,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W5_l1_v0,0.062464232560211795,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W5_l3_v0,0.0618743416021527,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W5_l10_v0,0.06612211549138976,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W5_l100_v0,0.0921410128340309,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmc_W5_v0,0.06665017394183284,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W7_l0.01_v0,0.08119347106715827,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W7_l0.1_v0,0.07056383895942565,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W7_l0.3_v0,0.06573287886364121,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W7_l1_v0,0.06306089330822404,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W7_l3_v0,0.06178520808837321,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W7_l10_v0,0.06504403661404996,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W7_l100_v0,0.09016855869563167,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmc_W7_v0,0.06861171486871812,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W10_l0.01_v0,0.0755332488893716,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W10_l0.1_v0,0.06897404630185998,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W10_l0.3_v0,0.06582929339145147,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W10_l1_v0,0.06322030870397026,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W10_l3_v0,0.06287912353499414,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W10_l10_v0,0.06521709841046797,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W10_l100_v0,0.08469372104087683,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmc_W10_v0,0.06775996047312398,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W20_l0.01_v0,0.07315341518334159,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W20_l0.1_v0,0.07124512258433559,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W20_l0.3_v0,0.06968650300836557,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W20_l1_v0,0.06697314509007543,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W20_l3_v0,0.06656190213882676,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W20_l10_v0,0.06803935489055521,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W20_l100_v0,0.08264950004836796,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmc_W20_v0,0.07335142318271967,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W40_l0.01_v0,0.07517870679499022,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W40_l0.1_v0,0.07468386898839688,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W40_l0.3_v0,0.07367312603461598,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W40_l1_v0,0.07254730813621613,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W40_l3_v0,0.07058018358381599,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W40_l10_v0,0.07106066397576019,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmr_W40_l100_v0,0.08357272073764521,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmc_W40_v0,0.08016158162646853,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmR_v0,0.06178520808837321,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.scm.grid.scmC_v0,0.06665017394183284,,,,,,,,events_R1.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H1s.delta_bias.ny_v0,-0.04408713780499296,-0.08910147136303327,-0.015089905800845453,0.01220703125,,11.0,,,events_R1.pkl,secondary,S-rules,none,PREREG-R2,2016,dev-unfrozen,none
+H1s.delta_bias.caiso_v0,-0.03818397422797678,-0.07241093269102816,0.08193357741386612,0.02685546875,,11.0,,,events_R1.pkl,secondary,S-rules,none,PREREG-R2,2016,dev-unfrozen,none
+H1s.delta_bias.isone_v0,-0.03818397422797678,-0.07241093269102816,0.08193357741386612,0.02685546875,,11.0,,,events_R1.pkl,secondary,S-rules,none,PREREG-R2,2016,dev-unfrozen,none
+H2s.logratio.ny_v0,-0.33874687368314693,-0.47128670137293915,-0.138358759931019,0.00341796875,,11.0,,,events_R1.pkl,secondary,S-rules,none,PREREG-R2,2016,dev-unfrozen,none
+H2s.logratio.caiso_v0,-0.4657769471978017,-0.6064063544006373,-0.2965766529636722,0.0009765625,,11.0,,,events_R1.pkl,secondary,S-rules,none,PREREG-R2,2016,dev-unfrozen,none
+H2s.logratio.isone_v0,-0.5342805221554793,-0.7339074040787934,-0.3018395205382246,0.0009765625,,11.0,,,events_R1.pkl,secondary,S-rules,none,PREREG-R2,2016,dev-unfrozen,none
+hetp.p0.02.pjmA.relMAE_median_v0,0.05312895522453949,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hetp.p0.02.caisoA.relMAE_median_v0,0.05155718303618231,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hetp.p0.02.cgA.relMAE_median_v0,0.0552417884840357,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hetp.p0.02.scmR.relMAE_median_v0,0.06178520808837321,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hetp.p0.05.pjmA.relMAE_median_v0,0.07031585095095483,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hetp.p0.05.caisoA.relMAE_median_v0,0.06512703230101917,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hetp.p0.05.cgA.relMAE_median_v0,0.07257040562943017,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hetp.p0.05.scmR.relMAE_median_v0,0.06178520808837321,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hetp.p0.1.pjmA.relMAE_median_v0,0.11330849424307661,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hetp.p0.1.caisoA.relMAE_median_v0,0.09517487205506439,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hetp.p0.1.cgA.relMAE_median_v0,0.11488913618701793,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hetp.p0.1.scmR.relMAE_median_v0,0.06178520808837321,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H4.pcross.pjmA_scmR.4h_v0,0.04232797342904395,0.028329801920330792,0.05917505346077078,,,11.0,1091.0,10447.0,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2016,dev-unfrozen,S10
+H4.pcross.pjmA_scmR.4h.label_v0,0.04232797342904395,,,,,,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2016,dev-unfrozen,S10
+H4.p_sign_v0,0.00048828125,,,0.00048828125,,11.0,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2016,dev-unfrozen,S10
+H4.p_holm_v0,0.00244140625,,,0.00048828125,0.00244140625,11.0,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2016,dev-unfrozen,S10
+H4.p_signedrank_v0,0.00048828125,,,0.00048828125,,,,,events_R1.pkl (analytic recompute),secondary,none,H4,PREREG-R2,2016,dev-unfrozen,S10
+H4.p_wcb_v0,0.00030003000300030005,,,0.00030003000300030005,,,,,events_R1.pkl (analytic recompute),secondary,none,H4,PREREG-R2,2016,dev-unfrozen,S10
+H4.median_site_pcross_v0,0.03019893902744412,0.009825221122358915,0.05973075371809432,,,11.0,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2016,dev-unfrozen,S10
+H4.loso_min_v0,0.027774146032163362,,,,,,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2016,dev-unfrozen,S10
+H4.loso_max_v0,0.04072649572624935,,,,,,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2016,dev-unfrozen,S10
+H4.loso_pmax_v0,0.0009765625,,,,,,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2016,dev-unfrozen,S10
+H4.site_robust_v0,True,,,,,,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2016,dev-unfrozen,S10
+H4.sens_increment_p10_v0,0.06164240218082054,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,H4,PREREG-R2,2016,dev-unfrozen,S10
+H4.site.Bear_v0,0.05125405242505457,,,,,,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2016,dev-unfrozen,S10
+H4.site.Bull_v0,0.025349353036882606,,,,,,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2016,dev-unfrozen,S10
+H4.site.Cockatoo_v0,0.02362187032431834,,,,,,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2016,dev-unfrozen,S10
+H4.site.Eagle_v0,0.009825221122358915,,,,,,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2016,dev-unfrozen,S10
+H4.site.Fox_v0,0.03019893902744412,,,,,,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2016,dev-unfrozen,S10
+H4.site.Hog_v0,0.05973075371809432,,,,,,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2016,dev-unfrozen,S10
+H4.site.Lamb_v0,0.0,,,,,,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2016,dev-unfrozen,S10
+H4.site.Peacock_v0,0.024291780038725067,,,,,,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2016,dev-unfrozen,S10
+H4.site.Rat_v0,0.05285357402718707,,,,,,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2016,dev-unfrozen,S10
+H4.site.Robin_v0,0.08475801409896368,,,,,,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2016,dev-unfrozen,S10
+H4.site.Wolf_v0,0.05617087743358495,,,,,,,,events_R1.pkl (analytic recompute),confirmatory,C5,H4,PREREG-R2,2016,dev-unfrozen,S10
+pstar.pjmA.4h_v0,0.09192086005657486,0.07379320639077849,0.09849268904635294,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pstar.caisoA.4h_v0,0.104825132714329,0.08697152131780778,0.12039118105335052,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pstar.nyA.4h_v0,0.08527576720032094,0.048311696519027426,0.09601135716916288,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pstar.isoneA.4h_v0,0.09612914301048038,0.07942677346032688,0.10329635852370252,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pstar.dmA.4h_v0,0.10484931633849236,0.08176374153247852,0.1207376538978318,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pstar.wmA.4h_v0,0.08951562655110629,0.0652461634254629,0.09599920947823834,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pstar.cgA.4h_v0,0.08923038196083363,0.05388539797221248,0.09824620876502446,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pstar.cg0.4h_v0,>0.30,,,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pstar.scmR.4h_v0,>0.30,,,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pstar.scmC.4h_v0,>0.30,,,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pstar.pjm0.4h_v0,>0.30,,,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pcross.pjmA.4h_v0,0.04232797342904395,0.028329801920330792,0.05917505346077078,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pcross.caisoA.4h_v0,0.05035161790243294,0.03453597020974711,0.07258721069600269,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pcross.nyA.4h_v0,0.024862439389666608,0.0,0.043981900398008575,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pcross.isoneA.4h_v0,0.04967392016108533,0.03549789216742005,0.06590128713277887,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pcross.dmA.4h_v0,0.04463756646919435,0.0,0.06715774126648144,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pcross.wmA.4h_v0,0.02870502220512452,0.0,0.048399010140548204,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pcross.cgA.4h_v0,0.03617635768208106,0.010567043166940798,0.05250294488363918,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pcross.cg0.4h_v0,0.0,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pcross.scmC.4h_v0,0.0,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pcross.pjm0.4h_v0,0.0,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.pjmA.4h.p0_v0,0.04747609588254297,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.pjmA.4h.p0_v0,-0.0018874960970755958,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.pjmA.4h.p0.02_v0,0.05176508245626112,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.pjmA.4h.p0.02_v0,0.018103494804002303,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.pjmA.4h.p0.05_v0,0.06668009565405526,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.pjmA.4h.p0.05_v0,0.047407339238258475,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.pjmA.4h.p0.1_v0,0.10718227250749757,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.pjmA.4h.p0.1_v0,0.09628603976623254,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.pjmA.4h.p0.2_v0,0.20197658674780392,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.pjmA.4h.p0.2_v0,0.19434776204194862,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.pjmA.4h.p0.3_v0,0.2996508165364654,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.pjmA.4h.p0.3_v0,0.29322053100909085,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.caisoA.4h.p0_v0,0.04954593780774098,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.caisoA.4h.p0_v0,-0.005812869292623429,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.caisoA.4h.p0.02_v0,0.05062238149866068,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.caisoA.4h.p0.02_v0,0.012354550835414932,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.caisoA.4h.p0.05_v0,0.06159716470659891,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.caisoA.4h.p0.05_v0,0.04028444120477416,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.caisoA.4h.p0.1_v0,0.09606940563324524,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.caisoA.4h.p0.1_v0,0.08282696439299708,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.caisoA.4h.p0.2_v0,0.1559795389769494,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.caisoA.4h.p0.2_v0,0.14068271831195298,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.caisoA.4h.p0.3_v0,0.17101011688344755,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.caisoA.4h.p0.3_v0,0.1573823879067274,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.nyA.4h.p0_v0,0.05541386010311131,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.nyA.4h.p0_v0,0.00987287192604766,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.nyA.4h.p0.02_v0,0.05984322422738286,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.nyA.4h.p0.02_v0,0.02809515019181385,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.nyA.4h.p0.05_v0,0.07567126354436055,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.nyA.4h.p0.05_v0,0.05671120700494923,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.nyA.4h.p0.1_v0,0.11125851952872493,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.nyA.4h.p0.1_v0,0.10268858349212176,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.nyA.4h.p0.2_v0,0.18282687908905634,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.nyA.4h.p0.2_v0,0.17752136286612305,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.nyA.4h.p0.3_v0,0.20588430321906093,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.nyA.4h.p0.3_v0,0.2017229070339034,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.isoneA.4h.p0_v0,0.04628537478003247,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.isoneA.4h.p0_v0,-0.007842241056681196,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.isoneA.4h.p0.02_v0,0.04791166216944564,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.isoneA.4h.p0.02_v0,0.011636337326395485,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.isoneA.4h.p0.05_v0,0.06199824150631521,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.isoneA.4h.p0.05_v0,0.0412908046702415,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.isoneA.4h.p0.1_v0,0.10335769038093726,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.isoneA.4h.p0.1_v0,0.0913334294046555,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.isoneA.4h.p0.2_v0,0.19678355371533945,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.isoneA.4h.p0.2_v0,0.19095134279982698,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.isoneA.4h.p0.3_v0,0.2951888746851673,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.isoneA.4h.p0.3_v0,0.29074628841902,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.dmA.4h.p0_v0,0.05458846185578721,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.dmA.4h.p0_v0,-0.006752544858348636,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.dmA.4h.p0.02_v0,0.055264938154446906,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.dmA.4h.p0.02_v0,0.012256679619043743,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.dmA.4h.p0.05_v0,0.06414117447036281,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.dmA.4h.p0.05_v0,0.03992590733721111,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.dmA.4h.p0.1_v0,0.09600999725373355,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.dmA.4h.p0.1_v0,0.08151022606958652,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.dmA.4h.p0.2_v0,0.15404028879216106,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.dmA.4h.p0.2_v0,0.1390092156188853,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.dmA.4h.p0.3_v0,0.17049439737263217,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.dmA.4h.p0.3_v0,0.15687890108049696,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.wmA.4h.p0_v0,0.05774193353128979,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.wmA.4h.p0_v0,-0.0011742846560938505,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.wmA.4h.p0.02_v0,0.059666565576998995,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.wmA.4h.p0.02_v0,0.01851619638270132,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.wmA.4h.p0.05_v0,0.07166146217829257,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.wmA.4h.p0.05_v0,0.048102868023920844,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.wmA.4h.p0.1_v0,0.10875612371190797,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.wmA.4h.p0.1_v0,0.09729717567859722,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.wmA.4h.p0.2_v0,0.19735404419612113,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.wmA.4h.p0.2_v0,0.1930061591363998,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.wmA.4h.p0.3_v0,0.2834167205897957,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.wmA.4h.p0.3_v0,0.28097526814538953,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.cgA.4h.p0_v0,0.05193185140010813,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.cgA.4h.p0_v0,-0.0009390607190674614,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.cgA.4h.p0.02_v0,0.05479212577928415,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.cgA.4h.p0.02_v0,0.0190700500625385,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.cgA.4h.p0.05_v0,0.06962513372109212,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.cgA.4h.p0.05_v0,0.04905977137636266,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.cgA.4h.p0.1_v0,0.10959073182787546,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.cgA.4h.p0.1_v0,0.09811889230041936,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.cgA.4h.p0.2_v0,0.2035342788459161,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.cgA.4h.p0.2_v0,0.19778416086095524,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.cgA.4h.p0.3_v0,0.3021597048503876,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.cgA.4h.p0.3_v0,0.2966706621627526,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.cg0.4h.p0_v0,0.0796272548920762,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.cg0.4h.p0_v0,0.010169098857709438,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.cg0.4h.p0.02_v0,0.0796272548920762,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.cg0.4h.p0.02_v0,0.010169098857709438,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.cg0.4h.p0.05_v0,0.0796272548920762,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.cg0.4h.p0.05_v0,0.010169098857709438,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.cg0.4h.p0.1_v0,0.0796272548920762,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.cg0.4h.p0.1_v0,0.010169098857709438,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.cg0.4h.p0.2_v0,0.0796272548920762,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.cg0.4h.p0.2_v0,0.010169098857709438,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.cg0.4h.p0.3_v0,0.0796272548920762,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.cg0.4h.p0.3_v0,0.010169098857709438,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.scmR.4h.p0_v0,0.06178520808837321,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.scmR.4h.p0_v0,0.008246933464161542,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.scmR.4h.p0.02_v0,0.06178520808837321,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.scmR.4h.p0.02_v0,0.008246933464161542,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.scmR.4h.p0.05_v0,0.06178520808837321,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.scmR.4h.p0.05_v0,0.008246933464161542,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.scmR.4h.p0.1_v0,0.06178520808837321,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.scmR.4h.p0.1_v0,0.008246933464161542,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.scmR.4h.p0.2_v0,0.06178520808837321,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.scmR.4h.p0.2_v0,0.008246933464161542,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.scmR.4h.p0.3_v0,0.06178520808837321,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.scmR.4h.p0.3_v0,0.008246933464161542,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.scmC.4h.p0_v0,0.06655435748335385,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.scmC.4h.p0_v0,0.011257477198307112,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.scmC.4h.p0.02_v0,0.06655435748335385,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.scmC.4h.p0.02_v0,0.011257477198307112,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.scmC.4h.p0.05_v0,0.06655435748335385,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.scmC.4h.p0.05_v0,0.011257477198307112,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.scmC.4h.p0.1_v0,0.06655435748335385,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.scmC.4h.p0.1_v0,0.011257477198307112,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.scmC.4h.p0.2_v0,0.06655435748335385,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.scmC.4h.p0.2_v0,0.011257477198307112,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.scmC.4h.p0.3_v0,0.06655435748335385,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.scmC.4h.p0.3_v0,0.011257477198307112,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.pjm0.4h.p0_v0,0.08061919779145846,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.pjm0.4h.p0_v0,-0.00921987523614404,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.pjm0.4h.p0.02_v0,0.08061919779145846,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.pjm0.4h.p0.02_v0,-0.00921987523614404,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.pjm0.4h.p0.05_v0,0.08061919779145846,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.pjm0.4h.p0.05_v0,-0.00921987523614404,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.pjm0.4h.p0.1_v0,0.08061919779145846,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.pjm0.4h.p0.1_v0,-0.00921987523614404,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.pjm0.4h.p0.2_v0,0.08061919779145846,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.pjm0.4h.p0.2_v0,-0.00921987523614404,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.pjm0.4h.p0.3_v0,0.08061919779145846,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.pjm0.4h.p0.3_v0,-0.00921987523614404,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+incr_sens.4h.p0.02_v0,0.004288986573718151,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,H4,PREREG-R2,2016,dev-unfrozen,S10
+incr_sens.4h.p0.05_v0,0.01920399977151229,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,H4,PREREG-R2,2016,dev-unfrozen,S10
+incr_sens.4h.p0.1_v0,0.059706176624954595,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,H4,PREREG-R2,2016,dev-unfrozen,S10
+incr_sens.4h.p0.2_v0,0.15450049086526094,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,H4,PREREG-R2,2016,dev-unfrozen,S10
+incr_sens.4h.p0.3_v0,0.25217472065392244,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,H4,PREREG-R2,2016,dev-unfrozen,S10
+pstar.pjmA.2h_v0,0.27276244668693456,0.22183707864096208,0.2896153238218917,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pstar.caisoA.2h_v0,>0.30,0.25509353087397457,,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pstar.nyA.2h_v0,>0.30,,,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pstar.isoneA.2h_v0,0.19168113648339388,0.15739638771699693,0.20473300931985797,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pstar.dmA.2h_v0,>0.30,,,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pstar.wmA.2h_v0,>0.30,,,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pstar.cgA.2h_v0,0.263071001035992,0.16027891037646336,0.2891294457235693,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pstar.cg0.2h_v0,>0.30,,,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pstar.scmR.2h_v0,>0.30,,,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pstar.scmC.2h_v0,>0.30,,,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pstar.pjm0.2h_v0,>0.30,,,,,11.0,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pcross.pjmA.2h_v0,0.12589688156829887,0.08421946106299327,0.17555076879263243,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pcross.caisoA.2h_v0,0.15030266668000558,0.10233090788002423,0.2150964521276135,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pcross.nyA.2h_v0,>0.30,0.0,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pcross.isoneA.2h_v0,0.09807580309146582,0.07104898349342548,0.13133604521211803,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pcross.dmA.2h_v0,>0.30,0.0,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pcross.wmA.2h_v0,>0.30,0.0,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pcross.cgA.2h_v0,0.10727310008185355,0.03075925851340063,0.1550888503342459,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pcross.cg0.2h_v0,0.0,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pcross.scmC.2h_v0,0.0,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+pcross.pjm0.2h_v0,0.0,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.pjmA.2h.p0_v0,0.04747609588254297,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.pjmA.2h.p0_v0,-0.0018874960970755958,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.pjmA.2h.p0.02_v0,0.047938741224458896,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.pjmA.2h.p0.02_v0,0.004968269891236443,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.pjmA.2h.p0.05_v0,0.05067481841961644,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.pjmA.2h.p0.05_v0,0.014994146087969468,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.pjmA.2h.p0.1_v0,0.05712912326886273,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.pjmA.2h.p0.1_v0,0.03173914170967298,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.pjmA.2h.p0.2_v0,0.07945376106485455,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.pjmA.2h.p0.2_v0,0.06517468592907999,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.pjmA.2h.p0.3_v0,0.10835961530576722,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.pjmA.2h.p0.3_v0,0.09840139383959043,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.caisoA.2h.p0_v0,0.04954593780774098,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.caisoA.2h.p0_v0,-0.005812869292623429,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.caisoA.2h.p0.02_v0,0.049375903063985795,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.caisoA.2h.p0.02_v0,0.0006558667641307379,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.caisoA.2h.p0.05_v0,0.049995069764215236,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.caisoA.2h.p0.05_v0,0.01010392026314506,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.caisoA.2h.p0.1_v0,0.05409516786084293,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.caisoA.2h.p0.1_v0,0.025550873294569888,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.caisoA.2h.p0.2_v0,0.07179459975686821,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.caisoA.2h.p0.2_v0,0.056096900579708134,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.caisoA.2h.p0.3_v0,0.09750386509682436,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.caisoA.2h.p0.3_v0,0.0845160590920372,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.nyA.2h.p0_v0,0.05541386010311131,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.nyA.2h.p0_v0,0.00987287192604766,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.nyA.2h.p0.02_v0,0.05541386010311131,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.nyA.2h.p0.02_v0,0.00987287192604766,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.nyA.2h.p0.05_v0,0.05541386010311131,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.nyA.2h.p0.05_v0,0.00987287192604766,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.nyA.2h.p0.1_v0,0.05541386010311131,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.nyA.2h.p0.1_v0,0.00987287192604766,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.nyA.2h.p0.2_v0,0.05541386010311131,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.nyA.2h.p0.2_v0,0.00987287192604766,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.nyA.2h.p0.3_v0,0.05541386010311131,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.nyA.2h.p0.3_v0,0.00987287192604766,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.isoneA.2h.p0_v0,0.04628537478003247,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.isoneA.2h.p0_v0,-0.007842241056681196,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.isoneA.2h.p0.02_v0,0.04592713187293266,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.isoneA.2h.p0.02_v0,0.0020179882370965165,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.isoneA.2h.p0.05_v0,0.049308990684643283,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.isoneA.2h.p0.05_v0,0.016846032522635463,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.isoneA.2h.p0.1_v0,0.06256637637717119,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.isoneA.2h.p0.1_v0,0.041758000137660324,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.isoneA.2h.p0.2_v0,0.10369337850677643,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.isoneA.2h.p0.2_v0,0.0917904704652612,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.isoneA.2h.p0.3_v0,0.14931482922567557,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.isoneA.2h.p0.3_v0,0.14197867310606288,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.dmA.2h.p0_v0,0.05458846185578721,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.dmA.2h.p0_v0,-0.006752544858348636,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.dmA.2h.p0.02_v0,0.05458846185578721,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.dmA.2h.p0.02_v0,-0.006752544858348636,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.dmA.2h.p0.05_v0,0.05458846185578721,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.dmA.2h.p0.05_v0,-0.006752544858348636,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.dmA.2h.p0.1_v0,0.05458846185578721,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.dmA.2h.p0.1_v0,-0.006752544858348636,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.dmA.2h.p0.2_v0,0.05458846185578721,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.dmA.2h.p0.2_v0,-0.006752544858348636,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.dmA.2h.p0.3_v0,0.05458846185578721,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.dmA.2h.p0.3_v0,-0.006752544858348636,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.wmA.2h.p0_v0,0.05774193353128979,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.wmA.2h.p0_v0,-0.0011742846560938505,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.wmA.2h.p0.02_v0,0.05774193353128979,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.wmA.2h.p0.02_v0,-0.0011742846560938505,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.wmA.2h.p0.05_v0,0.05774193353128979,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.wmA.2h.p0.05_v0,-0.0011742846560938505,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.wmA.2h.p0.1_v0,0.05774193353128979,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.wmA.2h.p0.1_v0,-0.0011742846560938505,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.wmA.2h.p0.2_v0,0.05774193353128979,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.wmA.2h.p0.2_v0,-0.0011742846560938505,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.wmA.2h.p0.3_v0,0.05774193353128979,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.wmA.2h.p0.3_v0,-0.0011742846560938505,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.cgA.2h.p0_v0,0.05193185140010813,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.cgA.2h.p0_v0,-0.0009390607190674614,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.cgA.2h.p0.02_v0,0.05227500318992333,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.cgA.2h.p0.02_v0,0.005872083860972795,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.cgA.2h.p0.05_v0,0.05405853079870604,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.cgA.2h.p0.05_v0,0.01596181406719948,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.cgA.2h.p0.1_v0,0.060681701627247814,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.cgA.2h.p0.1_v0,0.032875321347679856,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.cgA.2h.p0.2_v0,0.08149240512680618,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.cgA.2h.p0.2_v0,0.06658471551685928,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.cgA.2h.p0.3_v0,0.11086321375558647,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.cgA.2h.p0.3_v0,0.09950199025483186,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.cg0.2h.p0_v0,0.0796272548920762,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.cg0.2h.p0_v0,0.010169098857709438,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.cg0.2h.p0.02_v0,0.0796272548920762,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.cg0.2h.p0.02_v0,0.010169098857709438,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.cg0.2h.p0.05_v0,0.0796272548920762,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.cg0.2h.p0.05_v0,0.010169098857709438,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.cg0.2h.p0.1_v0,0.0796272548920762,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.cg0.2h.p0.1_v0,0.010169098857709438,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.cg0.2h.p0.2_v0,0.0796272548920762,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.cg0.2h.p0.2_v0,0.010169098857709438,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.cg0.2h.p0.3_v0,0.0796272548920762,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.cg0.2h.p0.3_v0,0.010169098857709438,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.scmR.2h.p0_v0,0.06178520808837321,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.scmR.2h.p0_v0,0.008246933464161542,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.scmR.2h.p0.02_v0,0.06178520808837321,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.scmR.2h.p0.02_v0,0.008246933464161542,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.scmR.2h.p0.05_v0,0.06178520808837321,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.scmR.2h.p0.05_v0,0.008246933464161542,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.scmR.2h.p0.1_v0,0.06178520808837321,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.scmR.2h.p0.1_v0,0.008246933464161542,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.scmR.2h.p0.2_v0,0.06178520808837321,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.scmR.2h.p0.2_v0,0.008246933464161542,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.scmR.2h.p0.3_v0,0.06178520808837321,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.scmR.2h.p0.3_v0,0.008246933464161542,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.scmC.2h.p0_v0,0.06655435748335385,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.scmC.2h.p0_v0,0.011257477198307112,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.scmC.2h.p0.02_v0,0.06655435748335385,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.scmC.2h.p0.02_v0,0.011257477198307112,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.scmC.2h.p0.05_v0,0.06655435748335385,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.scmC.2h.p0.05_v0,0.011257477198307112,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.scmC.2h.p0.1_v0,0.06655435748335385,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.scmC.2h.p0.1_v0,0.011257477198307112,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.scmC.2h.p0.2_v0,0.06655435748335385,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.scmC.2h.p0.2_v0,0.011257477198307112,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.scmC.2h.p0.3_v0,0.06655435748335385,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.scmC.2h.p0.3_v0,0.011257477198307112,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.pjm0.2h.p0_v0,0.08061919779145846,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.pjm0.2h.p0_v0,-0.00921987523614404,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.pjm0.2h.p0.02_v0,0.08061919779145846,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.pjm0.2h.p0.02_v0,-0.00921987523614404,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.pjm0.2h.p0.05_v0,0.08061919779145846,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.pjm0.2h.p0.05_v0,-0.00921987523614404,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.pjm0.2h.p0.1_v0,0.08061919779145846,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.pjm0.2h.p0.1_v0,-0.00921987523614404,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.pjm0.2h.p0.2_v0,0.08061919779145846,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.pjm0.2h.p0.2_v0,-0.00921987523614404,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.relMAE.pjm0.2h.p0.3_v0,0.08061919779145846,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+precool.bias.pjm0.2h.p0.3_v0,-0.00921987523614404,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+incr_sens.2h.p0.02_v0,0.00046264534191592377,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,H4,PREREG-R2,2016,dev-unfrozen,S10
+incr_sens.2h.p0.05_v0,0.00319872253707347,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,H4,PREREG-R2,2016,dev-unfrozen,S10
+incr_sens.2h.p0.1_v0,0.009653027386319755,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,H4,PREREG-R2,2016,dev-unfrozen,S10
+incr_sens.2h.p0.2_v0,0.03197766518231158,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,H4,PREREG-R2,2016,dev-unfrozen,S10
+incr_sens.2h.p0.3_v0,0.06088351942322425,,,,,,,,events_R1.pkl (analytic recompute),secondary,none,H4,PREREG-R2,2016,dev-unfrozen,S10
+H5.eta.pjmA_v0,0.0018621501707163546,,,,,,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2016,dev-unfrozen,S10
+H5.eta.scmR_v0,0.003987657885342272,,,,,,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2016,dev-unfrozen,S10
+H5.eta_diff_v0,-0.0021982744146984944,-0.0038305935732509213,-0.0012870412035538986,,,11.0,,10422.0,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2016,dev-unfrozen,S10
+H5.p_signedrank_v0,0.0009765625,,,0.0009765625,,11.0,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2016,dev-unfrozen,S10
+H5.p_holm_v0,0.00390625,,,0.0009765625,0.00390625,11.0,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2016,dev-unfrozen,S10
+H5.p_wcb_v0,0.8332833283328333,,,0.8332833283328333,,,,,events_erosion.pkl,secondary,none,H5,PREREG-R2,2016,dev-unfrozen,S10
+H5.loso_min_v0,-0.0023130128605231377,,,,,,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2016,dev-unfrozen,S10
+H5.loso_max_v0,-0.00195729480631624,,,,,,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2016,dev-unfrozen,S10
+H5.loso_pmax_v0,0.001953125,,,,,,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2016,dev-unfrozen,S10
+H5.site_robust_v0,True,,,,,,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2016,dev-unfrozen,S10
+H5.site.Bear_v0,-0.003269008492542811,,,,,,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2016,dev-unfrozen,S10
+H5.site.Bull_v0,-0.0011828586086492527,,,,,,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2016,dev-unfrozen,S10
+H5.site.Cockatoo_v0,-0.0018161279568401803,,,,,,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2016,dev-unfrozen,S10
+H5.site.Eagle_v0,-0.0012317660034198482,,,,,,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2016,dev-unfrozen,S10
+H5.site.Fox_v0,-0.0013320583194859734,,,,,,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2016,dev-unfrozen,S10
+H5.site.Hog_v0,-0.0026975244340281465,,,,,,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2016,dev-unfrozen,S10
+H5.site.Lamb_v0,-0.003623210498382688,,,,,,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2016,dev-unfrozen,S10
+H5.site.Peacock_v0,-0.0006455811200896686,,,,,,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2016,dev-unfrozen,S10
+H5.site.Rat_v0,-0.0024127292705837847,,,,,,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2016,dev-unfrozen,S10
+H5.site.Robin_v0,-0.007015606026412174,,,,,,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2016,dev-unfrozen,S10
+H5.site.Wolf_v0,-0.0019285012870181284,,,,,,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2016,dev-unfrozen,S10
+H5.eta_definition_v0,slope of site-median |rho-1| over K,,,,,,,,events_erosion.pkl,confirmatory,C5,H5,PREREG-R2,2016,dev-unfrozen,S10
+H5s.eta_signed_diff.pjmA_minus_scmR_v0,0.0021912993249348224,0.0006325964689477256,0.004565616848564179,0.0322265625,,11.0,,,events_erosion.pkl,secondary,none,H5s,PREREG-R2,2016,dev-unfrozen,S10
+H5s.eta_signed_diff.caisoA_minus_scmR_v0,0.003055783225164252,-0.010363706935706148,0.006076606565183076,0.0830078125,,11.0,,,events_erosion.pkl,secondary,none,H5s,PREREG-R2,2016,dev-unfrozen,S10
+H5s.eta_signed_diff.cgA_minus_scmR_v0,0.0010875634460641918,-0.0021007692977198012,0.0034838437024165506,0.240234375,,11.0,,,events_erosion.pkl,secondary,none,H5s,PREREG-R2,2016,dev-unfrozen,S10
+H5s.eta_signed_diff.pjm0_minus_scmR_v0,0.005360269814195755,-0.0017022612920660853,0.010048984467865273,0.1015625,,11.0,,,events_erosion.pkl,secondary,none,H5s,PREREG-R2,2016,dev-unfrozen,S10
+H5s.eta_diff.caisoA_minus_scmR_v0,-0.0007335563164743941,-0.0026845854668862664,0.010965704239319297,0.5771484375,,11.0,,,events_erosion.pkl,secondary,none,H5s,PREREG-R2,2016,dev-unfrozen,S10
+H5s.eta_diff.cgA_minus_scmR_v0,-0.0019139504883873121,-0.006090783247414141,-0.0011450227125008486,0.001953125,,11.0,,,events_erosion.pkl,secondary,none,H5s,PREREG-R2,2016,dev-unfrozen,S10
+H5s.eta_diff.pjm0_minus_scmR_v0,0.0026764872602445585,7.655879051727274e-05,0.007227669689604605,0.0244140625,,11.0,,,events_erosion.pkl,secondary,none,H5s,PREREG-R2,2016,dev-unfrozen,S10
+H5.Dtau.pjmA_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,H5,PREREG-R2,2016,dev-unfrozen,S10
+H5.Dtau.pjmA.Bear_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.pjmA.Bull_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.pjmA.Cockatoo_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.pjmA.Eagle_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.pjmA.Fox_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.pjmA.Hog_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.pjmA.Lamb_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.pjmA.Peacock_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.pjmA.Rat_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.pjmA.Robin_v0,35.47929983510926,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.pjmA.Wolf_v0,37.61684121281969,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.eta_signed_pooled.pjmA_v0,0.0015976133440854733,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.eta_abs_pooled.pjmA_v0,0.0018621501707163546,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.eta_2pt.pjmA_v0,0.0016894205184239785,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.rho.pjmA.K10_v0,0.9843066250669088,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.rho.pjmA.K20_v0,0.9638163945872066,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.rho.pjmA.K30_v0,0.9561029068368178,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.rho.pjmA.K40_v0,0.9336240095141894,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.absdev.pjmA.K10_v0,0.18289731753248473,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.absdev.pjmA.K20_v0,0.1981553822567561,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.absdev.pjmA.K30_v0,0.21853829045636708,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.absdev.pjmA.K40_v0,0.23817468715649293,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.caisoA_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,H5,PREREG-R2,2016,dev-unfrozen,S10
+H5.Dtau.caisoA.Bear_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.caisoA.Bull_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.caisoA.Cockatoo_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.caisoA.Eagle_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.caisoA.Fox_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.caisoA.Hog_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.caisoA.Lamb_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.caisoA.Peacock_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.caisoA.Rat_v0,23.522941216345952,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.caisoA.Robin_v0,28.67425638309401,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.caisoA.Wolf_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.eta_signed_pooled.caisoA_v0,0.0023341377272826144,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.eta_abs_pooled.caisoA_v0,0.0038283314588383674,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.eta_2pt.caisoA_v0,0.0023583974659690385,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.rho.caisoA.K10_v0,0.9428002531399674,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.rho.caisoA.K20_v0,0.9255230187553807,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.rho.caisoA.K30_v0,0.9043650179643323,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.rho.caisoA.K40_v0,0.8720483291608963,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.absdev.caisoA.K10_v0,0.19934424194579314,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.absdev.caisoA.K20_v0,0.2252824758028078,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.absdev.caisoA.K30_v0,0.269256484893162,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.absdev.caisoA.K40_v0,0.31229728754362074,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.cgA_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,H5,PREREG-R2,2016,dev-unfrozen,S10
+H5.Dtau.cgA.Bear_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.cgA.Bull_v0,37.010401327319705,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.cgA.Cockatoo_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.cgA.Eagle_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.cgA.Fox_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.cgA.Hog_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.cgA.Lamb_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.cgA.Peacock_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.cgA.Rat_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.cgA.Robin_v0,38.26248543869553,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.cgA.Wolf_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.eta_signed_pooled.cgA_v0,0.0010073657813138605,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.eta_abs_pooled.cgA_v0,0.002300017585624764,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.eta_2pt.cgA_v0,0.0010989230728116787,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.rho.cgA.K10_v0,0.9914226030004247,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.rho.cgA.K20_v0,0.9908689589211374,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.rho.cgA.K30_v0,0.989035457342802,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.rho.cgA.K40_v0,0.9584549108160744,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.absdev.cgA.K10_v0,0.19666286062501936,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.absdev.cgA.K20_v0,0.21720807501824269,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.absdev.cgA.K30_v0,0.24641303388378444,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.absdev.cgA.K40_v0,0.26359512719066425,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.pjm0_v0,32.64807967591495,,,,,,,,events_erosion.pkl,secondary,none,H5,PREREG-R2,2016,dev-unfrozen,S10
+H5.Dtau.pjm0.Bear_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.pjm0.Bull_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.pjm0.Cockatoo_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.pjm0.Eagle_v0,39.61603399708547,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.pjm0.Fox_v0,31.627654247558002,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.pjm0.Hog_v0,17.93281522228751,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.pjm0.Lamb_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.pjm0.Peacock_v0,28.48483441287533,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.pjm0.Rat_v0,14.435537035326693,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.pjm0.Robin_v0,36.66173812736499,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.pjm0.Wolf_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.eta_signed_pooled.pjm0_v0,0.004748876815815804,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.eta_abs_pooled.pjm0_v0,0.00827578477499655,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.eta_2pt.pjm0_v0,0.004866537117094342,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.rho.pjm0.K10_v0,0.9032553359995154,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.rho.pjm0.K20_v0,0.8567219639547569,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.rho.pjm0.K30_v0,0.819822622911668,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.rho.pjm0.K40_v0,0.7572592224866851,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.absdev.pjm0.K10_v0,0.47478382090998195,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.absdev.pjm0.K20_v0,0.5449962934269916,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.absdev.pjm0.K30_v0,0.6282372224526689,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.absdev.pjm0.K40_v0,0.7228963370679747,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.scmR_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,H5,PREREG-R2,2016,dev-unfrozen,S10
+H5.Dtau.scmR.Bear_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.scmR.Bull_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.scmR.Cockatoo_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.scmR.Eagle_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.scmR.Fox_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.scmR.Hog_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.scmR.Lamb_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.scmR.Peacock_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.scmR.Rat_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.scmR.Robin_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.Dtau.scmR.Wolf_v0,>40.00,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.eta_signed_pooled.scmR_v0,-0.0007176027020502743,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.eta_abs_pooled.scmR_v0,0.003987657885342272,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.eta_2pt.scmR_v0,-0.000685200659463218,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.rho.scmR.K10_v0,1.0826184975865492,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.rho.scmR.K20_v0,1.0870903220798913,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.rho.scmR.K30_v0,1.0971825329332292,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.rho.scmR.K40_v0,1.1031745173704457,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.absdev.scmR.K10_v0,0.32132439510297917,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.absdev.scmR.K20_v0,0.34781501939252424,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.absdev.scmR.K30_v0,0.40066493767368583,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.absdev.scmR.K40_v0,0.43662968518733436,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.age_days.pjm_lookback.K10_v0,5.5,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.age_days.pjm_lookback.K20_v0,7.5,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.age_days.pjm_lookback.K30_v0,9.25,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.age_days.pjm_lookback.K40_v0,12.0,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.age_days.scmR_preperiod.K10_v0,7.285714285714286,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.age_days.scmR_preperiod.K20_v0,9.0,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.age_days.scmR_preperiod.K30_v0,12.285714285714286,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.age_days.scmR_preperiod.K40_v0,16.0,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.fallback.PJM.K10_v0,0.0,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.fallback.CAISO.K10_v0,9.595087315294569e-05,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.fallback.CAISO_lt10.K10_v0,0.0005757052389176742,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.fallback.PJM.K20_v0,9.595087315294569e-05,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.fallback.CAISO.K20_v0,9.595087315294569e-05,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.fallback.CAISO_lt10.K20_v0,0.0029744770677413166,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.fallback.PJM.K30_v0,9.595087315294569e-05,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.fallback.CAISO.K30_v0,0.002398771828823642,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.fallback.CAISO_lt10.K30_v0,0.055267702936096716,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.fallback.PJM.K40_v0,0.0468240260986375,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.fallback.CAISO.K40_v0,0.04816733832277874,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+H5.fallback.CAISO_lt10.K40_v0,0.18288236422951448,,,,,,,,events_erosion.pkl,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjm0.R2LOO.relMAE_median_v0,0.06996139041226662,,,,,,1091.0,10689.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjm0.R2LOO.bias_median_v0,-0.025926127819045103,,,,,,1091.0,10689.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjm0.R2LOO.rmse_median_v0,0.08480995933063956,,,,,,1091.0,10689.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjm0.R2LOO.PER_c10_median_v0,0.6996139041226662,,,,,,1091.0,10689.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjm0.R2LOO.share_PER_gt_0_5_v0,0.5217513331462251,,,,,,1091.0,10689.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjm0.R2LOO.nmbe_granderson_v0,0.030126741126291667,,,,,,1091.0,10689.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjmA.R2LOO.relMAE_median_v0,0.04666890247270673,,,,,,1091.0,10689.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjmA.R2LOO.bias_median_v0,-0.0032023819347444084,,,,,,1091.0,10689.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjmA.R2LOO.rmse_median_v0,0.05894442554018094,,,,,,1091.0,10689.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjmA.R2LOO.PER_c10_median_v0,0.4666890247270673,,,,,,1091.0,10689.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjmA.R2LOO.share_PER_gt_0_5_v0,0.38609785761062776,,,,,,1091.0,10689.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjmA.R2LOO.nmbe_granderson_v0,0.0045976861661124495,,,,,,1091.0,10689.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caiso0.R2LOO.relMAE_median_v0,0.08706674384023813,,,,,,1091.0,10689.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caiso0.R2LOO.bias_median_v0,-0.055155968234078825,,,,,,1091.0,10689.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caiso0.R2LOO.rmse_median_v0,0.10360267889587405,,,,,,1091.0,10689.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caiso0.R2LOO.PER_c10_median_v0,0.8706674384023813,,,,,,1091.0,10689.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caiso0.R2LOO.share_PER_gt_0_5_v0,0.6118439517260735,,,,,,1091.0,10689.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caiso0.R2LOO.nmbe_granderson_v0,0.06028287461773693,,,,,,1091.0,10689.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caisoA.R2LOO.relMAE_median_v0,0.050142070892637225,,,,,,1091.0,10689.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caisoA.R2LOO.bias_median_v0,-0.014450293675960776,,,,,,1091.0,10689.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caisoA.R2LOO.rmse_median_v0,0.06376944515471394,,,,,,1091.0,10689.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caisoA.R2LOO.PER_c10_median_v0,0.5014207089263722,,,,,,1091.0,10689.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caisoA.R2LOO.share_PER_gt_0_5_v0,0.4020020581906633,,,,,,1091.0,10689.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caisoA.R2LOO.nmbe_granderson_v0,0.01656747743243642,,,,,,1091.0,10689.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.ny0.R2LOO.relMAE_median_v0,0.06825445761010596,,,,,,1090.0,10616.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.ny0.R2LOO.bias_median_v0,-0.009639249430721392,,,,,,1090.0,10616.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.ny0.R2LOO.rmse_median_v0,0.08330778643208259,,,,,,1090.0,10616.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.ny0.R2LOO.PER_c10_median_v0,0.6825445761010596,,,,,,1090.0,10616.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.ny0.R2LOO.share_PER_gt_0_5_v0,0.5325923134890731,,,,,,1090.0,10616.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.ny0.R2LOO.nmbe_granderson_v0,0.012782897005154233,,,,,,1090.0,10616.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.nyA.R2LOO.relMAE_median_v0,0.055012291800477425,,,,,,1090.0,10616.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.nyA.R2LOO.bias_median_v0,-2.0978887630045476e-05,,,,,,1090.0,10616.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.nyA.R2LOO.rmse_median_v0,0.06886995895209874,,,,,,1090.0,10616.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.nyA.R2LOO.PER_c10_median_v0,0.5501229180047742,,,,,,1090.0,10616.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.nyA.R2LOO.share_PER_gt_0_5_v0,0.4385832705350414,,,,,,1090.0,10616.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.nyA.R2LOO.nmbe_granderson_v0,0.0022435474930014602,,,,,,1090.0,10616.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cgA.R2LOO.relMAE_median_v0,0.04830869040004682,,,,,,1091.0,10689.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cgA.R2LOO.bias_median_v0,0.004359750575603216,,,,,,1091.0,10689.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cgA.R2LOO.rmse_median_v0,0.06179290522850781,,,,,,1091.0,10689.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cgA.R2LOO.PER_c10_median_v0,0.4830869040004682,,,,,,1091.0,10689.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cgA.R2LOO.share_PER_gt_0_5_v0,0.398259893348302,,,,,,1091.0,10689.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cgA.R2LOO.nmbe_granderson_v0,-0.0025829562041942123,,,,,,1091.0,10689.0,secondary.py,exploratory,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.prev.w1620.relMAE_median_v0,0.07521244260105295,,,,,,1091.0,10463.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.prev.w1620.bias_median_v0,-0.01726994680223747,,,,,,1091.0,10463.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.prev.w1620.rmse_median_v0,0.09361856941419842,,,,,,1091.0,10463.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.prev.w1620.PER_c10_median_v0,0.7521244260105294,,,,,,1091.0,10463.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.prev.w1620.share_PER_gt_0_5_v0,0.5232724839912071,,,,,,1091.0,10463.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.prev.w1620.nmbe_granderson_v0,0.021898945586137496,,,,,,1091.0,10463.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjm0.w1620.relMAE_median_v0,0.08558168573743845,,,,,,1091.0,10463.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjm0.w1620.bias_median_v0,-0.009045519324821213,,,,,,1091.0,10463.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjm0.w1620.rmse_median_v0,0.1040084034656212,,,,,,1091.0,10463.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjm0.w1620.PER_c10_median_v0,0.8558168573743844,,,,,,1091.0,10463.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjm0.w1620.share_PER_gt_0_5_v0,0.5704864761540667,,,,,,1091.0,10463.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjm0.w1620.nmbe_granderson_v0,0.014850014755473874,,,,,,1091.0,10463.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjmA.w1620.relMAE_median_v0,0.051506277495667864,,,,,,1091.0,10463.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjmA.w1620.bias_median_v0,0.0030163005242581494,,,,,,1091.0,10463.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjmA.w1620.rmse_median_v0,0.0672364857576958,,,,,,1091.0,10463.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjmA.w1620.PER_c10_median_v0,0.5150627749566786,,,,,,1091.0,10463.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjmA.w1620.share_PER_gt_0_5_v0,0.423014431807321,,,,,,1091.0,10463.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.pjmA.w1620.nmbe_granderson_v0,-0.0015218724214304741,,,,,,1091.0,10463.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caiso0.w1620.relMAE_median_v0,0.09539882288193925,,,,,,1091.0,10462.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caiso0.w1620.bias_median_v0,-0.027730535845996374,,,,,,1091.0,10462.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caiso0.w1620.rmse_median_v0,0.11192020985064235,,,,,,1091.0,10462.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caiso0.w1620.PER_c10_median_v0,0.9539882288193925,,,,,,1091.0,10462.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caiso0.w1620.share_PER_gt_0_5_v0,0.6212005352705028,,,,,,1091.0,10462.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caiso0.w1620.nmbe_granderson_v0,0.036052259957639825,,,,,,1091.0,10462.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caisoA.w1620.relMAE_median_v0,0.05137000223008702,,,,,,1091.0,10462.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caisoA.w1620.bias_median_v0,-0.003565923161256196,,,,,,1091.0,10462.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caisoA.w1620.rmse_median_v0,0.06498334376980242,,,,,,1091.0,10462.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caisoA.w1620.PER_c10_median_v0,0.5137000223008701,,,,,,1091.0,10462.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caisoA.w1620.share_PER_gt_0_5_v0,0.4134008793729688,,,,,,1091.0,10462.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.caisoA.w1620.nmbe_granderson_v0,0.0064245559139928105,,,,,,1091.0,10462.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.ny0.w1620.relMAE_median_v0,0.08074706880900066,,,,,,1089.0,10323.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.ny0.w1620.bias_median_v0,0.009117876976025126,,,,,,1089.0,10323.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.ny0.w1620.rmse_median_v0,0.09798191798112119,,,,,,1089.0,10323.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.ny0.w1620.PER_c10_median_v0,0.8074706880900065,,,,,,1089.0,10323.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.ny0.w1620.share_PER_gt_0_5_v0,0.5692143756659885,,,,,,1089.0,10323.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.ny0.w1620.nmbe_granderson_v0,-0.004748366278282653,,,,,,1089.0,10323.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.nyA.w1620.relMAE_median_v0,0.058225064995302125,,,,,,1089.0,10323.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.nyA.w1620.bias_median_v0,0.013581597418648192,,,,,,1089.0,10323.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.nyA.w1620.rmse_median_v0,0.07291503840495978,,,,,,1089.0,10323.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.nyA.w1620.PER_c10_median_v0,0.5822506499530212,,,,,,1089.0,10323.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.nyA.w1620.share_PER_gt_0_5_v0,0.45025670832122444,,,,,,1089.0,10323.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.nyA.w1620.nmbe_granderson_v0,-0.011015088061345529,,,,,,1089.0,10323.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cgA.w1620.relMAE_median_v0,0.05361409179766509,,,,,,1091.0,10460.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cgA.w1620.bias_median_v0,-0.002201417740029253,,,,,,1091.0,10460.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cgA.w1620.rmse_median_v0,0.067754152222767,,,,,,1091.0,10460.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cgA.w1620.PER_c10_median_v0,0.5361409179766509,,,,,,1091.0,10460.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cgA.w1620.share_PER_gt_0_5_v0,0.4430210325047801,,,,,,1091.0,10460.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.cgA.w1620.nmbe_granderson_v0,0.003406181868431627,,,,,,1091.0,10460.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.scmR.w1620.relMAE_median_v0,0.062071790487985404,,,,,,1091.0,10443.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.scmR.w1620.bias_median_v0,0.005773353032286601,,,,,,1091.0,10443.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.scmR.w1620.rmse_median_v0,0.07678095270575315,,,,,,1091.0,10443.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.scmR.w1620.PER_c10_median_v0,0.620717904879854,,,,,,1091.0,10443.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.scmR.w1620.share_PER_gt_0_5_v0,0.4951642248396055,,,,,,1091.0,10443.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.scmR.w1620.nmbe_granderson_v0,-0.002905321890607615,,,,,,1091.0,10443.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+contam.q0.pjmA.relMAE_median_v0,0.06684910917105148,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+contam.q0.pjmA.bias_median_v0,0.047454303623485114,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+contam.q0.cgA.relMAE_median_v0,0.06962513372109212,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+contam.q0.cgA.bias_median_v0,0.04891626665859136,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+contam.q0.scmR.relMAE_median_v0,0.06178520808837321,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+contam.q0.scmR.bias_median_v0,0.008246933464161542,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+contam.q0.pjm0.relMAE_median_v0,0.08130433948496482,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+contam.q0.pjm0.bias_median_v0,-0.00921987523614404,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+contam.q0.25.pjmA.relMAE_median_v0,0.06684910917105148,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+contam.q0.25.pjmA.bias_median_v0,0.047454303623485114,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+contam.q0.25.cgA.relMAE_median_v0,0.05403071602304021,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+contam.q0.25.cgA.bias_median_v0,0.011473691919821956,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+contam.q0.25.scmR.relMAE_median_v0,0.0657032361192899,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+contam.q0.25.scmR.bias_median_v0,-0.015112544412993607,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+contam.q0.25.pjm0.relMAE_median_v0,0.08130433948496482,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+contam.q0.25.pjm0.bias_median_v0,-0.00921987523614404,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+contam.q0.5.pjmA.relMAE_median_v0,0.06684910917105148,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+contam.q0.5.pjmA.bias_median_v0,0.047454303623485114,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+contam.q0.5.cgA.relMAE_median_v0,0.05933062537278714,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+contam.q0.5.cgA.bias_median_v0,-0.02621727282306089,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+contam.q0.5.scmR.relMAE_median_v0,0.07675370559901787,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+contam.q0.5.scmR.bias_median_v0,-0.04214684995554184,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+contam.q0.5.pjm0.relMAE_median_v0,0.08130433948496482,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+contam.q0.5.pjm0.bias_median_v0,-0.00921987523614404,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+contam.q1.pjmA.relMAE_median_v0,0.06684910917105148,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+contam.q1.pjmA.bias_median_v0,0.047454303623485114,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+contam.q1.cgA.relMAE_median_v0,0.10769915663572024,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+contam.q1.cgA.bias_median_v0,-0.1005776634154999,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+contam.q1.scmR.relMAE_median_v0,0.10856438565617332,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+contam.q1.scmR.bias_median_v0,-0.09257775988225465,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+contam.q1.pjm0.relMAE_median_v0,0.08130433948496482,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+contam.q1.pjm0.bias_median_v0,-0.00921987523614404,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+rebound.max_abs_change_kwh_v0,0.0,,,,,,,115029.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+heatwave.pjmA.relMAE_median_v0,0.04991821723067697,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+heatwave.pjmA.rho_median_v0,0.9520061975128643,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+heatwave.pjmA.fallback_pjm_v0,0.0,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+heatwave.scmR.relMAE_median_v0,0.06802973835239644,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+heatwave.scmR.rho_median_v0,1.043361812802733,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+heatwave.scmR.fallback_pjm_v0,0.0,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+heatwave.pjm0.relMAE_median_v0,0.09574053203357907,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+heatwave.pjm0.rho_median_v0,0.7143468275027294,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+heatwave.pjm0.fallback_pjm_v0,0.0,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+heatwave.caisoA.relMAE_median_v0,0.050949240983867015,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+heatwave.caisoA.rho_median_v0,0.9121298773986961,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+heatwave.caisoA.fallback_pjm_v0,0.0,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+heatwave.cgA.relMAE_median_v0,0.05479784199031834,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+heatwave.cgA.rho_median_v0,0.9879370040426187,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+heatwave.cgA.fallback_pjm_v0,0.0,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+heatwave.n_dispatched_median_v0,14.0,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.towt70.R1.relMAE_median_v0,0.08341279540109904,,,,,,1091.0,10467.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.towt70.R1.bias_median_v0,-0.01499908538817576,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.towt70.R1.support_share_v0,1.0,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.towt70A.R1.relMAE_median_v0,0.0678341202357779,,,,,,1091.0,10467.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.towt70A.R1.bias_median_v0,-0.0019845536953700367,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.towt70A.R1.support_share_v0,1.0,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.towt7.R1.relMAE_median_v0,0.16876107492503617,,,,,,1091.0,10467.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.towt7.R1.bias_median_v0,-0.07131317364921141,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.towt7.R1.support_share_v0,1.0,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.lgbM.R1.relMAE_median_v0,0.04654689232799207,,,,,,1091.0,10467.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.lgbM.R1.bias_median_v0,-0.0004031318122211372,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.lgbM.R1.support_share_v0,1.0,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.lgbD.R1.relMAE_median_v0,0.060468275181456664,,,,,,1091.0,10464.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.lgbD.R1.bias_median_v0,-0.003344305515116689,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+method.lgbD.R1.support_share_v0,0.999713384924047,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.lgb.trials_v0,0,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+hpo.lgb.note_v0,"Optuna not installed; fixed parameters {""objective"": ""l1"", ""learning_rate"": 0.05, ""num_leaves"": 31, ""min_child_samples"": 20, ""reg_lambda"": 1.0, ""feature_fraction"": 0.8, ""bagging_fraction"": 0.8, ""bagging_freq"": 1, ""seed"": 2016, ""deterministic"": true, ""verbose"": -1}; 40-trial HPO not run",,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+dst_alt.pjm0.R1.relMAE_median_v0,0.08155508992993926,,,,,,1091.0,10474.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+dst_alt.pjm0.R1.bias_median_v0,-0.009421230644007635,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+dst_alt.pjmA.R1.relMAE_median_v0,0.04747609588254297,,,,,,1091.0,10474.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+dst_alt.pjmA.R1.bias_median_v0,-0.0011145842991421725,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+dst_alt.caiso0.R1.relMAE_median_v0,0.0884841893731019,,,,,,1091.0,10473.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+dst_alt.caiso0.R1.bias_median_v0,-0.02701935760962725,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+dst_alt.caisoA.R1.relMAE_median_v0,0.049715796050171214,,,,,,1091.0,10473.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+dst_alt.caisoA.R1.bias_median_v0,-0.005500698816796159,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+dst_alt.cgA.R1.relMAE_median_v0,0.05106952974474791,,,,,,1091.0,10471.0,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+dst_alt.cgA.R1.bias_median_v0,-0.0006495084505210164,,,,,,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+dst_alt.H2.logratio.pjmA_pjm0_v0,-0.41825403048338405,-0.6552645038365669,-0.18076653806395637,0.0009765625,,11.0,,,secondary.py,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+compute.peak_mem_gb_v0,1.46069504,,,,,,,,results\run_v0,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none
+compute.gpu_hours_v0,0.0,,,,,,,,results\run_v0,secondary,none,none,PREREG-R2,2016,dev-unfrozen,none

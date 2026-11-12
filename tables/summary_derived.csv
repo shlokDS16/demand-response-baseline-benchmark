@@ -1,0 +1,17 @@
+key,value,ci_low,ci_high,p_raw,p_holm,n_sites,n_buildings,n_events,source_file,status,family_id,hypothesis_id,estimand_version,data_year,freeze_hash,support_rule
+derived.H3.n_sites_outside_margin,5,,,,,11,,,src/paper/derived_keys.py,derived,none,H3,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+derived.H4.n_sites_pcross_zero,2,,,,,11,,,src/paper/derived_keys.py,derived,none,H4,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+derived.H4.n_sites_pcross_lt_threshold,11,,,,,11,,,src/paper/derived_keys.py,derived,none,H4,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+derived.H5.n_sites_scmR_faster,10,,,,,11,,,src/paper/derived_keys.py,derived,none,H5,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+derived.H1.n_sites_negative,10,,,,,11,,,src/paper/derived_keys.py,derived,none,H1,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+derived.H2.n_sites_negative,11,,,,,11,,,src/paper/derived_keys.py,derived,none,H2,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+derived.H3.share_sites_inside_margin,0.5454545454545454,0.233793597659345,0.8325119059362929,,,11,,,src/paper/derived_keys.py,derived,none,H3,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+derived.H3.share_inside_margin.m05,0.5454545454545454,0.233793597659345,0.8325119059362929,,,11,,,src/paper/derived_keys.py,derived,none,H3,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+derived.H3.share_inside_margin.m10,0.5454545454545454,0.233793597659345,0.8325119059362929,,,11,,,src/paper/derived_keys.py,derived,none,H3,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+derived.H3.share_inside_margin.m15,0.7272727272727273,0.3902574404275786,0.9397822658270933,,,11,,,src/paper/derived_keys.py,derived,none,H3,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+derived.H4.max_site_pcross,0.06650816082651692,,,,,11,,,src/paper/derived_keys.py,derived,none,H4,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+derived.H4.ci_exact_coverage,0.98828125,,,,,11,,,src/paper/derived_keys.py,derived,none,H4,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+derived.H5.n_K_scmR_less_accurate,4,,,,,11,,,src/paper/derived_keys.py,derived,none,H5,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+derived.incr_sens.ratio_2h_4h,0.15678914452214182,,,,,11,,,src/paper/derived_keys.py,derived,none,H4,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+derived.cgA.n_events_missing_eagle,6,,,,,1,,9550,src/paper/derived_keys.py,derived,none,H3,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+derived.dm0.n_events_differ,43,,,,,11,,9550,src/paper/derived_keys.py,derived,none,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none

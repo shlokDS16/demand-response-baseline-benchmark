@@ -1,0 +1,2 @@
+# Keep every file byte-identical on checkout so the md5 freeze manifest verifies on all platforms.
+* -text

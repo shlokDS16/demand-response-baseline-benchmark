@@ -1,0 +1,98 @@
+% floats.tmpl.tex: figure and table environments of the main text, one block per float, introduced by a marker line
+% "%%FLOAT <label>". src/paper/build_paper.py fills this file (fill_ledger), splits it at the markers and places each float
+% after the paragraph that holds its first \ref (paper/LABELS.md; SPEC s3; research/FIGURES_PLAN.md; paper/FIGURE_CHANGES.md).
+% Widths: \FigD = double column (190 mm in print), \FigM = 1.5 column (140 mm), \FigS = single column (90 mm); defined in main.tmpl.tex.
+% Captions: finding, n, interval type, "stress test" where injected quantities are shown. Numbers are placeholders only.
+% Table numbers follow the order of placement: methods, data, accuracy, confirmatory, secondary.
+
+%%FLOAT fig:design
+\begin{figure}[tp]
+\centering
+\includegraphics[width=\FigOne]{figures/fig_01_design.pdf}
+\caption{Design of the study: the hours each baseline reads and the hours a participant can shape. (a) Lookback days, with dispatched days removed under repeated dispatch. (b) Hours read versus hours shaped for six baselines. (c) Information sets. (d) One real building-event with its baselines and settlement gap (plot only). Day-of adjustment reads the hours before the window, SCM-ridge reads none of the four-hour shaped hours, and no method reads the target's own load inside the window.}\label{fig:design}
+\end{figure}
+
+%%FLOAT tab:methods
+\begin{table}[tp]
+\centering
+\caption{Compact list of baseline methods by information set, with definition, lookback, adjustment and cap. The full list with sources is Supplement Table~\ref{tabS:methodsfull}.}\label{tab:methods}
+\scriptsize
+\setlength{\tabcolsep}{2.5pt}
+\input{tables/T2_compact.tex}
+\end{table}
+
+%%FLOAT fig:sample
+\begin{figure}[tp]
+\centering
+\includegraphics[width=\FigD]{figures/fig_02_sample.pdf}
+\caption{Sample of {{sample.n_buildings|int}} buildings at {{sample.n_sites|int}} campus-heavy sites. (a) Buildings by site and primary use. (b) Eligibility funnel from valid meters to hot-day building-events (R1).}\label{fig:sample}
+\end{figure}
+
+%%FLOAT tab:accuracy
+\begin{table}[tp]
+\centering
+\caption{Hot-day (R1) and random-weekday (R3) accuracy by method: building-pooled medians of relMAE, signed bias ($e=B-L$; positive means over-payment) and payment error ratio (PER), with order-statistic 95\,\% intervals of the site medians. LightGBM rows give the fixed-parameter and the tuned (pre-registered {{hpo.lgbM.trials|int}}-trial search on 2016) variants; MLP rows are tuned variants only.}\label{tab:accuracy}
+\scriptsize
+\setlength{\tabcolsep}{2.5pt}
+\input{tables/T4.tex}
+\end{table}
+
+%%FLOAT fig:accuracy
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=\FigD]{figures/fig_03_accuracy.pdf}
+\caption{Hot-day accuracy by method, grouped by information set ($n={{sample.n_events.R1|int}}$ building-events at {{sample.n_sites|int}} sites). (a) relMAE: boxes show the building-level interquartile range, points the site medians; donor boxes are hatched. (b) Signed bias ($e=B-L$; negative means under-prediction). CAISO and ISO-NE unadjusted baselines coincide.}\label{fig:accuracy}
+\end{figure}
+
+%%FLOAT fig:h2h3
+\begin{figure}[tp]
+\centering
+\includegraphics[width=0.78\linewidth]{figures/fig_05_h3_forest.pdf}
+\caption{H3: site-level log ratios of relMAE, CG-adj over PJM-adj ({{sample.n_sites|int}} sites), with the pre-set equivalence margin. The Hodges-Lehmann estimate (90\,\% interval) is the signed-rank location of the site values under the symmetry assumption; {{derived.H3.n_sites_outside_margin|int}} of {{sample.n_sites|int}} sites lie outside the margin, so equivalence does not hold site by site. The H2 site values are in Supplement Fig.~\ref{figS:h2}.}\label{fig:h2h3}
+\end{figure}
+
+%%FLOAT fig:precool
+\begin{figure}[tp]
+\centering
+\includegraphics[width=\FigD]{figures/fig_06_precool.pdf}
+\caption{Injected stress test: building-pooled median relMAE against the injected pre-event increase for the (a) four-hour and (b) two-hour shape ($n={{sample.n_events.R1|int}}$ hot-day building-events at {{sample.n_sites|int}} sites). The plotted curves are building-pooled. The annotation in (a) is a separate estimand, the median of the {{sample.n_sites|int}} site break-even pre-event increases ({{H4.median_site_pcross|pct1}}, order-statistic interval {{H4.median_site_pcross:ci_low|pct1}} to {{H4.median_site_pcross:ci_high|pct1}}, coverage at least 95\,\%), and the ticks mark the site values; {{derived.H4.n_sites_pcross_zero|int}} sites have a break-even of zero. In (b) the building-pooled interval ({{pcross.pjmA.2h:ci_low|pct1}} to {{pcross.pjmA.2h:ci_high|pct1}}) includes the threshold of 0.10, and no site-level two-hour test was run. SCM-ridge is immune by construction to the specified four-hour injection. The four-hour shape covers all three PJM adjustment hours, so the break-even is a worst-case placement bound (Supplement Fig.~\ref{figS:placement}). Shaded: assumed realistic band.}\label{fig:precool}
+\end{figure}
+
+%%FLOAT fig:pstar
+\begin{figure}[tp]
+\centering
+\includegraphics[width=\FigM]{figures/fig_07_pstar.pdf}
+\caption{Stress test: building-pooled 10\,\%-error threshold $p^{\star}$ (relMAE reaches the curtailment value) and break-even pre-event increase $p^{\times}$ against SCM-ridge for each baseline, four-hour and two-hour shapes, ordered by information set, with 95\,\% intervals. Arrows mark values above the grid maximum; capped rules are marked. Shaded: assumed realistic band, an assumption and not derived from these data.}\label{fig:pstar}
+\end{figure}
+
+%%FLOAT fig:dispatch
+\begin{figure}[tp]
+\centering
+\includegraphics[width=\FigD]{figures/fig_08_dispatch.pdf}
+\caption{Injected repeated-dispatch stress test by number of dispatched days $K$, confirmatory 14:00 to 18:00 window ({{sample.n_sites|int}} sites). (a) Absolute estimation error (site median of $|\rho-1|$): PJM-adj stayed more accurate than SCM-ridge at each tested $K$, and both slopes are positive. (b) Signed ratio $\rho$. (c) Per-site slope differences, PJM-adj minus SCM-ridge, with the Hodges-Lehmann estimate {{H5.eta_diff|.4f}} (95\,\% interval {{H5.eta_diff:ci_low|.4f}} to {{H5.eta_diff:ci_high|.4f}}); SCM-ridge's error grew faster at {{derived.H5.n_sites_scmR_faster|int}} of {{sample.n_sites|int}} sites. Values of $K$ above ten are stress levels. The pre-specified secondary 16:00 to 20:00 window is compared in Table~\ref{tab:h5windows}.}\label{fig:dispatch}
+\end{figure}
+
+%%FLOAT tab:h5windows
+\begin{table}[tp]
+\centering
+\caption{H5, injected repeated-dispatch stress test: the level ordering and the slope contrast in the confirmatory 14:00 to 18:00 window and the pre-specified secondary 16:00 to 20:00 rerun ({{sample.n_sites|int}} sites). PJM-adj has the lower site-median absolute error $|\rho-1|$ at {{derived.H5.levels_pjmA_lower_all_K.w1418|int}} of 4 tested $K$ in the confirmatory window and {{derived.H5.levels_pjmA_lower_all_K.w1620|int}} of 4 in the rerun. The slope contrast is confirmed at 14:00 to 18:00 (Holm-adjusted $p={{H5.p_holm|.4f}}$) and inconclusive at 16:00 to 20:00 (interval includes zero, unadjusted $p={{exploratory.h5_win1620.p_signedrank_two_sided_unadjusted|.3f}}$). Values of $K$ above ten are stress levels. The exploratory cross-window contrast is in the table note.}\label{tab:h5windows}
+\scriptsize
+\input{tables/T_h5windows.tex}
+\end{table}
+
+%%FLOAT fig:payment
+\begin{figure}[tp]
+\centering
+\includegraphics[width=\FigM]{figures/fig_10_payment.pdf}
+\caption{Payment error ratio (PER), the hot-day error relative to the value of a ten percent curtailment, by method, sorted by median ($n={{sample.n_events.R1|int}}$ hot-day building-events). The median PER is {{method.pjmA.R1.PER_c10_median|.2f}} for PJM-adj, {{method.cgA.R1.PER_c10_median|.2f}} for CG-adj and {{method.scmR.R1.PER_c10_median|.2f}} for SCM-ridge; the line marks one half.}\label{fig:payment}
+\end{figure}
+
+%%FLOAT tab:confirmatory
+\begin{table}[tp]
+\centering
+\caption{Confirmatory tests H1 to H5 at {{sample.n_sites|int}} sites: estimand, estimate, interval, raw and Holm-adjusted $p$-values, decision and leave-one-site-out (LOSO) range. H3 is an equivalence test (TOST) and H4 an exact sign test; the others are exact signed-rank tests. LOSO is an influence analysis, not a replication; the exact $p$-values cannot fall below the enumeration floor for {{sample.n_sites|int}} sites.}\label{tab:confirmatory}
+\scriptsize
+\setlength{\tabcolsep}{2.5pt}
+\input{tables/T3.tex}
+\end{table}
+

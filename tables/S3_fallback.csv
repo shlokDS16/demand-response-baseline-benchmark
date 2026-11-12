@@ -1,0 +1,5 @@
+K,PJM fallback (%),CAISO fallback (%),CAISO with < 10 days (%),Ledger key
+10,0.00,0.00,0.45,"H5.fallback.{PJM,CAISO,CAISO_lt10}.K10"
+20,0.00,0.00,0.45,"H5.fallback.{PJM,CAISO,CAISO_lt10}.K20"
+30,0.00,0.00,2.16,"H5.fallback.{PJM,CAISO,CAISO_lt10}.K30"
+40,0.45,0.53,11.01,"H5.fallback.{PJM,CAISO,CAISO_lt10}.K40"

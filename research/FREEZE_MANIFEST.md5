@@ -1,0 +1,21 @@
+# Paper B freeze manifest v2 (after DEV-1). Created by the controller 2026-11-11 18:56 IST. v1: research/FREEZE_MANIFEST_v1.md5
+02a36872d674647eb8fcbf8632c5663e *research/PREREG.md
+f3ee45fcb13f4480d29ce69dace18d73 *research/DEVIATIONS.md
+3eeafcda69eb694249034cc90ff8b01f *results/frozen/event_dates.csv
+c62a9ff5add45ec9832038623cf4b938 *results/frozen/folds.csv
+63158d70be29352eda18802aee7caedc *results/frozen/holidays.csv
+d41d8cd98f00b204e9800998ecf8427e *src/run/__init__.py
+12dc001e867930da574005787958b8d5 *src/run/adjust.py
+dae1c6f6f5bb5bad769cec1ff8bc38a1 *src/run/analysis.py
+be3ff260707ba492ded39b0d6165c883 *src/run/baselines.py
+6b352aa853a25afaa6c8e1f404c464ac *src/run/config.py
+5c2ce26de1973d925b12e9e0eb3472a5 *src/run/data.py
+c659711240e03e9b09503ded26168fd2 *src/run/events.py
+ddfef9613c6444a2caaaf5f0199df64c *src/run/freeze.py
+6fbeed85b7621fc6b682cbdc4cff600d *src/run/inject.py
+433a679e9fa2f1b44108f97cef0b3b92 *src/run/leakage.py
+2748781e29b7e5a04ff6e666238543f9 *src/run/ledger.py
+bcf1fb5871a5d546271130a6aee4dbba *src/run/main.py
+298f7e60d1ae442081257426d954f642 *src/run/pipeline.py
+11ab102ea4276136c5b472ee12415a1c *src/run/secondary.py
+fd1ed6868bddf6a48c0750bfb68c1c03 *src/run/stats.py

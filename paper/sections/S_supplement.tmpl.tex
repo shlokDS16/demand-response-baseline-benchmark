@@ -1,0 +1,240 @@
+% S_supplement.tmpl.tex: supplementary material (SPEC s11 "08, 09, S"; REVISION_1).
+% S1: deviations, audit trail and the 2016 development table (keys from paper/ALLOW_DEV_KEYS.txt only).
+% S2 figures and S3 tables, including the floats moved from the main text in REVISION_1 (H1 figure, H2 forest, sensitivity
+% figure, data table, secondary table, full methods table) and the per-method cost table.
+% Numbering: sections, tables and figures carry the prefix S. Labels: figS:*, tabS:* (tab:bridge kept).
+
+\setcounter{section}{0}
+\renewcommand{\thesection}{S\arabic{section}}
+\setcounter{table}{0}
+\renewcommand{\thetable}{S\arabic{table}}
+\setcounter{figure}{0}
+\renewcommand{\thefigure}{S\arabic{figure}}
+
+\section*{Supplementary material}
+
+Section, figure, table and equation numbers without the prefix S, and all reference numbers in brackets, refer to the main text and its reference list.
+
+\section{Deviations, audit trail and development results}\label{sec:S1}
+
+\subsection{Deviations from the frozen plan and post-freeze register}\label{sec:S1:dev}
+
+The analysis plan was frozen with an md5 manifest before the 2017 evaluation. The frozen deviation file records one deviation from the plan, DEV-1, below. Every other choice and analysis made after the freeze is dated in a post-freeze register (\texttt{research/DEVIATIONS\_POST.md} in the archive), with the 2017 information known at the time. The register extends the frozen file without editing it, so the manifest hash still holds.
+
+\paragraph{DEV-1 (code only)} The first 2017 run stopped with a missing-key error before any statistic or ledger row was computed. In final mode the synthetic-control loop had computed only the frozen SCM-ridge baseline and not the frozen SCM-classic baseline that a secondary table needs. The code was changed to compute both. The change was verified on the 2016 data, where the final-mode path reproduced every development estimate and Holm-adjusted $p$-value for H1 to H5 exactly. The manifest was reissued, and the earlier version is kept. No 2017 estimate had been seen when the change was made.
+
+\paragraph{Further disclosures} The development-year pilot of the repeated-dispatch test contained a coding error in which donors were curtailed. It was fixed before the freeze. The status line inside the plan file predates the freeze and still reads as a draft, although its content is the frozen text; the file was left unedited so that its hash holds, and the dated manifest is the record of the freeze. The pre-registered LightGBM and MLP searches ran after the confirmatory evaluation, on 2016 data only. Their spaces, budgets and seeds were pre-registered, and the tuning score was set after the freeze and before any 2017 evaluation of the tuned variants. None of these changes used a 2017 result.
+
+\paragraph{Post-freeze register} The register has 38 entries in four groups. The first group restores definitions of the plan: the labels of the H5 per-site slopes and the H4 headline estimand. It also restores the status of the 16:00 to 20:00 window, the opposite daylight-saving mapping and the non-event and flatline-off reruns, which the plan lists as secondary and an earlier draft called exploratory. The second group holds pre-registered runs completed after the freeze: the LightGBM and MLP searches, for which only the tuning score was chosen after the freeze, and the further pre-specified analyses of Section~\ref{sec:S1:inventory}. The third group holds analyses decided after the 2017 confirmatory results were seen. These are the bridge metrics, site intervals and payment shares, the break-even in kWh, the rank correlation, the ten-day SCM-ridge window, the mirror test, the early-shaping variants and the cross-window H5 contrast. They also include the descriptive additions of this version: the event-day table, the Clopper-Pearson bounds, the prediction intervals, the tipping value and the practitioner units. The fourth group holds wording, title and status changes. No entry changed a frozen key, frozen code or a confirmatory result. Table~\ref{tabS:inventory} gives the status of every analysis.
+
+\subsection{Audit trail}\label{sec:S1:audit}
+
+Two audits bracket the 2017 run. Before the freeze, a gate audit compared the written plan with the logged decisions and required the plan to be corrected where the two disagreed. After the run, a second audit checked four things. The md5 manifest still matched every frozen file. An independent script, which does not import the analysis code, recomputed every confirmatory value from the saved event tables. A leakage spot check confirmed, for sampled building-events, that lookback days are weekdays that are neither holidays nor event days and that donors sit in the opposite fold. Finally, each number in the manuscript enters through a ledger key and the build fails on a missing key. The audit reports, scripts and outputs are archived with the code at [archive DOI to be inserted at acceptance]. The leakage assertions are in \texttt{src/run/leakage.py}, the unit tests in \texttt{tests/}, and the archive README gives the rerun command and the expected audit output.
+
+The pre-specified secondary reruns are the 16:00 to 20:00 window reruns of H4 and H5, the opposite daylight-saving mapping, and the non-event and flatline-off reruns of the flat-meter filter; Sections~\ref{sec:results:h5} and~\ref{sec:results:robust} of the main text report them. The exploratory runs, decided after the 2017 results, are the early-shaping variant a, the mirror test with a pre-event decrease, the break-even expressed in kWh, SCM-ridge with a ten-day pre-period and the cross-window H5 contrast; Section~\ref{sec:results:explore} reports them. All of these stay outside the Holm family, and their p-values are unadjusted.
+
+\subsection{Analysis inventory and further pre-specified analyses}\label{sec:S1:inventory}
+
+Table~\ref{tabS:inventory}, at the end of this supplement, lists every analysis unit with its status, where it is reported and its ledger keys. The following analyses have no other text report. All but the last are pre-specified, and all are outside the Holm family.
+
+\paragraph{R2-LOO event rule} With the ten weekdays of highest site load, excluding the target, as events, the relMAE was {{method.pjmA.R2LOO.relMAE_median|pct1}} for PJM-adj, {{method.cgA.R2LOO.relMAE_median|pct1}} for CG-adj and {{method.pjm0.R2LOO.relMAE_median|pct1}} for unadjusted PJM (keys \texttt{method.<m>.R2LOO.*}). The plan lists this rule among the secondary sensitivities, and its event-rule table labels it exploratory because it selects days on donor outcomes; the ledger holds no SCM-ridge value for it.
+
+\paragraph{Heterogeneous increase} With building increases drawn from $U(0,2p)$ at $p=0.05$, the pooled relMAE of PJM-adj was {{hetp.p0.05.pjmA.relMAE_median|pct1}}, against {{precool.relMAE.pjmA.4h.p0.05|pct1}} for the uniform increase, and SCM-ridge stayed at {{hetp.p0.05.scmR.relMAE_median|pct1}} (keys \texttt{hetp.*}).
+
+\paragraph{First crossing $D_\tau$} The first $K$ at which $\rho$ falls 0.10 below its $K=10$ value lay beyond the tested range ($K>40$) for PJM-adj, CG-adj, CAISO-adj and SCM-ridge, and was {{H5.Dtau.pjm0|.1f}} for unadjusted PJM (keys \texttt{H5.Dtau.*}).
+
+\paragraph{Two-point slope} The decline of the building-pooled median $\rho$ per dispatch between $K=10$ and $K=40$ was {{H5.eta_2pt.pjm0|.4f}} for unadjusted PJM, {{H5.eta_2pt.pjmA|.4f}} for PJM-adj and {{H5.eta_2pt.scmR|.4f}} for SCM-ridge, in line with the signed curves of main-text Fig.~\ref{fig:dispatch}b (keys \texttt{H5.eta\_2pt.*}).
+
+\paragraph{Donor ablation drop-corr10} Dropping the 10\,\% of donors most correlated with the target gave a CG-adj log error ratio against the whole pool of {{ablation.donor.drop_corr10.logratio_vs_wholepool|.3f}} (interval {{ablation.donor.drop_corr10.logratio_vs_wholepool:ci_low|.3f}} to {{ablation.donor.drop_corr10.logratio_vs_wholepool:ci_high|.3f}}), a small loss of accuracy (keys \texttt{ablation.donor.drop\_corr10.*}).
+
+\paragraph{Secondary rule family} Holm within the family of the three secondary rules (NYISO, CAISO, ISO-NE), as the plan promises, gave {{H1s.p_holm_family.ny|.5f}}, {{H1s.p_holm_family.caiso|.5f}} and {{H1s.p_holm_family.isone|.5f}} for the H1 endpoint and {{H2s.p_holm_family.ny|.5f}}, {{H2s.p_holm_family.caiso|.5f}} and {{H2s.p_holm_family.isone|.5f}} for H2. Read as one family of six, the adjusted values were {{H1s.p_holm_family6.ny|.5f}} for every rule (keys \texttt{H1s.p\_holm\_family*}, \texttt{H2s.p\_holm\_family*}).
+
+\paragraph{Cross-window H5 contrast (exploratory)} The paired contrast of the site slope differences, 14:00 to 18:00 minus 16:00 to 20:00, was {{exploratory.h5_window_contrast.eta_diff_1418_minus_1620|.4f}} (interval {{exploratory.h5_window_contrast.eta_diff_1418_minus_1620:ci_low|.4f}} to {{exploratory.h5_window_contrast.eta_diff_1418_minus_1620:ci_high|.4f}}; unadjusted two-sided p = {{exploratory.h5_window_contrast.p_signedrank_two_sided_unadjusted|p}}). The contrast was stronger at 14:00 to 18:00 at {{exploratory.h5_window_contrast.n_sites_stronger_1418|int}} of {{sample.n_sites|int}} sites, and the Spearman correlation of the site values across windows was {{exploratory.h5_window_contrast.spearman_rho|.2f}}. The windows are not pooled, chosen between or Holm-adjusted together (keys \texttt{exploratory.h5\_window\_contrast.*}).
+
+
+\subsection{Development-year results}\label{sec:S1:devtable}
+
+Table~\ref{tabS:dev} shows the 2016 development results. They were used to fix the design before the freeze. They are labeled ``development (2016), not a result'' and are not evidence for any claim in the main text. The 2016 and 2017 verdicts for H1 and H3 differ, which Section~\ref{sec:discussion} discusses.
+
+\begin{table}[htbp]
+\centering
+\caption{Development (2016), not a result: estimates and Holm-adjusted $p$-values from the development year.}\label{tabS:dev}
+\footnotesize
+\begin{tabular}{@{}l>{\raggedright\arraybackslash}p{6.2cm}rrr@{}}
+\toprule
+Hypothesis & Quantity (development (2016), not a result) & Estimate & Interval & Holm $p$ \\
+\midrule
+H1 & bias difference, PJM, hot minus random days & {{H1.delta_bias.pjm0_v0|.3f}} & [{{H1.delta_bias.pjm0_v0:ci_low|.3f}}, {{H1.delta_bias.pjm0_v0:ci_high|.3f}}] & {{H1.p_holm_v0:p_holm|p}} \\
+H2 & log ratio of relMAE, PJM-adj over PJM & {{H2.logratio.pjmA_pjm0_v0|.3f}} & [{{H2.logratio.pjmA_pjm0_v0:ci_low|.3f}}, {{H2.logratio.pjmA_pjm0_v0:ci_high|.3f}}] & {{H2.p_holm_v0:p_holm|p}} \\
+H3 & log ratio of relMAE, CG-adj over PJM-adj & {{H3.logratio.cgA_pjmA_v0|.3f}} & [{{H3.logratio.cgA_pjmA_v0:ci_low|.3f}}, {{H3.logratio.cgA_pjmA_v0:ci_high|.3f}}] & {{H3.p_holm_v0:p_holm|p}} \\
+H4 & median site break-even pre-event increase, four-hour shape & {{H4.median_site_pcross_v0|.3f}} & [{{H4.median_site_pcross_v0:ci_low|.3f}}, {{H4.median_site_pcross_v0:ci_high|.3f}}] & {{H4.p_holm_v0:p_holm|p}} \\
+H5 & slope difference, PJM-adj minus SCM-ridge & {{H5.eta_diff_v0|.4f}} & [{{H5.eta_diff_v0:ci_low|.4f}}, {{H5.eta_diff_v0:ci_high|.4f}}] & {{H5.p_holm_v0:p_holm|p}} \\
+\bottomrule
+\end{tabular}
+\par\smallskip{\footnotesize\raggedright Development data, {{H1.delta_bias.pjm0_v0:n_sites|int}} sites, not frozen. H3 decision in the development year: {{H3.decision_v0}}. The H3 equivalence test had a raw $p$ of {{H3.p_tost_v0:p_raw|p}}. Intervals are the plan's bootstrap or Hodges-Lehmann intervals for the same estimands as in the main text.\par}
+\end{table}
+
+\clearpage
+\section{Supplementary figures}\label{sec:S2}
+
+Figures~\ref{figS:h1bias} to~\ref{figS:robustness} support the confirmatory tests of the main text, and Figures~\ref{figS:age} to~\ref{figS:portfolio} the stress-test diagnostics, the shaping placement, sensitivity runs and secondary portfolio analysis.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.8\linewidth]{figures/fig_04_h1_bias.pdf}
+\caption{Replication of H1: the hot-day bias of unadjusted PJM is more negative than its random-weekday bias (difference negative at {{derived.H1.n_sites_negative|int}} of {{sample.n_sites|int}} sites). Lines connect site values. Negative means under-prediction ($e=B-L$); the sign of Granderson's NMBE is opposite.}\label{figS:h1bias}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.78\linewidth]{figures/fig_15_h2_forest.pdf}
+\caption{H2 replication: site-level log ratios of relMAE, PJM-adj over PJM ({{sample.n_sites|int}} sites), negative at {{derived.H2.n_sites_negative|int}} sites, with the Hodges-Lehmann estimate and its 95\,\% interval.}\label{figS:h2}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth]{figures/fig_11_robustness.pdf}
+\caption{Sensitivity analyses of the five confirmatory tests at {{sample.n_sites|int}} sites: leave-one-site-out ranges (an influence analysis) and wild cluster bootstrap $p$-values beside the exact $p$-values. The bootstrap targets the site mean, a different estimand from the site-level estimands of the primary tests. The line marks the exact $p$ floor for {{sample.n_sites|int}} sites.}\label{figS:robustness}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.56\linewidth]{figures/fig_09_age.pdf}
+\caption{Age of the information that each method reads under repeated dispatch (stress test). The median age of the PJM lookback days grows from {{H5.age_days.pjm_lookback.K10|.1f}} days at $K=10$ to {{H5.age_days.pjm_lookback.K40|.1f}} days at $K=40$, and that of the SCM-ridge pre-period from {{H5.age_days.scmR_preperiod.K10|.1f}} to {{H5.age_days.scmR_preperiod.K40|.1f}} days.}\label{figS:age}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.875\linewidth]{figures/figS_placement.pdf}
+\caption{Injected stress test: where the shaping is placed relative to the adjustment hours. Break-even pre-event load increase of PJM-adj against SCM-ridge at each of {{sample.n_sites|int}} sites, for two placements. Circles: the four-hour shaping covers all three adjustment hours ($s-4$ to $s-2$; H4, hours $s-4$ to $s-1$; median {{H4.median_site_pcross|pct1}}). Squares: it is shifted earlier so that it overlaps only the first of the three adjustment hours (early shape a, hours $s-7$ to $s-4$; exploratory; median {{exploratory.early_shape.a.pcross_samep.median_site|pct1}}). The squares compare the two methods at the same increase; the main text quotes the median against SCM-ridge without an increase, the H4 definition ({{exploratory.early_shape.a.pcross_frozenstyle.median_site|pct1}}). The dashed line is the 10\,\% reference. The break-even is below 10\,\% at {{derived.H4.n_sites_pcross_lt_threshold|int}} of {{sample.n_sites|int}} sites for the overlapping placement and at {{exploratory.early_shape.a.pcross_samep.sign_k_below_0.10|int}} sites for the early placement. Eagle and Lamb are zero in both placements. The Rat value exceeds the grid maximum (arrow). The full-coverage placement is a worst-case bound for PJM-adj, and shaping that touches no adjustment hour leaves PJM-adj unchanged by construction.}\label{figS:placement}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth]{figures/fig_13_sensitivity.pdf}
+\caption{Sensitivity of method accuracy and bias to the alternative event definition (R2-ISO) and to the 16:00 to 20:00 window. Only relMAE and bias are shown; no break-even pre-event increase was computed for R2-ISO, and the 16:00 to 20:00 break-even is a pre-specified secondary run (main-text Section~\ref{sec:results:robust}).}\label{figS:sensitivity}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth]{figures/fig_12_portfolio.pdf}
+\caption{Pooled payment error ratio of PJM-adj and CG-adj for a single building, a 20-building portfolio and a load-matched random portfolio (secondary analysis H6). For PJM-adj the ratios are {{H6.pjmA.PER.n1|.3f}}, {{H6.pjmA.PER.nbig|.3f}} and {{H6.pjmA.PER.rand|.3f}}; for CG-adj they are {{H6.cgA.PER.n1|.3f}}, {{H6.cgA.PER.nbig|.3f}} and {{H6.cgA.PER.rand|.3f}}.}\label{figS:portfolio}
+\end{figure}
+
+\clearpage
+\section{Supplementary tables}\label{sec:S3}
+
+Tables~\ref{tabS:data} to~\ref{tabS:methodsfull} give the eligibility and event days by site, the secondary analyses, the stress-test diagnostics, the bridge to the M\&V literature, the per-method computational cost and the full list of baseline methods; Table~\ref{tabS:inventory} closes the supplement with the analysis inventory.
+
+\begin{table}[htbp]
+\centering
+\caption{Data and eligibility by site (2017): timestamp convention, meters kept after each filter, whether the site enters the sample, and hot-day building-events (R1). E1 is the valid-day filter, E3 the flat-meter filter and E4 the minimum number of meters per site. Timestamp convention: STD, standard time all year; CLOCK, local clock time with a clear daylight-saving signal; AMBIGUOUS, no clear signal, mapped to clock time.}\label{tabS:data}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\input{tables/T1.tex}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Event days and heat episodes by site, 2017. Scored days are hot-day (R1) days with at least one scored building-event ({{sample.event_days.total|int}} in all); designated days are those listed in the frozen event-date file. Lamb has {{sample.event_days.Lamb|int}} scored event days of {{sample.event_days_designated.Lamb|int}} designated, in {{sample.heat_episodes.Lamb|int}} heat episodes. A heat episode is a run of event days at most three calendar days apart.}\label{tabS:events}
+\small
+\setlength{\tabcolsep}{4pt}
+\input{tables/S_events.tex}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Pre-specified secondary analyses, outside the Holm family and descriptive: portfolios (H6), screening tree, ablations and sensitivities, including the non-event and flatline-off reruns. Table~\ref{tabS:inventory} gives the status of each analysis.}\label{tabS:secondary}
+\scriptsize
+\setlength{\tabcolsep}{2.5pt}
+\input{tables/T5_secondary.tex}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Screening tree on the held-out year (secondary, exploratory): shares of test buildings assigned to each method.}\label{tabS:screen}
+\small
+\begin{tabular}{@{}lr@{}}
+\toprule
+Quantity & Value \\
+\midrule
+Training buildings & {{screen.tree.n_train|int}} \\
+Training accuracy & {{screen.tree.train_accuracy|pct1}} \\
+Test buildings & {{screen.test.n_buildings|int}} \\
+Share assigned to PJM-adj & {{screen.test.assigned_share.pjmA|pct1}} \\
+Share assigned to CG-adj & {{screen.test.assigned_share.cgA|pct1}} \\
+Share assigned to SCM-ridge & {{screen.test.assigned_share.scmR|pct1}} \\
+Pooled relMAE of the chosen method over PJM-adj & {{screen.test.pooled_relMAE_chosen_over_pjmA|.3f}} \\
+Sites where the chosen method is better & {{screen.test.n_sites_better|int}} \\
+\bottomrule
+\end{tabular}
+\par\smallskip{\footnotesize\raggedright The tree was trained on the development year and applied unchanged. Outside the Holm family; descriptive. A ratio near one means no gain over PJM-adj.\par}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Share of building-events with a fallback in the repeated-dispatch stress test, by number of dispatched days $K$ (stress test).}\label{tabS:fallback}
+\small
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Rule & $K=10$ & $K=20$ & $K=30$ & $K=40$ \\
+\midrule
+PJM, fewer than the required days & {{H5.fallback.PJM.K10|pct2}} & {{H5.fallback.PJM.K20|pct2}} & {{H5.fallback.PJM.K30|pct2}} & {{H5.fallback.PJM.K40|pct2}} \\
+CAISO, fewer than the required days & {{H5.fallback.CAISO.K10|pct2}} & {{H5.fallback.CAISO.K20|pct2}} & {{H5.fallback.CAISO.K30|pct2}} & {{H5.fallback.CAISO.K40|pct2}} \\
+CAISO, fewer than ten eligible days & {{H5.fallback.CAISO_lt10.K10|pct2}} & {{H5.fallback.CAISO_lt10.K20|pct2}} & {{H5.fallback.CAISO_lt10.K30|pct2}} & {{H5.fallback.CAISO_lt10.K40|pct2}} \\
+\bottomrule
+\end{tabular}
+\par\smallskip{\footnotesize\raggedright Shares of building-events, scored days. A fallback adds the highest-window-load event days to the lookback.\par}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Payment error ratio at three curtailment fractions $c$ (hot-day building-events).}\label{tabS:per}
+\small
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+Method & $c=0.05$ & $c=0.10$ & $c=0.20$ \\
+\midrule
+PJM-adj & {{method.pjmA.R1.PER_c05_median|.3f}} & {{method.pjmA.R1.PER_c10_median|.3f}} & {{method.pjmA.R1.PER_c20_median|.3f}} \\
+CG-adj & {{method.cgA.R1.PER_c05_median|.3f}} & {{method.cgA.R1.PER_c10_median|.3f}} & {{method.cgA.R1.PER_c20_median|.3f}} \\
+SCM-ridge & {{method.scmR.R1.PER_c05_median|.3f}} & {{method.scmR.R1.PER_c10_median|.3f}} & {{method.scmR.R1.PER_c20_median|.3f}} \\
+\bottomrule
+\end{tabular}
+\par\smallskip{\footnotesize\raggedright Median over buildings of the relMAE divided by $c$, Eq.~\eqref{eq:per}. The error is the same at every $c$, so the ratio scales with $1/c$. The $c=0.10$ column is the primary setting.\par}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Bridge to the measurement and verification (M\&V) literature: bias in our sign convention, normalized mean bias error (NMBE, Granderson sign) and relative root mean squared error (RMSE), hot-day building-events.}\label{tab:bridge}
+\small
+\input{tables/S_bridge.tex}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Computational cost per method on the held-out year: one pass over all {{compute.method.prev.ms_per_event:n_events|int}} hot-day building-events at {{compute.method.prev.ms_per_event:n_sites|int}} sites, median of three passes, single process.}\label{tabS:cost}
+\small
+\begin{tabular}{@{}lrr@{\hspace{2.5em}}lrr@{}}
+\toprule
+Method & ms per event & Pass (s) & Method & ms per event & Pass (s) \\
+\midrule
+Prev & {{compute.method.prev.ms_per_event|.3f}} & {{compute.method.prev.time_s_median|.2f}} & DM & {{compute.method.dm0.ms_per_event|.3f}} & {{compute.method.dm0.time_s_median|.2f}} \\
+PJM & {{compute.method.pjm0.ms_per_event|.3f}} & {{compute.method.pjm0.time_s_median|.2f}} & DM-adj & {{compute.method.dmA.ms_per_event|.3f}} & {{compute.method.dmA.time_s_median|.2f}} \\
+PJM-adj & {{compute.method.pjmA.ms_per_event|.3f}} & {{compute.method.pjmA.time_s_median|.2f}} & WM & {{compute.method.wm0.ms_per_event|.3f}} & {{compute.method.wm0.time_s_median|.2f}} \\
+CAISO & {{compute.method.caiso0.ms_per_event|.3f}} & {{compute.method.caiso0.time_s_median|.2f}} & WM-adj & {{compute.method.wmA.ms_per_event|.3f}} & {{compute.method.wmA.time_s_median|.2f}} \\
+CAISO-adj & {{compute.method.caisoA.ms_per_event|.3f}} & {{compute.method.caisoA.time_s_median|.2f}} & Mid8 & {{compute.method.mid8.ms_per_event|.3f}} & {{compute.method.mid8.time_s_median|.2f}} \\
+NYISO & {{compute.method.ny0.ms_per_event|.3f}} & {{compute.method.ny0.time_s_median|.2f}} & CG & {{compute.method.cg0.ms_per_event|.3f}} & {{compute.method.cg0.time_s_median|.2f}} \\
+NYISO-adj & {{compute.method.nyA.ms_per_event|.3f}} & {{compute.method.nyA.time_s_median|.2f}} & CG-adj & {{compute.method.cgA.ms_per_event|.3f}} & {{compute.method.cgA.time_s_median|.2f}} \\
+ISO-NE & {{compute.method.isone0.ms_per_event|.3f}} & {{compute.method.isone0.time_s_median|.2f}} & SCM-ridge & {{compute.method.scmR.ms_per_event|.3f}} & {{compute.method.scmR.time_s_median|.2f}} \\
+ISO-NE-adj & {{compute.method.isoneA.ms_per_event|.3f}} & {{compute.method.isoneA.time_s_median|.2f}} & SCM-classic & {{compute.method.scmC.ms_per_event|.3f}} & {{compute.method.scmC.time_s_median|.2f}} \\
+\bottomrule
+\end{tabular}
+\par\smallskip{\footnotesize\raggedright A method's time includes the prerequisite steps it needs when run alone (shared lookback, donor list, PJM profile for the donor methods) and excludes data loading. All these methods together take {{compute.method.all_unique.time_s_median|.1f}}\,s per pass. The peak incremental memory of every method is below one megabyte, and the timing-harness process peaks at {{compute.shared.process_peak_wset_gb|.2f}}\,GB working set; this differs from the {{compute.peak_mem_gb|.1f}}\,GB peak of the full frozen pipeline run reported in Section~\ref{sec:methods}. TOWT was not timed. LightGBM has whole-run times only: the LightGBM-morn evaluation took {{compute.eval.lgbM.time_s|.0f}}\,s and its search {{compute.hpo.lgbM.time_s|.0f}}\,s; the LightGBM-donor values are {{compute.eval.lgbD.time_s|.0f}}\,s and {{compute.hpo.lgbD.time_s|.0f}}\,s. The MLP has whole-run times too: MLP-morn took {{compute.eval.mlpM.time_s|.0f}}\,s and {{compute.hpo.mlpM.time_s|.0f}}\,s, and MLP-donor {{compute.eval.mlpD.time_s|.0f}}\,s and {{compute.hpo.mlpD.time_s|.0f}}\,s. Machine: {{compute.machine.cpu_model|raw}}, CPU only, Python {{compute.machine.python|raw}}, NumPy {{compute.machine.numpy|raw}}, SciPy {{compute.machine.scipy|raw}}.\par}
+\end{table}
+
+% all floating tables first, so that the two longtables (full methods list, then the analysis inventory of Section S1.3) come last
+% no \clearpage here: it flushed Table S9 onto a float page of its own; S9 now heads the page on which Table S10 starts
+\input{tables/TB1_methodsfull.tex}
+
+\clearpage
+\input{tables/S_inventory.tex}

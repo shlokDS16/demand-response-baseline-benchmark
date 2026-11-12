@@ -1,0 +1,5 @@
+Injected four-hour pre-event increase erases PJM-adj's edge over synthetic control
+Under injected dispatch, PJM-adj had the lower error at every count in both windows
+Synthetic control error grew faster at 14:00 to 18:00; inconclusive at 16:00 to 20:00
+Comparison group and PJM-adj were equivalent at the site median, not every site
+Evidence from {{sample.n_sites|int}} campus-heavy sites; shaping and dispatch are injected stress tests

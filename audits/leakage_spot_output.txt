@@ -1,0 +1,23 @@
+frame fold == folds.csv for all rows: True
+events checked (donor identity): 9550  ndon mismatches: 0  don_L mismatches: 6
+Bull   Bull_education_Hayley  d=191 (2017-07-11) lookback=['2017-07-06', '2017-07-05', '2017-07-10', '2017-07-03'] max_age_gap_ok=True notEvent=True wkday_nonhol=True pjm0 mine=823.5000 frame=823.5000 MATCH
+Bull   Bull_lodging_Dave      d=200 (2017-07-20) lookback=['2017-07-19', '2017-07-17', '2017-07-12', '2017-07-13'] max_age_gap_ok=True notEvent=True wkday_nonhol=True pjm0 mine=1153.7500 frame=1153.7500 MATCH
+Fox    Fox_assembly_Lakeisha  d=171 (2017-06-21) lookback=['2017-06-15', '2017-06-14', '2017-06-16', '2017-06-13'] max_age_gap_ok=True notEvent=True wkday_nonhol=True pjm0 mine=136.0425 frame=136.0425 MATCH
+Fox    Fox_assembly_Leeanne   d=186 (2017-07-06) lookback=['2017-06-27', '2017-06-29', '2017-06-28', '2017-06-30'] max_age_gap_ok=True notEvent=True wkday_nonhol=True pjm0 mine=116.1225 frame=116.1225 MATCH
+Fox    Fox_office_Alice       d=176 (2017-06-26) lookback=['2017-06-15', '2017-06-16', '2017-06-14', '2017-06-12'] max_age_gap_ok=True notEvent=True wkday_nonhol=True pjm0 mine=1670.7600 frame=1670.7600 MATCH
+Bear   Bear_education_Laurett d=187 (2017-07-07) lookback=['2017-06-30', '2017-07-06', '2017-06-29', '2017-07-05'] max_age_gap_ok=True notEvent=True wkday_nonhol=True pjm0 mine=212.8900 frame=212.8900 MATCH
+Bull   Bull_office_Rob        d=207 (2017-07-27) lookback=['2017-07-19', '2017-07-18', '2017-07-17', '2017-07-13'] max_age_gap_ok=True notEvent=True wkday_nonhol=True pjm0 mine=1592.5000 frame=1592.5000 MATCH
+Bear   Bear_education_Austin  d=172 (2017-06-22) lookback=['2017-06-19', '2017-06-20', '2017-06-21', '2017-06-15'] max_age_gap_ok=True notEvent=True wkday_nonhol=True pjm0 mine=197.2750 frame=197.2750 MATCH
+Bear   Bear_education_Yuri    d=268 (2017-09-26) lookback=['2017-09-21', '2017-09-20', '2017-09-22', '2017-09-19'] max_age_gap_ok=True notEvent=True wkday_nonhol=True pjm0 mine=142.0126 frame=142.0126 MATCH
+Fox    Fox_education_Tonya    d=170 (2017-06-20) lookback=['2017-06-13', '2017-06-14', '2017-06-15', '2017-06-12'] max_age_gap_ok=True notEvent=True wkday_nonhol=True pjm0 mine=634.3925 frame=634.3925 MATCH
+Hog    Hog_office_Valda       d=256 (2017-09-14) lookback=['2017-09-13', '2017-09-12', '2017-09-11', '2017-09-07'] max_age_gap_ok=True notEvent=True wkday_nonhol=True pjm0 mine=288.8745 frame=288.8745 MATCH
+Peacock Peacock_education_Kary d=198 (2017-07-18) lookback=['2017-06-29', '2017-06-30', '2017-07-07', '2017-07-03'] max_age_gap_ok=True notEvent=True wkday_nonhol=True pjm0 mine=2100.5791 frame=2100.5791 MATCH
+Hog    Hog_science_Max        d=192 (2017-07-12) lookback=['2017-07-11', '2017-07-10', '2017-07-07', '2017-06-29'] max_age_gap_ok=True notEvent=True wkday_nonhol=True pjm0 mine=719.5000 frame=719.5000 MATCH
+Bull   Bull_office_Efren      d=207 (2017-07-27) lookback=['2017-07-17', '2017-07-19', '2017-07-18', '2017-07-13'] max_age_gap_ok=True notEvent=True wkday_nonhol=True pjm0 mine=360.7500 frame=360.7500 MATCH
+Bull   Bull_education_Reina   d=200 (2017-07-20) lookback=['2017-07-12', '2017-07-13', '2017-07-19', '2017-07-18'] max_age_gap_ok=True notEvent=True wkday_nonhol=True pjm0 mine=421.7500 frame=421.7500 MATCH
+Bear   Bear_education_Wilton  d=172 (2017-06-22) lookback=['2017-06-16', '2017-06-19', '2017-06-20', '2017-06-15'] max_age_gap_ok=True notEvent=True wkday_nonhol=True pjm0 mine=8218.8451 frame=8218.8451 MATCH
+Hog    Hog_office_Elsy        d=192 (2017-07-12) lookback=['2017-07-10', '2017-07-07', '2017-07-11', '2017-06-30'] max_age_gap_ok=True notEvent=True wkday_nonhol=True pjm0 mine=182.4170 frame=182.4170 MATCH
+Bear   Bear_education_Irene   d=243 (2017-09-01) lookback=['2017-08-30', '2017-08-25', '2017-08-29', '2017-08-28'] max_age_gap_ok=True notEvent=True wkday_nonhol=True pjm0 mine=480.4000 frame=480.4000 MATCH
+Bull   Bull_education_Brandi  d=208 (2017-07-28) lookback=['2017-07-13', '2017-07-17', '2017-07-24', '2017-07-19'] max_age_gap_ok=True notEvent=True wkday_nonhol=True pjm0 mine=171.0000 frame=171.0000 MATCH
+Bear   Bear_education_Val     d=268 (2017-09-26) lookback=['2017-09-22', '2017-09-21', '2017-09-25', '2017-09-20'] max_age_gap_ok=True notEvent=True wkday_nonhol=True pjm0 mine=1726.7570 frame=1726.7570 MATCH
+ALL 20 PASS: True

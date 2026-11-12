@@ -1,0 +1,27 @@
+Method,Information set,Definition,Lookback,Adjustment,Cap,Source
+prev,I-hist,Previous eligible weekday,1 day,none,none,trivial baseline
+PJM,I-hist,PJM weekday baseline (highest 4 of 5 recent weekdays),45 days,none,none,"PJM Manual 11, s10.4.2; Tariff Att. K App. s3.3A (as implemented)"
+PJM-adj,I-morn,PJM with day-of adjustment (primary rule),45 days,"additive, hours s-4..s-2",none,"PJM Manual 11, s10.4.2; Tariff Att. K App. s3.3A"
+CAISO,I-hist,CAISO 10-in-10,45 days,none,none,CAISO BPM
+CAISO-adj,I-morn,CAISO 10-in-10 with adjustment,45 days,"ratio, hours s-4..s-2","[0.8, 1.2]",CAISO BPM
+NYISO,I-hist,NYISO average-day,30 days,none,none,NYISO Manual 7
+NYISO-adj,I-morn,NYISO with adjustment,30 days,"ratio, hours s-4, s-3","[0.8, 1.2]",NYISO Manual 7
+ISO-NE,I-hist,ISO-NE 10 most recent weekdays,30 days,none,none,ISO-NE
+ISO-NE-adj,I-morn,ISO-NE with adjustment,30 days,"additive, hours s-3, s-2",floor 0,ISO-NE
+DM,I-hist,Day matching (10 working days),10 days,none,none,Granderson et al.
+DM-adj,I-morn,Day matching with adjustment,10 days,"ratio, hours s-4, s-3","[0.8, 1.2]",Granderson et al.
+WM,I-hist,Weather matching (4 of 90 days),90 days,none,none,Granderson et al.
+WM-adj,I-morn,Weather matching with adjustment,90 days,"ratio, hours s-4, s-3","[0.6, 1.4]",Granderson et al.
+M3,I-hist,Mathieu 3 of 10,10 days,none,none,Mathieu et al.
+Mid8,I-hist,Middle 8 of 10,10 days,none,none,ERCOT-style
+TOWT-70,I-hist,Time-of-week and temperature regression (6 temperature bins),70 days,none,none,Mathieu et al.
+TOWT-70-adj,I-morn,Time-of-week and temperature regression with adjustment,70 days,"ratio, hours s-4, s-3","[0.6, 1.4]",Mathieu et al.
+TOWT-7,I-hist,"Time-of-week and temperature regression, short training",7 days,none,none,Mathieu et al.
+CG,I-donor,"Comparison group, unadjusted PJM ratio",45 days + donors,none,none,this study
+CG-adj,I-donor+I-morn,"Comparison group, PJM-adj ratio",45 days + donors,"additive, hours s-4..s-2",none,this study
+SCM-ridge,I-donor,Ridge synthetic control (primary donor method),7 weekdays + morning,donor weights,weights sum to one,Sievers and Roozbehani
+SCM-classic,I-donor,Classic non-negative synthetic control,5 weekdays + morning,donor weights,"non-negative, sum to one",Sievers and Roozbehani
+LightGBM-morn,I-morn,"LightGBM learned adjustment, morning information","day-level samples, monthly refit",learned ratio to DM window,none,this study
+LightGBM-donor,I-donor,"LightGBM learned adjustment, donor information","day-level samples, monthly refit",learned ratio to DM window,none,this study
+MLP-morn,I-morn,"MLP learned adjustment, morning information","day-level samples, monthly refit",learned ratio to DM window,none,this study
+MLP-donor,I-donor,"MLP learned adjustment, donor information","day-level samples, monthly refit",learned ratio to DM window,none,this study

@@ -1,0 +1,32 @@
+{
+ "h6": {
+  "time_s": 2.1,
+  "peak_gb": 0.212,
+  "note": ""
+ },
+ "tree": {
+  "time_s": 4.4,
+  "peak_gb": 0.383,
+  "note": ""
+ },
+ "abl": {
+  "time_s": 2.6,
+  "peak_gb": 0.211,
+  "note": ""
+ },
+ "donor": {
+  "time_s": 9.9,
+  "peak_gb": 0.382,
+  "note": ""
+ },
+ "nonevent": {
+  "time_s": 148.8,
+  "peak_gb": 0.654,
+  "note": ""
+ },
+ "flat": {
+  "time_s": 138.6,
+  "peak_gb": 0.689,
+  "note": ""
+ }
+}

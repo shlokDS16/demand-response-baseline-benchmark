@@ -1,0 +1,117 @@
+{
+ "n_meters_cleaned": 1578,
+ "n_meters_raw": 1578,
+ "index_span": [
+  "2016-01-01 00:00:00",
+  "2017-12-31 23:00:00"
+ ],
+ "n_hours": 17544,
+ "timestep_counts": {
+  "0 days 01:00:00": 17543
+ },
+ "index_identical_raw_cleaned": true,
+ "duplicate_timestamps": 0,
+ "meters_not_in_metadata": 0,
+ "meters_electricity_flag_mismatch": 0,
+ "pooled_use_counts": {
+  "Education": 604,
+  "Office": 296,
+  "Entertainment/public assembly": 203,
+  "Public services": 166,
+  "Lodging/residential": 149,
+  "Healthcare": 27,
+  "Other": 26,
+  "Parking": 23,
+  "NaN": 19,
+  "Warehouse/storage": 14,
+  "Retail": 11,
+  "Manufacturing/industrial": 11,
+  "Services": 9,
+  "Technology/science": 7,
+  "Food sales and service": 6,
+  "Utility": 4,
+  "Religious worship": 3
+ },
+ "pooled_use_counts_usable": {
+  "Education": 476,
+  "Office": 230,
+  "Public services": 149,
+  "Entertainment/public assembly": 148,
+  "Lodging/residential": 107,
+  "Healthcare": 18,
+  "Other": 18,
+  "Warehouse/storage": 13,
+  "Parking": 13,
+  "Manufacturing/industrial": 11,
+  "Services": 9,
+  "Retail": 5,
+  "Food sales and service": 5,
+  "Technology/science": 5,
+  "Utility": 3,
+  "Religious worship": 2
+ },
+ "n_sites": 19,
+ "n_usable_total": 1212,
+ "n_ge300_2016_total": 1292,
+ "n_ge300_2017_total": 1414,
+ "sites_donor_ge5_nontarget": [
+  "Bear",
+  "Bobcat",
+  "Bull",
+  "Cockatoo",
+  "Eagle",
+  "Fox",
+  "Gator",
+  "Hog",
+  "Lamb",
+  "Moose",
+  "Peacock",
+  "Rat",
+  "Robin",
+  "Wolf"
+ ],
+ "sites_usable_ge5": [
+  "Bear",
+  "Bobcat",
+  "Bull",
+  "Cockatoo",
+  "Eagle",
+  "Fox",
+  "Gator",
+  "Hog",
+  "Lamb",
+  "Moose",
+  "Peacock",
+  "Rat",
+  "Robin",
+  "Wolf"
+ ],
+ "zero_run_ge24_share_cleaned": 0.0,
+ "zero_run_ge168_share_cleaned": 0.0,
+ "const_nz_ge24_share_cleaned": 0.2832699619771863,
+ "const_nz_ge168_share_cleaned": 0.1444866920152091,
+ "zero_run_ge168_share_raw": 0.1888466413181242,
+ "all_zero_meters": 6,
+ "cov_missing_overall_cleaned": 0.08928675148545578,
+ "cov_missing_overall_raw": 0.04739468738242489,
+ "hot_weekday_totals": {
+  "2016": {
+   "n_hot_weekdays_sum_over_sites": 616,
+   "site_hotdays_with_ge5_usable_full_window": 449,
+   "building_days_usable": 37480
+  },
+  "2017": {
+   "n_hot_weekdays_sum_over_sites": 527,
+   "site_hotdays_with_ge5_usable_full_window": 389,
+   "building_days_usable": 34211
+  }
+ },
+ "weather_completeness_min_by_year": {
+  "2016": 0.9625455373406193,
+  "2017": 0.941324200913242
+ },
+ "weather_sites_below_95pct_any_year": [
+  "Crow",
+  "Moose"
+ ]
+}

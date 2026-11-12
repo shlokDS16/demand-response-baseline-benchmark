@@ -1,0 +1,36 @@
+# ALLOW_DEV_KEYS.txt: 2016 development ledger keys that the fill script may insert (one key per line).
+# Default: none. Only 2017 final rows are allowed (paper/SPEC.md s9.1).
+# RESULTS_NOTES asks for 2016 H1 context in the Discussion (6.3). No 2016 H1 row exists in tables/summary.csv or
+# tables/summary_secondary.csv (the dev value sits in results/run_v0/summary_v0.csv), so the Discussion states it in
+# words only ("did not pass the Holm threshold in the development year"). If the controller wants the number, add the
+# row to the secondary ledger by script first, then list its key here (for example H1.p_holm_v0).
+# v2 (2026-11-12): Supplement S1 may show a development table (SPEC s9.3). When the controller has copied those _v0
+# rows into a fill source, list them here; body templates must never use them (build check greps body files for _v0).
+# v3: Supplement S1 development table (tables/summary_dev.csv); S1 only, never body sections.
+H1.delta_bias.pjm0_v0
+H1.p_holm_v0
+H2.logratio.pjmA_pjm0_v0
+H2.p_holm_v0
+H3.logratio.cgA_pjmA_v0
+H3.p_tost_v0
+H3.p_holm_v0
+H3.decision_v0
+H4.median_site_pcross_v0
+H4.p_holm_v0
+H5.eta_diff_v0
+H5.p_holm_v0
+# REVISION_1 (D26): HPO run metadata. data_year 2016 is the tuning year; these are design facts of the frozen-hash search
+# (trial count, seed, run time), not 2016 results.
+hpo.lgbM.trials
+hpo.lgbM.seed
+compute.hpo.lgbM.time_s
+compute.hpo.lgbD.time_s
+# D27: MLP HPO run metadata and tuned architecture sizes (tuning year 2016; design facts of the pre-registered search, not 2016 results)
+hpo.mlpM.trials
+hpo.mlpD.trials
+compute.hpo.mlpM.time_s
+compute.hpo.mlpD.time_s
+hpo.mlpM.best.depth
+hpo.mlpM.best.width
+hpo.mlpD.best.depth
+hpo.mlpD.best.width

@@ -1,0 +1,180 @@
+\section{Methods}\label{sec:methods}
+
+This section defines the error metrics, the baselines, the two stress tests and the site-level inference. Appendix~A collects the notation. Algorithms~\ref{alg:rules} to~\ref{alg:frozen} build up to the full evaluation, and Algorithms~\ref{alg:B1} to~\ref{alg:B3} in Appendix~B give the sample construction, the donor baseline and the site inference.
+
+\subsection{Error, bias and payment metrics}\label{sec:methods:metrics}
+
+For building $b$ and event day $d$, the window is $\mathcal{W}=\{h_0,\dots,h_1-1\}$ and $L_{b,d,h}$ is the true (uninjected) hourly load in kWh. A baseline $m$ returns the window energy $B^{m}_{b,d}$ that it would have expected without a curtailment. Settlement pays on the difference between this estimate and the metered load, so a baseline estimates a counterfactual and is not a forecast \cite{li2026review}. The settlement error is signed, so a positive value means over-payment. The curtailment that settlement pays for is the baseline minus the metered load:
+\begin{equation}\label{eq:err}
+L_{b,d}=\sum_{h\in\mathcal{W}}L_{b,d,h},\qquad e^{m}_{b,d}=B^{m}_{b,d}-L_{b,d},\qquad \varepsilon^{m}_{b,d}=\frac{e^{m}_{b,d}}{L_{b,d}}
+\end{equation}
+This sign is opposite to the normalized mean bias error used in the measurement and verification (M\&V) literature, which is positive for under-prediction \cite{granderson2021}. Appendix Eq.~\eqref{eq:B2} reports that convention as a separate column. For a set $\mathcal{E}^{m}_{b}$ of supported event days, the building-level accuracy, the relative mean absolute error (relMAE), and the bias follow.
+\begin{equation}\label{eq:relmae}
+\mathrm{relMAE}^{m}_{b}=\frac{1}{\lvert\mathcal{E}^{m}_{b}\rvert}\sum_{d\in\mathcal{E}^{m}_{b}}\lvert\varepsilon^{m}_{b,d}\rvert,\qquad \mathrm{bias}^{m}_{b}=\frac{1}{\lvert\mathcal{E}^{m}_{b}\rvert}\sum_{d\in\mathcal{E}^{m}_{b}}\varepsilon^{m}_{b,d}
+\end{equation}
+The payment error ratio scales the error by the value of a curtailment of fraction $c$ of the window load:
+\begin{equation}\label{eq:per}
+\pi^{m}_{b,d}=\frac{\lvert e^{m}_{b,d}\rvert}{c\,L_{b,d}},\qquad \mathrm{PER}^{m}=\frac{1}{c}\operatorname{med}_{b}\mathrm{relMAE}^{m}_{b},\qquad \mathrm{sh}^{m}=\frac{1}{N^{m}}\sum_{b,d}\mathbf{1}\bigl[\pi^{m}_{b,d}>\tfrac{1}{2}\bigr]
+\end{equation}
+where $N^{m}$ counts the building-events of method $m$. Unless stated otherwise $c=0.10$. Pooled and site-level summaries use medians, because building errors are right-skewed:
+\begin{equation}\label{eq:site}
+\bar{E}^{m}=\operatorname{med}_{b}\mathrm{relMAE}^{m}_{b},\qquad x_{s}=\operatorname{med}_{b\in\mathcal{B}_{s}}\phi_{b}
+\end{equation}
+Here $\phi_b$ is the building value of the estimand under test and $x_s$ is the resulting site value. The $S=\,${{sample.n_sites|int}} sites are the units of inference.
+
+\subsection{Rule-based baselines and day-of adjustment}\label{sec:methods:rules}
+
+Each rule selects a set $\mathcal{C}^{m}_{b,d}$ of lookback days before $d$ and averages their load, hour by hour:
+\begin{equation}\label{eq:profile}
+\hat{L}^{m}_{b,d,h}=\frac{1}{\lvert\mathcal{C}^{m}_{b,d}\rvert}\sum_{d'\in\mathcal{C}^{m}_{b,d}}Y_{b,d',h},\qquad B^{m0}_{b,d}=\sum_{h\in\mathcal{W}}\hat{L}^{m}_{b,d,h}
+\end{equation}
+Here $Y$ is the load as the lookback sees it, equal to $L$ except under an injected stress test. Rules that read only days before $d$ use I-hist. A day-of adjustment also reads event-day hours $\mathcal{A}^{m}$ ending at least one hour before the window (hour index at most $h_0-2$) and uses I-morn. The primary rule is PJM-adj. Its adjustment is additive and uncapped, following the PJM tariff and Manual~11 \cite{pjm_attk,pjm_manual11}:
+\begin{equation}\label{eq:pjma}
+B^{\mathrm{pjmA}}_{b,d}=B^{\mathrm{pjm0}}_{b,d}+\lvert\mathcal{W}\rvert\,\frac{1}{\lvert\mathcal{A}^{\mathrm{pjm}}\rvert}\sum_{h\in\mathcal{A}^{\mathrm{pjm}}}\bigl(Y_{b,d,h}-\hat{L}^{\mathrm{pjm}}_{b,d,h}\bigr),\qquad \mathcal{A}^{\mathrm{pjm}}=\{h_0-4,h_0-3,h_0-2\}
+\end{equation}
+The PJM selection (Appendix Eq.~\eqref{eq:B3}) takes the five most recent eligible weekdays within 45 days. It drops days below a quarter of their mean window load and keeps the four highest. The tariff applies the 25\,\% exclusion before taking the five days; the two orders differ only when a near-zero day occurs, and we kept the implemented order. Multiplicative rules scale the unadjusted profile by a clipped ratio of metered to expected adjustment-hour load:
+\begin{equation}\label{eq:ratio}
+B^{m\mathrm{A}}_{b,d}=B^{m0}_{b,d}\,\operatorname{clip}\Bigl(\frac{\sum_{h\in\mathcal{A}^{m}}Y_{b,d,h}}{\sum_{h\in\mathcal{A}^{m}}\hat{L}^{m}_{b,d,h}};\,l^{m},u^{m}\Bigr)
+\end{equation}
+This form covers CAISO-adj (hours $h_0-4$ to $h_0-2$), NYISO-adj, DM-adj, WM-adj and the time-of-week-and-temperature (TOWT) rule TOWT-70-adj (hours $h_0-4$ and $h_0-3$), with the caps in Table~\ref{tab:methods}. DM and WM are day and weather matching, M3 is the Mathieu three-of-ten rule \cite{mathieu2011}, Mid8 averages the middle eight of ten recent weekdays, and TOWT is the regression of Section~\ref{sec:methods:models}. ISO-NE-adj is additive with a floor at zero (Appendix Eq.~\eqref{eq:B4}). Supplement Table~\ref{tabS:methodsfull} gives, for each rule, the source document, its vintage and our deviation \cite{caiso_tariff,nyiso_manual7,isone_mr1,granderson2021,mathieu2011}. The rule texts are current editions while the data are from 2016 and 2017, so later rule changes are not modeled. Unadjusted CAISO and ISO-NE baselines coincide and are one row; DM differs from them in {{derived.dm0.n_events_differ|int}} building-events. Algorithm~\ref{alg:rules} fixes eligibility and fallback.
+
+\begin{algorithm}[t]
+\caption{RuleBaseline: baseline for one building-event under rule $m$}\label{alg:rules}
+\SetKwFunction{FRule}{RuleBaseline}
+\SetKwProg{Fn}{Function}{:}{end}
+\KwIn{building $b$, event day $d$, rule $m$ with its lookback length, caps and adjustment hours $\mathcal{A}^{m}$}
+\KwData{load $Y$ before day $d$; event-day hours up to $h_0-2$ (only if $m$ uses I-morn)}
+\KwOut{$B^{m0}_{b,d}$, $B^{m\mathrm{A}}_{b,d}$, fallback flag}
+\Fn{\FRule{$b,d,m$}}{
+  $\mathcal{V}\leftarrow$ weekdays inside the lookback that are not holidays or event days of the current world (NYISO also drops the day before an event)\;
+  $\mathcal{C}\leftarrow$ rule selection on $\mathcal{V}$ (Eq.~\eqref{eq:B3} for PJM)\;
+  \lIf{too few eligible days}{add the highest-window-load event days and set the fallback flag}
+  $\hat{L}^{m}_{b,d,h},\,B^{m0}_{b,d}\leftarrow$ Eq.~\eqref{eq:profile}\;
+  \lIf{$m$ reads I-morn}{assert $\max\mathcal{A}^{m}\le h_0-2$ and $\mathcal{A}^{m}\cap\mathcal{W}=\emptyset$; apply Eq.~\eqref{eq:pjma}, \eqref{eq:ratio} or \eqref{eq:B4}}
+  \Return{$B^{m0}_{b,d}$, $B^{m\mathrm{A}}_{b,d}$, flag}\;
+}
+\end{algorithm}
+
+\subsection{Donor baselines}\label{sec:methods:donors}
+
+Donors are buildings of the same site in the opposite fold. They are never participants of the contrast, and a target is never in its own donor pool; the literature calls this group a control group \cite{caiso_bawg2017}. CG-adj is PJM-adj multiplied by the donors' ratio of actual to PJM-adj window load, so it reads I-morn and the donors' same-day load (I-donor):
+\begin{equation}\label{eq:cga}
+B^{\mathrm{cgA}}_{b,d}=B^{\mathrm{pjmA}}_{b,d}\,\frac{\sum_{j\in\mathcal{J}_{b,d}}L_{j,d}}{\sum_{j\in\mathcal{J}_{b,d}}B^{\mathrm{pjmA}}_{j,d}}
+\end{equation}
+An event needs at least five complete donors. Otherwise, CG-adj is missing for that event, and Section~\ref{sec:results} reports the events lost. SCM-ridge follows the linear synthetic-control form with ridge, weights that sum to one, no sign restriction and no intercept \cite{sievers2026,doudchenko2016}, adapted to hourly data. We divide each series by its pre-period mean $\mu_i$. The pre-period $\mathcal{P}_{b,d}$ is 24 hours of the $n_{\mathrm{pre}}=7$ most recent eligible non-event weekdays plus event-day hours $0,\dots,h_0-5$:
+\begin{equation}\label{eq:scmw}
+\begin{aligned}&\hat{\mathbf{w}}=\arg\min_{\mathbf{w}\in\mathbb{R}^{J}}\bigl\lVert\tilde{\mathbf{y}}-\tilde{\mathbf{X}}\mathbf{w}\bigr\rVert_{2}^{2}+\lambda\lVert\mathbf{w}\rVert_{2}^{2}\ \ \text{s.t.}\ \mathbf{1}^{\top}\mathbf{w}=1,\\ &\tilde{Y}_{i,d',h}=Y_{i,d',h}/\mu_{i},\ \ \mu_{i}=\operatorname{mean}_{(d',h)\in\mathcal{P}_{b,d}}Y_{i,d',h}\end{aligned}% layout: two lines (Word overflowed one line)
+\end{equation}
+\begin{equation}\label{eq:scmb}
+B^{\mathrm{scmR}}_{b,d}=\mu_{b}\sum_{h\in\mathcal{W}}\sum_{j\in\mathcal{J}_{b,d}}\hat{w}_{j}\,\tilde{Y}_{j,d,h}
+\end{equation}
+With $\lambda=3$, chosen on the development year, the weights have a closed form (Appendix Eq.~\eqref{eq:B5}). SCM-classic uses non-negative weights (Appendix Eq.~\eqref{eq:B6}) \cite{abadie2010}. Because the pre-period stops at hour $h_0-5$, SCM-ridge reads no target hour from $h_0-4$ on, so it is immune by construction to the specified four-hour injection. That is a design property and not a finding, and it does not extend to every shaping pattern. Donors share the site's weather and operating shocks, so CG-adj and SCM-ridge errors are not independent of the target's.
+
+\subsection{Model-based baselines}\label{sec:methods:models}
+
+Time-of-week-and-temperature (TOWT) regressions with six temperature bins, trained on 70 or 7 days, follow Mathieu et al.\ \cite{mathieu2011} (Appendix Eq.~\eqref{eq:B7}). LightGBM \cite{ke2017lightgbm} learns a ratio to the day-matching window load from morning (LightGBM-morn) or donor (LightGBM-donor) features (Appendix Eq.~\eqref{eq:B8}). Primary runs use fixed parameters. The search is pre-registered in its space and budget, with the listed implementation choices made after the freeze and before any 2017 evaluation of the tuned variants. The plan froze the parameter spaces, the objective $\ell_1$, early stopping on the chronologically last fifth of each refit's training days, {{hpo.lgbM.trials|int}} trials of a tree-structured Parzen estimator per variant (seed {{hpo.lgbM.seed|.4g}}) and tuning on 2016 data only. We set the tuning score after the freeze: the mean over sites of the site median of building mean relative absolute error on non-event weekdays of the May to September refit months, with an expanding window. The choice is recorded in the archived results ledger for both LightGBM variants, and the search itself started on 2026-11-12, as the archived start-time record shows. Table~\ref{tab:accuracy} reports the tuned LightGBM variants beside the fixed ones. The MLP variants (MLP-morn and MLP-donor) use the same features, target ratio, refit schedule, tuning score and seed, with {{hpo.mlpM.trials|int}} trials per variant tuned on 2016 only and an $\ell_1$ loss; we report only their tuned form. The tuned MLP-morn has {{hpo.mlpM.best.depth|int}} hidden layer of width {{hpo.mlpM.best.width|int}} and the tuned MLP-donor {{hpo.mlpD.best.depth|int}} of width {{hpo.mlpD.best.width|int}}. The rule and donor families receive no tuning beyond the single SCM-ridge choice above, so conclusions concern those families, and the learned models are not comprehensively tuned.
+
+\subsection{Pre-event shaping stress test}\label{sec:methods:shaping}
+
+The stress test applies a pre-event load increase $p$ on the target's shaped hours $\mathcal{H}$, which is the four-hour set $\{h_0-4,\dots,h_0-1\}$ or the two-hour set $\{h_0-2,h_0-1\}$. Participants also shed a fraction $c$ in the window, and rebound $\gamma$ applies after it. The injection acts on the load that lookbacks see:
+\begin{equation}\label{eq:inject}
+Y_{b,d,h}=L_{b,d,h}\times\begin{cases}1-c, & h\in\mathcal{W}\\ 1+p, & h\in\mathcal{H}\\ 1+\gamma, & h\in\{h_1,h_1+1\}\\ 1, & \text{otherwise}\end{cases}\qquad (b\ \text{participant},\ d\ \text{event day})
+\end{equation}
+The order is fixed: daylight-saving mapping, eligibility filters on raw readings, injection, lookback construction, baseline, and metrics against the uninjected $L$. A test asserts that zero injection reproduces every baseline. For PJM-adj the first-order effect of $p$ follows from Eq.~\eqref{eq:pjma}:
+\begin{equation}\label{eq:sens}
+\frac{1}{L_{b,d}}\frac{\partial B^{\mathrm{pjmA}}_{b,d}}{\partial p}=\kappa_{b,d}\,\frac{\lvert\mathcal{A}^{\mathrm{pjm}}\cap\mathcal{H}\rvert}{\lvert\mathcal{A}^{\mathrm{pjm}}\rvert},\qquad \kappa_{b,d}=\frac{\lvert\mathcal{A}^{\mathrm{pjm}}\rvert^{-1}\sum_{h\in\mathcal{A}^{\mathrm{pjm}}}L_{b,d,h}}{\lvert\mathcal{W}\rvert^{-1}\sum_{h\in\mathcal{W}}L_{b,d,h}}
+\end{equation}
+The baseline rises by about $p\,\kappa$ times the overlap share of adjustment and shaped hours, which is all three adjustment hours for the four-hour shape and one of three for the two-hour shape. Multiplicative rules move the same way until their cap binds. We compare the measured increments against this expectation.
+
+The pre-set band, assumed realistic and not measured here, is $p\in\{0.02,0.05,0.10\}$, with $\bar{p}=0.10$ as the H4 threshold. One office field test reports consumption a few percent higher from early morning to evening under pre-cooling \cite{xu2009lbnl3898}. A daily energy increase $\Delta_E$ concentrated in the shaped hours corresponds symbolically to $p\approx\Delta_E\,E_{\mathrm{day}}/E_{\mathcal{H}}$, where $E_{\mathcal{H}}$ is the energy in those hours. That ratio is not measured, so the band is not derived from these data. Values $p=0.20$ and $0.30$ are stress levels. For each site the break-even pre-event increase $p^{\times}_s$ is where PJM-adj loses its accuracy advantage over SCM-ridge. For each method the 10\,\%-error threshold $p^{\star}_m$ is where its pooled relMAE reaches the curtailment value $c=0.10$:
+\begin{equation}\label{eq:pcross}
+p^{\times}_{s}=\begin{cases}0, & E^{\mathrm{pjmA}}_{s}(0)\ge E^{\mathrm{scmR}}_{s}\\ \min\{p\in[0,p_{\max}]:E^{\mathrm{pjmA}}_{s}(p)\ge E^{\mathrm{scmR}}_{s}\}, & \text{if it exists}\\ >p_{\max}\ \text{(right-censored)}, & \text{otherwise}\end{cases}
+\end{equation}
+\begin{equation}\label{eq:pstar}
+p^{\star}_{m}=\min\{p\in[0,p_{\max}]:\bar{E}^{m}(p)\ge c\}
+\end{equation}
+Here $E^{m}_s(p)$ is the site-median relMAE under increase $p$, $\bar{E}^{m}(p)$ its building-pooled median, and $p_{\max}=0.30$ on a grid of step 0.005 with linear interpolation. $E^{\mathrm{scmR}}_s$ does not depend on $p$. Algorithm~\ref{alg:shaping} summarizes the procedure.
+
+\begin{algorithm}[t]
+\caption{ShapingStressTest: break-even pre-event increases and 10\,\%-error thresholds under pre-event shaping}\label{alg:shaping}
+\SetKwFunction{FShape}{ShapingStressTest}
+\SetKwProg{Fn}{Function}{:}{end}
+\KwIn{building-events of the target fold, grid $\{0,0.005,\dots,p_{\max}\}$, shape $\mathcal{H}$ (four-hour or two-hour)}
+\KwData{uninjected load $L$, frozen folds and event dates}
+\KwOut{$E^{m}_s(p)$, $p^{\times}_s$, $p^{\star}_m$, $\Delta(p)$ (Appendix Eq.~\eqref{eq:B9})}
+\Fn{\FShape{grid, $\mathcal{H}$}}{
+  \lForEach{$p$ in grid}{inject Eq.~\eqref{eq:inject} with $c=\gamma=0$ on the target's shaped hours only; assert that $p=0$ reproduces the uninjected baselines}
+  \ForEach{$p$ in grid}{
+    recompute every baseline (Algorithms~\ref{alg:rules} and~\ref{alg:B2}) on $Y$; score against uninjected $L$ with Eq.~\eqref{eq:relmae}\;
+    site and pooled medians $E^{m}_s(p)$, $\bar{E}^{m}(p)$ over the common support\;
+  }
+  $p^{\times}_s\leftarrow$ Eq.~\eqref{eq:pcross} (interpolated, censored at $p_{\max}$); $p^{\star}_m\leftarrow$ Eq.~\eqref{eq:pstar}\;
+  \Return{$E^{m}_s(p)$, $p^{\times}_s$, $p^{\star}_m$, $\Delta(p)$}\;
+}
+\end{algorithm}
+
+\subsection{Repeated-dispatch stress test}\label{sec:methods:dispatch}
+
+In the dispatch stress test, the dispatched days are the proxy events of ranks $1,\dots,K$ for $K\in\mathcal{K}=\{10,20,30,40\}$, and participants shed ten percent on each. Donors are not curtailed. Lookbacks see the curtailed load and apply each rule's exclusion and fallback. The scored days $\mathcal{D}_{\mathrm{sc}}$ are ranks 1 to 10, on a support common to all $K$ and both methods. Primary documents report between zero and twelve called events per year \cite{kiliccote2010,nyiso2024dr}, so $K=10$ is near the upper end of documented counts and $K=20$, 30 and 40 are stress levels beyond it. The estimated curtailment ratio $\rho$ equals one for an exact baseline:
+\begin{equation}\label{eq:rho}
+\hat{C}^{m}_{b,d}=B^{m}_{b,d}-Y_{b,d},\qquad \rho^{m}_{b}(K)=\frac{1}{\lvert\mathcal{D}_{\mathrm{sc}}\rvert}\sum_{d\in\mathcal{D}_{\mathrm{sc}}}\frac{\hat{C}^{m}_{b,d}}{c\,L_{b,d}}
+\end{equation}
+\begin{equation}\label{eq:abserr}
+a^{m}_{s}(K)=\operatorname{med}_{b\in\mathcal{B}_{s}}\bigl\lvert\rho^{m}_{b}(K)-1\bigr\rvert,\qquad K\in\mathcal{K}
+\end{equation}
+\begin{equation}\label{eq:eta}
+\eta^{m}_{s}=\frac{\sum_{K\in\mathcal{K}}(K-\bar{K})\bigl(a^{m}_{s}(K)-\bar{a}^{m}_{s}\bigr)}{\sum_{K\in\mathcal{K}}(K-\bar{K})^{2}},\qquad x^{\mathrm{H5}}_{s}=\eta^{\mathrm{pjmA}}_{s}-\eta^{\mathrm{scmR}}_{s}
+\end{equation}
+The confirmatory H5 quantity is the growth of absolute estimation error under repeated dispatch. It is the slope $\eta$ of the site-median absolute deviation on $K$. A positive $\eta$ means the error grows, and a negative site difference $x^{\mathrm{H5}}_s$ means SCM-ridge's slope is larger. The test is two-sided. We chose the absolute definition and the two-sided test on the development year after seeing a signed version, so we report the signed slope (Appendix Eq.~\eqref{eq:B10}) as a secondary contrast. The metered series is the no-curtailment counterfactual by assumption only, and injected curtailment does not validate real settlements or participant response. Heat-wave runs are the closer-to-practice sensitivity. Algorithm~\ref{alg:dispatch} lists the steps.
+
+\begin{algorithm}[t]
+\caption{DispatchStressTest: error growth under repeated dispatch}\label{alg:dispatch}
+\SetKwFunction{FDisp}{DispatchStressTest}
+\SetKwProg{Fn}{Function}{:}{end}
+\KwIn{proxy-event ranks, grid $\mathcal{K}$, shed fraction $c$, methods PJM-adj and SCM-ridge (and comparators)}
+\KwData{load $L$, frozen folds; SCM normalization as in Eq.~\eqref{eq:scmw}; no random seeds}
+\KwOut{$a^{m}_s(K)$, $\eta^{m}_s$, signed slope, $x^{\mathrm{H5}}_s$, fallback rates, pre-period ages}
+\Fn{\FDisp{$\mathcal{K}$}}{
+  \ForEach{$K\in\mathcal{K}$}{
+    curtail participants by $c$ on ranks $1,\dots,K$\;
+    rebuild lookbacks and SCM pre-periods with each rule's exclusion and fallback, recording the share of fallbacks and the mean age of lookback days\;
+    $\rho^{m}_b(K)\leftarrow$ Eq.~\eqref{eq:rho} on ranks 1 to 10, restricted to the common support\;
+  }
+  $a^{m}_s(K)\leftarrow$ Eq.~\eqref{eq:abserr}; $\eta^{m}_s,\,x^{\mathrm{H5}}_s\leftarrow$ Eq.~\eqref{eq:eta}; signed slope $\leftarrow$ Eq.~\eqref{eq:B10}\;
+  \Return{all of the above}\;
+}
+\end{algorithm}
+
+\subsection{Statistical inference}\label{sec:methods:inference}
+
+The unit of inference is the site. H1 compares the bias of unadjusted PJM on hot days with its mean bias on random-weekday draws, H2 compares PJM-adj with unadjusted PJM, and H3 compares CG-adj with PJM-adj; their site values are site medians of building contrasts (Appendix Eqs.~\eqref{eq:h1} and~\eqref{eq:h23}). H1, H2 and H5 use the exact signed-rank test \cite{wilcoxon1945}, which enumerates all $2^{n}$ sign patterns of the $n$ nonzero site values with average ranks for ties (Appendix Eq.~\eqref{eq:sr}). The test assumes site differences are symmetric about the null value. We drop and count values below $10^{-12}$ in absolute value, and we show all site values. The point estimate is the Hodges-Lehmann estimator with an interval by exact inversion \cite{hodges1963} (Appendix Eq.~\eqref{eq:hl}), at 95\,\% for H1, H2 and H5 and 90\,\% for H3.
+
+H4 uses an exact sign test on the number of sites whose break-even pre-event increase lies below the threshold $\bar{p}$, with right-censored values counted as above, and a distribution-free order-statistic interval for the median site value (Appendix Eq.~\eqref{eq:sign}). Its coverage is at least nominal, and its lower end is zero when sites have a zero break-even. H3 tests equivalence by two one-sided signed-rank tests \cite{schuirmann1987} with margin $\delta=\log 1.10$, set before the held-out data were scored (Appendix Eq.~\eqref{eq:tost}). H3 therefore concerns the signed-rank location of the site log ratios under the symmetry assumption, and the site median is the intended location summary. The five confirmatory p-values form one Holm family at $\alpha=0.05$ with $m_H=5$ \cite{holm1979} (Appendix Eq.~\eqref{eq:holm}).
+
+With $S=\,${{sample.n_sites|int}} sites the smallest attainable exact p-value is $2^{-S}$ one-sided and $2^{1-S}$ two-sided, so the Holm-adjusted value of the first rejected test is at least $m_H\,2^{-S}$. We print exact p-values in full, never as inequality bounds. Three sensitivities follow. A Webb six-point wild cluster bootstrap with 9{,}999 draws \cite{webb2023,cameron2008} targets the site mean, which is a different estimand from the site median (Appendix Eq.~\eqref{eq:B12}). Leave-one-site-out re-estimation (Appendix Eq.~\eqref{eq:B13}) is an influence analysis, not a replication. A conditional two-stage bootstrap of 10{,}000 draws describes uncertainty given these sites. The plan-time minimum detectable effect is approximate and rests on normal theory. All claims are restricted to these sites. Algorithm~\ref{alg:B3} in Appendix~B lists the steps.
+
+\subsection{Pipeline, leakage controls and reproducibility}\label{sec:methods:pipeline}
+
+Algorithm~\ref{alg:frozen} connects the pieces. We hash-froze the analysis plan before scoring any 2017 load value \cite{nosek2018}, so the final run starts by verifying the manifest and stops on a mismatch. Leakage assertions run inside the code (module \texttt{src/run/leakage.py}), and a failed assertion stops the run. Lookbacks end before $d$, no event day of the current world enters a lookback, and the hours a baseline uses respect its information set (I-hist none, I-morn up to $h_0-2$, I-donor before $h_0-4$). Folds are disjoint, and filters never see injected values. Unit tests in \texttt{tests/} check the zero-injection identity and the declared injected hours (\texttt{test\_inject.py}), the manifest check (\texttt{test\_freeze.py}) and the rules and exact tests (\texttt{test\_rules\_stats.py}). The archive README gives the rerun command, \texttt{python -I src/run/main.py -{}-year 2017 -{}-mode final -{}-part all}, and the expected audit output. The pipeline is CPU only, with a peak memory of about {{compute.peak_mem_gb|.1f}}\,GB over the full frozen pipeline run (the largest block peak), and uses NumPy and SciPy \cite{harris2020numpy,virtanen2020scipy}.
+
+\begin{algorithm}[t]
+\caption{FrozenEvaluation: the full held-out evaluation}\label{alg:frozen}
+\SetKwFunction{FFrozen}{FrozenEvaluation}
+\SetKwProg{Fn}{Function}{:}{end}
+\KwIn{held-out year, final mode}
+\KwData{frozen manifest, event dates, folds and holiday table; seeds: folds 20171 plus site index, random weekdays by (year, site, draw), injection and bootstrap 2017}
+\KwOut{the ledger, one row per number, with key, interval, p-value, counts and freeze hash}
+\Fn{\FFrozen{year}}{
+  verify the manifest hash, otherwise stop\;
+  build the sample (Algorithm~\ref{alg:B1})\;
+  \ForEach{building-event}{
+    \ForEach{rule $m$}{Algorithm~\ref{alg:rules}\;}
+    donor baselines (Algorithm~\ref{alg:B2}) and model baselines\;
+    run the leakage assertions\;
+  }
+  metrics, Eqs.~\eqref{eq:err} to~\eqref{eq:site}\;
+  Algorithm~\ref{alg:shaping}; Algorithm~\ref{alg:dispatch}\;
+  site values and inference (Algorithm~\ref{alg:B3})\;
+  \Return{ledger}\;
+}
+\end{algorithm}

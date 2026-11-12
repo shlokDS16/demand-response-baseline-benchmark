@@ -1,0 +1,12 @@
+\begin{tabular}{l>{\raggedright\arraybackslash}p{4.3cm}rlrrll}
+\toprule
+Test & Estimand & Estimate & Interval & Raw p & Holm p & Decision & LOSO range \\
+\midrule
+H1 & $\Delta$ bias, PJM (hot day minus random weekday) & $-$0.0485 & [$-$0.0956, $-$0.0098] & 0.00146 & 0.00439 & supported & [$-$0.0541, $-$0.0421] \\
+H2 & Log ratio relMAE, PJM-adj / PJM & $-$0.3976 & [$-$0.6253, $-$0.2232] & 0.00049 & 0.00244 & supported & [$-$0.4611, $-$0.3570] \\
+H3 & Log ratio relMAE, CG-adj / PJM-adj (margin log 1.10) & $-$0.0089 & [$-$0.0824, 0.0564] & 0.01611 & 0.01611 & equivalent (TOST) & [$-$0.0163, $-$0.0062] \\
+H4 & Median of the site break-even pre-event increases, PJM-adj vs SCM-ridge, four-hour stress test (order-statistic interval, coverage at least 95 \%; exact sign test) & 0.0448 & [0.0000, 0.0573] & 0.00049 & 0.00244 & supported & [0.0428, 0.0457] \\
+H5 & Absolute-error growth per dispatch, PJM-adj minus SCM-ridge (negative: SCM-ridge grows faster) & $-$0.0028 & [$-$0.0046, $-$0.0010] & 0.00488 & 0.00977 & supported & [$-$0.0031, $-$0.0025] \\
+\bottomrule
+\end{tabular}
+\par\smallskip{\footnotesize\raggedright Intervals are 95\,\% except for H3 (90\,\%); the H3 raw p is the TOST p-value. H4 is the median of the 11 site-level break-even pre-event increases; its LOSO range is on site medians. Building-pooled (secondary): break-even 0.0424, 95\,\% interval [0.0288, 0.0519]; this value pools buildings and is not the confirmatory statistic.\par}

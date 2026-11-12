@@ -1,0 +1,23 @@
+# ALLOW_LITERALS: one entry per line; # starts a comment. Filled by the paper-writing agent.
+
+# 03_data: CC BY-SA 4.0 / CC BY 4.0 licence names; duplicate correlation 0.999 (SPEC s9.4); 0.1 C
+4.0
+0.999
+0.1
+# s9.4 design constants used in 04_methods (frozen in PREREG)
+0.10
+0.20
+0.30
+0.02
+0.05
+0.005
+1.10
+25\,\%
+95\,\%
+90\,\%
+9{,}999
+10{,}000
+# REVISION_1: name of p-star, the 10 %-error threshold (c = 0.10)
+10\,\%
+# model version in the AI declaration (Claude Opus 5.5, Claude Sonnet 5.5), owner request 2026-11-12
+5.5

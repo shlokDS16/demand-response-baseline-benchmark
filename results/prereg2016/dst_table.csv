@@ -1,0 +1,15 @@
+site,country,n_b,spring_median_shift_h,spring_share_lt_m05,spring_share_gt_p05,spring_n,autumn_median_shift_h,autumn_share_lt_m05,autumn_share_gt_p05,autumn_n,convention
+Bear,US,77,0.01,0.13,0.195,77,-0.02,0.091,0.078,77,CLOCK
+Bobcat,US,9,0.21,0.222,0.222,9,-0.47,0.444,0.0,9,AMBIGUOUS
+Bull,US,110,-0.04,0.155,0.145,110,0.03,0.064,0.173,110,CLOCK
+Cockatoo,US,90,,,,0,-0.03,0.222,0.144,90,AMBIGUOUS
+Eagle,US,90,-0.65,0.652,0.247,89,0.82,0.227,0.716,88,STD
+Fox,US,128,0.08,0.165,0.22,127,-0.02,0.181,0.165,127,CLOCK
+Gator,US,61,,,,0,,,,0,AMBIGUOUS
+Hog,US,136,-0.09,0.162,0.103,136,-0.03,0.147,0.066,136,CLOCK
+Lamb,UK,121,-0.5,0.487,0.227,119,0.1,0.068,0.342,117,AMBIGUOUS
+Moose,US,9,-1.07,1.0,0.0,9,0.95,0.111,0.889,9,STD
+Peacock,US,36,-0.18,0.222,0.083,36,0.17,0.222,0.25,36,CLOCK
+Rat,US,255,-0.99,0.765,0.114,255,0.9,0.188,0.667,255,STD
+Robin,UK,51,-1.04,0.818,0.091,22,-0.03,0.102,0.143,49,AMBIGUOUS
+Wolf,IE,35,-0.81,0.829,0.029,35,0.56,0.0,0.6,35,STD

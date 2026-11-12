@@ -1,0 +1,15 @@
+loaded 2017 meters 1208 2 s
+Bear secondary done 37 s
+Bull secondary done 85 s
+Cockatoo secondary done 124 s
+Eagle secondary done 155 s
+Fox secondary done 218 s
+Hog secondary done 293 s
+Lamb secondary done 297 s
+Peacock secondary done 314 s
+Rat secondary done 465 s
+Robin secondary done 483 s
+Wolf secondary done 497 s
+ledger rows 1263 -> <ROOT>\tables\summary.csv
+Holm: {'H2': 0.00244140625, 'H4': 0.00244140625, 'H1': 0.00439453125, 'H5': 0.009765625, 'H3': 0.01611328125}
+timing: {"load": {"time_s": 1.5942566394805908, "peak_gb": 0.3611648}, "core_run": {"time_s": 114.00394892692566, "peak_gb": 0.66291712}, "core_analysis": {"time_s": 20.829641103744507, "peak_gb": 0.66291712}, "precool": {"time_s": 216.55998969078064, "peak_gb": 0.723324928}, "erosion": {"time_s": 88.59486293792725, "peak_gb": 0.799346688}, "secondary": {"time_s": 520.112366437912, "peak_gb": 1.001467904}}

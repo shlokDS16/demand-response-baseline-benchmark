@@ -1,0 +1,39 @@
+key,value,ci_low,ci_high,p_raw,p_holm,n_sites,n_buildings,n_events,source_file,status,family_id,hypothesis_id,estimand_version,data_year,freeze_hash,support_rule
+screen.tree.rules,"|--- slope_rel <= -0.07
+|   |--- corr_site <= 0.74
+|   |   |--- class: scmR
+|   |--- corr_site >  0.74
+|   |   |--- class: scmR
+|--- slope_rel >  -0.07
+|   |--- corr_site <= 0.29
+|   |   |--- class: pjmA
+|   |--- corr_site >  0.29
+|   |   |--- class: pjmA
+",,,,,,,,src/secondary,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+screen.tree.n_train,1088,,,,,,,,src/secondary,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+screen.tree.train_accuracy,0.45588235294117646,,,,,,,,src/secondary,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+screen.tree.uses,"Education,Office,Entertainment/public assembly,Public services,Lodging/residential",,,,,,,,src/secondary,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+screen.train.class_share.pjmA,0.41544117647058826,,,,,,,,src/secondary,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+screen.test.assigned_share.pjmA,0.9760239760239761,,,,,,,,src/secondary,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+screen.train.class_share.cgA,0.30330882352941174,,,,,,,,src/secondary,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+screen.test.assigned_share.cgA,0.0,,,,,,,,src/secondary,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+screen.train.class_share.scmR,0.28125,,,,,,,,src/secondary,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+screen.test.assigned_share.scmR,0.023976023976023976,,,,,,,,src/secondary,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+screen.test.n_buildings,1001,,,,,11.0,,,src/secondary,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+screen.test.logratio_vs_pjmA,0.0,-0.008216408798622829,0.0,1.0,,1.0,1001.0,,src/secondary,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+screen.test.logratio_site_median_of_medians,0.0,,,,,11.0,,,src/secondary,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+screen.test.n_sites_better,1,,,,,11.0,,,src/secondary,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+screen.test.site.Bear,0.0,,,,,,,,src/secondary,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+screen.test.site.Bull,0.0,,,,,,,,src/secondary,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+screen.test.site.Cockatoo,0.0,,,,,,,,src/secondary,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+screen.test.site.Eagle,0.0,,,,,,,,src/secondary,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+screen.test.site.Fox,0.0,,,,,,,,src/secondary,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+screen.test.site.Hog,0.0,,,,,,,,src/secondary,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+screen.test.site.Lamb,-0.016432817597245658,,,,,,,,src/secondary,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+screen.test.site.Peacock,0.0,,,,,,,,src/secondary,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+screen.test.site.Rat,0.0,,,,,,,,src/secondary,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+screen.test.site.Robin,0.0,,,,,,,,src/secondary,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+screen.test.site.Wolf,0.0,,,,,,,,src/secondary,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+screen.test.pooled_relMAE_chosen_over_pjmA,1.001630006245333,,,,,,,,src/secondary,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+compute.tree.time_s,3.6,,,,,,,,src/secondary,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none
+compute.tree.peak_mem_gb,0.381,,,,,,,,src/secondary,secondary,secondary,none,PREREG-R2,2017,8bc576292eb91fd5c00e416a7452a230,none

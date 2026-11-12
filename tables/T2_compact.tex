@@ -1,0 +1,18 @@
+\begin{tabular}{>{\raggedright\arraybackslash}p{1.9cm}>{\raggedright\arraybackslash}p{1.7cm}>{\raggedright\arraybackslash}p{4.4cm}>{\raggedright\arraybackslash}p{2.2cm}>{\raggedright\arraybackslash}p{3.2cm}>{\raggedright\arraybackslash}p{1.9cm}}
+\toprule
+Method & Information set & Definition & Lookback & Adjustment & Cap \\
+\midrule
+prev & I-hist & Previous eligible weekday & 1 day & none & none \\
+PJM & I-hist & PJM weekday baseline (highest 4 of 5 recent weekdays) & 45 days & none & none \\
+PJM-adj & I-morn & PJM with day-of adjustment (primary rule) & 45 days & additive, hours s$-$4..s$-$2 & none \\
+CAISO & I-hist & CAISO 10-in-10 & 45 days & none & none \\
+CAISO-adj & I-morn & CAISO 10-in-10 with adjustment & 45 days & ratio, hours s$-$4..s$-$2 & [0.8, 1.2] \\
+NYISO-adj & I-morn & NYISO with adjustment & 30 days & ratio, hours s$-$4, s$-$3 & [0.8, 1.2] \\
+ISO-NE-adj & I-morn & ISO-NE with adjustment & 30 days & additive, hours s$-$3, s$-$2 & floor 0 \\
+WM-adj & I-morn & Weather matching with adjustment & 90 days & ratio, hours s$-$4, s$-$3 & [0.6, 1.4] \\
+CG & I-donor & Comparison group, unadjusted PJM ratio & 45 days + donors & none & none \\
+CG-adj & I-donor + I-morn & Comparison group, PJM-adj ratio & 45 days + donors & additive, hours s$-$4..s$-$2 & none \\
+SCM-ridge & I-donor & Ridge synthetic control (primary donor method) & 7 weekdays + morning & donor weights & weights sum to one \\
+\bottomrule
+\end{tabular}
+\par\smallskip{\footnotesize\raggedright Hours $s-4,\dots$ are relative to the window start $s$. All other evaluated methods, the sources, document vintages and the methods without results are in Supplement Table~\ref{tabS:methodsfull}. CAISO and ISO-NE unadjusted baselines coincide (Table~\ref{tab:accuracy}).\par}

@@ -1,0 +1,24 @@
+Method,Bias (ours),NMBE (Granderson sign),Relative RMSE
+prev,-0.037,0.044,0.101
+PJM,-0.024,0.029,0.103
+PJM-adj,0.000,0.001,0.061
+CAISO / ISO-NE (identical),-0.039,0.049,0.114
+CAISO-adj,-0.009,0.012,0.068
+NYISO,-0.003,0.009,0.112
+NYISO-adj,0.006,-0.003,0.076
+ISO-NE-adj,-0.002,0.003,0.059
+DM,-0.039,0.049,0.114
+DM-adj,-0.011,0.014,0.074
+WM,-0.022,0.027,0.101
+WM-adj,0.002,0.001,0.075
+M3,0.004,0.003,0.104
+Mid8,-0.041,0.050,0.113
+TOWT-70,-0.016,n/a,n/a
+TOWT-70-adj,-0.003,n/a,n/a
+TOWT-7,-0.053,n/a,n/a
+CG,0.013,-0.009,0.095
+CG-adj,0.001,0.000,0.060
+SCM-ridge,0.010,-0.008,0.076
+SCM-classic,0.014,-0.011,0.081
+LightGBM-morn,0.002,n/a,n/a
+LightGBM-donor,-0.006,n/a,n/a

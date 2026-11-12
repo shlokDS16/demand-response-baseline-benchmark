@@ -1,0 +1,32 @@
+Analysis,Quantity,Estimate,Interval,Sample,Ledger key
+H6 portfolio,"CG-adj minus PJM-adj PER, level at n = 1",0.014,"[-0.013, 0.123]",11 sites,H6.contrast.level_n1
+H6 portfolio,"CG-adj minus PJM-adj PER, level at n = 20",-0.022,"[-0.099, 0.017]",8 sites,H6.contrast.level_big
+H6 portfolio,"Change n = 1 to 20, CG-adj minus PJM-adj",-0.053,"[-0.122, 0.012]",8 sites,H6.contrast.delta_big
+H6 portfolio,"n = 20 minus load-matched random, CG-adj minus PJM-adj",0.009,"[-0.024, 0.045]",8 sites,H6.contrast.big_minus_rand_cgA_minus_pjmA
+H6 portfolio,"Pooled PER, PJM-adj, n = 1",0.353,,11 sites,H6.pjmA.PER.n1
+H6 portfolio,"Pooled PER, PJM-adj, n = 20",0.148,,11 sites,H6.pjmA.PER.nbig
+H6 portfolio,"Pooled PER, CG-adj, n = 1",0.367,,11 sites,H6.cgA.PER.n1
+H6 portfolio,"Pooled PER, CG-adj, n = 20",0.134,,11 sites,H6.cgA.PER.nbig
+Screening tree,Pooled relMAE of tree choice over PJM-adj,1.002,,11 sites,screen.test.pooled_relMAE_chosen_over_pjmA
+Screening tree,Site median log ratio vs PJM-adj,0.000,,11 sites,screen.test.logratio_site_median_of_medians
+Screening tree,Share of test buildings assigned to PJM-adj,0.976,,1001 buildings,screen.test.assigned_share.pjmA
+Sensitivity: relMAE,"PJM-adj, primary R1",0.0474,,,method.pjmA.R1.relMAE_median
+Sensitivity: relMAE,"PJM-adj, R2-ISO (7 US sites)",0.0430,,,method.pjmA.R2ISO.relMAE_median
+Sensitivity: relMAE,"PJM-adj, 16:00 to 20:00 window",0.0494,,,method.pjmA.w1620.relMAE_median
+Sensitivity: relMAE,"CG-adj, primary R1",0.0480,,,method.cgA.R1.relMAE_median
+Sensitivity: relMAE,"CG-adj, R2-ISO (7 US sites)",0.0446,,,method.cgA.R2ISO.relMAE_median
+Sensitivity: relMAE,"CG-adj, 16:00 to 20:00 window",0.0502,,,method.cgA.w1620.relMAE_median
+Sensitivity: relMAE,"SCM-ridge, primary R1",0.0615,,,method.scmR.R1.relMAE_median
+Sensitivity: relMAE,"SCM-ridge, R2-ISO (7 US sites)",0.0585,,,method.scmR.R2ISO.relMAE_median
+Sensitivity: relMAE,"SCM-ridge, 16:00 to 20:00 window",0.0632,,,method.scmR.w1620.relMAE_median
+Non-event E3 days,H1 estimate,-0.048,"[-0.096, -0.010]",,nonevent.H1.est
+Non-event E3 days,H2 estimate,-0.398,"[-0.625, -0.223]",,nonevent.H2.est
+Non-event E3 days,H3 estimate,-0.008,"[-0.082, 0.057]",,nonevent.H3.est
+Flatline filter off,H1 estimate,-0.098,"[-0.198, -0.028]",,flatoff.H1.est
+Flatline filter off,H2 estimate,-0.390,"[-0.639, -0.193]",,flatoff.H2.est
+Flatline filter off,H3 estimate,-0.015,"[-0.074, 0.034]",,flatoff.H3.est
+Ablation,"PJM-adj relMAE, adjustment on",0.0474,,,ablation.adjustment.pjmA.on.relMAE_median
+Ablation,"PJM-adj relMAE, adjustment off",0.0832,,,ablation.adjustment.pjmA.off.relMAE_median
+Ablation,"PJM-adj relMAE, cap on",0.0522,,,ablation.cap.pjmA.on.relMAE_median
+Ablation,"CG-adj with 5 donors, log ratio vs whole pool",0.092,"[0.060, 0.234]",,ablation.donor.k5.logratio_vs_wholepool
+Ablation,"CG-adj, same-use donors, log ratio vs whole pool",0.025,"[0.005, 0.085]",,ablation.donor.pool_same_use.logratio_vs_wholepool

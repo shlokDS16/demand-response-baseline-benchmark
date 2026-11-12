@@ -1,0 +1,119 @@
+{
+ "sites": [
+  "Bear",
+  "Bull",
+  "Cockatoo",
+  "Eagle",
+  "Fox",
+  "Hog",
+  "Lamb",
+  "Peacock",
+  "Rat",
+  "Robin",
+  "Wolf"
+ ],
+ "excl": {
+  "Bear": {
+   "e1": 77,
+   "e3_flat_meter": 1,
+   "dup_dropped": 0,
+   "n_after": 76
+  },
+  "Bobcat": {
+   "e1": 9,
+   "e3_flat_meter": 0,
+   "dup_dropped": 0,
+   "n_after": 9
+  },
+  "Bull": {
+   "e1": 110,
+   "e3_flat_meter": 8,
+   "dup_dropped": 0,
+   "n_after": 102
+  },
+  "Cockatoo": {
+   "e1": 90,
+   "e3_flat_meter": 0,
+   "dup_dropped": 0,
+   "n_after": 90
+  },
+  "Eagle": {
+   "e1": 90,
+   "e3_flat_meter": 8,
+   "dup_dropped": 0,
+   "n_after": 82
+  },
+  "Fox": {
+   "e1": 128,
+   "e3_flat_meter": 1,
+   "dup_dropped": 0,
+   "n_after": 127
+  },
+  "Gator": {
+   "e1": 61,
+   "e3_flat_meter": 61,
+   "dup_dropped": 0,
+   "n_after": 0
+  },
+  "Hog": {
+   "e1": 136,
+   "e3_flat_meter": 0,
+   "dup_dropped": 0,
+   "n_after": 136
+  },
+  "Lamb": {
+   "e1": 121,
+   "e3_flat_meter": 5,
+   "dup_dropped": 0,
+   "n_after": 116
+  },
+  "Moose": {
+   "e1": 9,
+   "e3_flat_meter": 8,
+   "dup_dropped": 0,
+   "n_after": 1
+  },
+  "Peacock": {
+   "e1": 36,
+   "e3_flat_meter": 0,
+   "dup_dropped": 0,
+   "n_after": 36
+  },
+  "Rat": {
+   "e1": 255,
+   "e3_flat_meter": 3,
+   "dup_dropped": 0,
+   "n_after": 252
+  },
+  "Robin": {
+   "e1": 51,
+   "e3_flat_meter": 7,
+   "dup_dropped": 0,
+   "n_after": 44
+  },
+  "Wolf": {
+   "e1": 35,
+   "e3_flat_meter": 0,
+   "dup_dropped": 0,
+   "n_after": 35
+  }
+ },
+ "n_b": {},
+ "n_b_R1": 1096,
+ "dup_dropped": {
+  "Bear": 0,
+  "Bobcat": 0,
+  "Bull": 0,
+  "Cockatoo": 0,
+  "Eagle": 0,
+  "Fox": 0,
+  "Gator": 0,
+  "Hog": 0,
+  "Lamb": 0,
+  "Moose": 0,
+  "Peacock": 0,
+  "Rat": 0,
+  "Robin": 0,
+  "Wolf": 0
+ }
+}
